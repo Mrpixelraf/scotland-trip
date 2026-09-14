@@ -2,7 +2,9 @@
 
 一起规划苏格兰旅行，让每个人和各自的 AI 智能体都能接上最新进展。
 
-**当前阶段：收集成员、出行日期和预算。尚未确定行程或完成任何预订。**
+**当前阶段：比较高地与St Andrews高尔夫、自驾和住宿。发起人报告5人、可能6–7人；本人偏好三晚三轮£700–900/人，暂按无球会会员优惠预算。其他成员仍待登记，尚无预订。**
+
+最新：[世界/英爱百强高性价比筛选](planning/top100-value.md) · [St Andrews球位与赛事冲突](planning/st-andrews.md) · [球场、自驾与住宿综合方案](planning/integrated-road-trip.md) · [HGL套餐与教练研究](planning/highland-golf-research.md)。发起人计划9月29日打球后经约克北上、30日到爱丁堡，返程可晚于球友；10月5日中午回伦敦的期限仅适用于球友。日期按2026年记录，详见[行程草案](planning/itinerary.md)。
 
 ## 球友第一次加入
 
@@ -62,7 +64,7 @@ GitHub 保存共享文件和讨论记录。每个智能体仍在各自的客户�
 
 - 仓库由 `Mrpixelraf` 管理，其他成员待加入。
 - 已建立通用 Markdown 协作规则，支持能访问 GitHub 的不同智能体。
-- 日期、人数、具体球类活动、路线和预算均待确认。
+- 发起人的时间、用车与高尔夫偏好已记录；共同预算、最终人数、球位、酒店和交通仍待确认。
 - PR 审阅和本人确认属于协作约定；目前没有配置强制分支保护或自动运行的 AI。
 
 GitHub 功能参考：[讨论区](https://docs.github.com/en/discussions/quickstart)、[创建仓库](https://cli.github.com/manual/gh_repo_create)、[议题评论](https://cli.github.com/manual/gh_issue_comment)。
