@@ -1,55 +1,434 @@
 {
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "sourceArtifact": "https://claude.ai/public/artifacts/fea19929-5477-4189-afa5-a8005c208c0a",
   "request": "https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5671490062",
   "spots": [
-    {"id":1,"name":"Rogie Falls","region":"east","lat":57.5896,"lon":-4.608,"fit":"另选半天","day":"01","time":"拍摄停留预算 60–90分钟","note":"Inverness以西的瀑布短游。若选它，替换Nairn或部分湖区停留；不能将所有东部点塞入1日。","access":"原图标注停车场；接近瀑布有坡。","source":"https://forestryandland.gov.scot/visit/destinations/rogie-falls/visitor-information"},
-    {"id":2,"name":"Loch Morlich","region":"east","lat":57.1676,"lon":-3.7015,"fit":"东线优先","day":"01","time":"5.75km · 1.5–2小时 · ↑50m","note":"1日全团环湖、沙滩与山景；不想走全程可在沙滩等候。拍摄另留30–45分钟。","access":"FLS当前确认环湖开放；Green Lochan、Ryvoan等仍关闭，全园暂禁无人机。行前复核。","source":"https://forestryandland.gov.scot/visit/forest-parks/glenmore-forest-park","walkSource":"https://www.walkhighlands.co.uk/cairngorms/loch-morlich.shtml"},
-    {"id":3,"name":"Nairn Central Beach","region":"east","lat":57.5883,"lon":-3.8684,"fit":"短停备选","day":"01","time":"海滨短走 · 预算30–60分钟","note":"1日环湖后若有余量，或非球手有独立接送时选择。它在Inverness以东，不是去Brora原路顺停。","access":"原图落点为Links一带；驾车用Links Car Park名称导航。","source":"https://nairnscotland.co.uk/central-beach/"},
-    {"id":4,"name":"Loch Fleet 南岸","region":"east","lat":57.9298,"lon":-4.0398,"fit":"东线优先","day":"02","time":"观鸟摄影 · 预算45–60分钟","note":"2日Brora结束、Golspie接齐徒步者后共同短停；如果晚收杆就略过。海豹与合适潮位不保证。","access":"NatureScot确认南岸没有步道。这是停车观景点，不能代替长徒步，也不走入泥滩。","source":"https://www.nature.scot/enjoying-outdoors/visit-our-nature-reserves/loch-fleet-nnr/loch-fleet-nnr-visiting-reserve"},
-    {"id":5,"name":"Buachaille Etive Mòr","region":"glencoe","lat":56.6645,"lon":-4.9044,"fit":"西线优先","day":"01","time":"谷底白屋与山峰 · 预算45–60分钟","note":"30日驶入山谷时先看天气；1日上午可回访Lagangarbh附近。仅走谷底，不安排完整登山。","access":"原图标Altnafeadh停车/步道起点；不要导航到山顶或进入小屋院内。","source":"https://www.walkhighlands.co.uk/fortwilliam/buachailleetivemor.shtml"},
-    {"id":6,"name":"Lochan na h-Achlaise","region":"glencoe","lat":56.5981,"lon":-4.7446,"fit":"西线优先","day":"30","time":"荒原湖泊 · 预算20–40分钟","note":"30日沿A82北上顺序最自然：先荒原湖泊，再山峰与山谷。1日仅在天气好且愿意折返时加回。","access":"坐标沿用原图观景位置；停车与跨A82条件须现场判断。风大时不追倒影。","source":"https://www.martinlawrencephotography.com/articles-and-blog/view/photographers-guide-to-glencoe"},
-    {"id":7,"name":"Loch Achtriochtan","region":"glencoe","lat":56.6648,"lon":-5.0379,"fit":"西线优先","day":"30","time":"山谷湖畔 · 预算30–45分钟","note":"30日抵达前的短停，或1日天气较好时补看；与白屋择1–2处，给中午南下留余量。","access":"原图是水边景观点，不是车辆入口。导航使用Loch Achtriochtan Car Park。","source":"https://www.transport.gov.scot/media/ff2lc402/record-of-determination-a82-clachaig-inn.pdf","parking":"Loch Achtriochtan Car Park, Glencoe"},
-    {"id":8,"name":"Glenfinnan / Loch Shiel","region":"west","lat":56.8708,"lon":-5.4344,"fit":"需改当天安排","day":null,"time":"4km · 步行60–90分钟，摄影另计","note":"从Glencoe来回公路模型约67英里、1.9小时纯驾驶；加停车、步行和拍摄占半天以上。1日加入就应取消Glencoe上午活动/九洞，半岛入住会推迟。更适合延期段。","access":"原图为步行观景台；驾车到Glenfinnan Monument游客停车场。火车班次未核，不承诺拍到蒸汽火车。","source":"https://www.nts.org.uk/visit/places/glenfinnan-monument/highlights/viaduct","parking":"Glenfinnan Monument Visitor Centre car park"},
-    {"id":9,"name":"Eilean Donan","region":"west","lat":57.2748,"lon":-5.5136,"fit":"延期 / 改线","day":null,"time":"外观摄影 · 预算45–90分钟","note":"适合去Skye途中；不在Glencoe→Kintyre这条西线。若列为必去，应重排住宿与球场，而不是在半岛打球空档往返。","access":"门票与当日开放时间另核；摄影停车不等于已含城堡入场。","source":"https://www.eileandonancastle.com/visit/opening-hours/"},
-    {"id":10,"name":"Old Man of Storr","region":"west","lat":57.4967,"lon":-6.1608,"fit":"延期 / 改线","day":null,"time":"5km · ↑340m · 摄影留3–4小时","note":"若Skye是必去，建议独立至少两晚，再从Storr/Quiraing挑一条作当天主徒步。此项未计入两条主线预算。","access":"原图标入口；高段陡峭、有落石风险。没有假定成员有山地经验或能摸黑上山。","source":"https://www.walkhighlands.co.uk/skye/old-man-of-storr.shtml"},
-    {"id":11,"name":"Quiraing","region":"west","lat":57.6281,"lon":-6.2899,"fit":"延期 / 改线","day":null,"time":"6.5km · 3–4小时 · ↑374m","note":"比湖边散步更有山地感；完整环线有岩石路、小段攀爬与暴露地形。也可只看入口前段，但仍需要Skye住宿/改线。","access":"原图为Staffin–Uig山口停车区；强风、低云时取消完整环线。","source":"https://www.walkhighlands.co.uk/skye/quiraing.shtml"},
-    {"id":12,"name":"Elgol","region":"west","lat":57.1474,"lon":-6.1072,"fit":"延期 / 改线","day":null,"time":"岩岸摄影 · 预算1.5–2小时","note":"Skye南部看Cuillin的海岸点；与北部两条山线分日更从容。未放入Kintyre两轮的共同段。","access":"原图是海滩位置；驾车到Elgol harbour car park。单轨道路、潮汐及晚间返程另留时间。","source":"https://aquaxplore.co.uk/how_to_find.asp","parking":"Elgol harbour car park, Isle of Skye"}
+    {
+      "id": 1,
+      "name": "Rogie Falls",
+      "region": "east",
+      "lat": 57.5896,
+      "lon": -4.608,
+      "fit": "另选半天",
+      "day": "01",
+      "time": "拍摄停留预算 60–90分钟",
+      "note": "Inverness以西的瀑布短游。若选它，替换Nairn或部分湖区停留；不能将所有东部点塞入1日。",
+      "access": "原图标注停车场；接近瀑布有坡。",
+      "source": "https://forestryandland.gov.scot/visit/destinations/rogie-falls/visitor-information"
+    },
+    {
+      "id": 2,
+      "name": "Loch Morlich",
+      "region": "east",
+      "lat": 57.1676,
+      "lon": -3.7015,
+      "fit": "东线优先",
+      "day": "01",
+      "time": "5.75km · 1.5–2小时 · ↑50m",
+      "note": "1日全团环湖、沙滩与山景；不想走全程可在沙滩等候。拍摄另留30–45分钟。",
+      "access": "FLS当前确认环湖开放；Green Lochan、Ryvoan等仍关闭，全园暂禁无人机。行前复核。",
+      "source": "https://forestryandland.gov.scot/visit/forest-parks/glenmore-forest-park",
+      "walkSource": "https://www.walkhighlands.co.uk/cairngorms/loch-morlich.shtml"
+    },
+    {
+      "id": 3,
+      "name": "Nairn Central Beach",
+      "region": "east",
+      "lat": 57.5883,
+      "lon": -3.8684,
+      "fit": "短停备选",
+      "day": "01",
+      "time": "海滨短走 · 预算30–60分钟",
+      "note": "1日环湖后若有余量，或非球手有独立接送时选择。它在Inverness以东，不是去Brora原路顺停。",
+      "access": "原图落点为Links一带；驾车用Links Car Park名称导航。",
+      "source": "https://nairnscotland.co.uk/central-beach/"
+    },
+    {
+      "id": 4,
+      "name": "Loch Fleet 南岸",
+      "region": "east",
+      "lat": 57.9298,
+      "lon": -4.0398,
+      "fit": "东线优先",
+      "day": "02",
+      "time": "观鸟摄影 · 预算45–60分钟",
+      "note": "2日Brora结束、Golspie接齐徒步者后共同短停；如果晚收杆就略过。海豹与合适潮位不保证。",
+      "access": "NatureScot确认南岸没有步道。这是停车观景点，不能代替长徒步，也不走入泥滩。",
+      "source": "https://www.nature.scot/enjoying-outdoors/visit-our-nature-reserves/loch-fleet-nnr/loch-fleet-nnr-visiting-reserve"
+    },
+    {
+      "id": 5,
+      "name": "Buachaille Etive Mòr",
+      "region": "glencoe",
+      "lat": 56.6645,
+      "lon": -4.9044,
+      "fit": "西线优先",
+      "day": "01",
+      "time": "谷底白屋与山峰 · 预算45–60分钟",
+      "note": "30日驶入山谷时先看天气；1日上午可回访Lagangarbh附近。仅走谷底，不安排完整登山。",
+      "access": "原图标Altnafeadh停车/步道起点；不要导航到山顶或进入小屋院内。",
+      "source": "https://www.walkhighlands.co.uk/fortwilliam/buachailleetivemor.shtml"
+    },
+    {
+      "id": 6,
+      "name": "Lochan na h-Achlaise",
+      "region": "glencoe",
+      "lat": 56.5981,
+      "lon": -4.7446,
+      "fit": "西线优先",
+      "day": "30",
+      "time": "荒原湖泊 · 预算20–40分钟",
+      "note": "30日沿A82北上顺序最自然：先荒原湖泊，再山峰与山谷。1日仅在天气好且愿意折返时加回。",
+      "access": "坐标沿用原图观景位置；停车与跨A82条件须现场判断。风大时不追倒影。",
+      "source": "https://www.martinlawrencephotography.com/articles-and-blog/view/photographers-guide-to-glencoe"
+    },
+    {
+      "id": 7,
+      "name": "Loch Achtriochtan",
+      "region": "glencoe",
+      "lat": 56.6648,
+      "lon": -5.0379,
+      "fit": "西线优先",
+      "day": "30",
+      "time": "山谷湖畔 · 预算30–45分钟",
+      "note": "30日抵达前的短停，或1日天气较好时补看；与白屋择1–2处，给中午南下留余量。",
+      "access": "原图是水边景观点，不是车辆入口。导航使用Loch Achtriochtan Car Park。",
+      "source": "https://www.transport.gov.scot/media/ff2lc402/record-of-determination-a82-clachaig-inn.pdf",
+      "parking": "Loch Achtriochtan Car Park, Glencoe"
+    },
+    {
+      "id": 8,
+      "name": "Glenfinnan / Loch Shiel",
+      "region": "west",
+      "lat": 56.8708,
+      "lon": -5.4344,
+      "fit": "需改当天安排",
+      "day": null,
+      "time": "4km · 步行60–90分钟，摄影另计",
+      "note": "从Glencoe来回公路模型约67英里、1.9小时纯驾驶；加停车、步行和拍摄占半天以上。1日加入就应取消Glencoe上午活动/九洞，半岛入住会推迟。更适合延期段。",
+      "access": "原图为步行观景台；驾车到Glenfinnan Monument游客停车场。火车班次未核，不承诺拍到蒸汽火车。",
+      "source": "https://www.nts.org.uk/visit/places/glenfinnan-monument/highlights/viaduct",
+      "parking": "Glenfinnan Monument Visitor Centre car park"
+    },
+    {
+      "id": 9,
+      "name": "Eilean Donan",
+      "region": "west",
+      "lat": 57.2748,
+      "lon": -5.5136,
+      "fit": "延期 / 改线",
+      "day": null,
+      "time": "外观摄影 · 预算45–90分钟",
+      "note": "适合去Skye途中；不在Glencoe→Kintyre这条西线。若列为必去，应重排住宿与球场，而不是在半岛打球空档往返。",
+      "access": "门票与当日开放时间另核；摄影停车不等于已含城堡入场。",
+      "source": "https://www.eileandonancastle.com/visit/opening-hours/"
+    },
+    {
+      "id": 10,
+      "name": "Old Man of Storr",
+      "region": "west",
+      "lat": 57.4967,
+      "lon": -6.1608,
+      "fit": "延期 / 改线",
+      "day": null,
+      "time": "5km · ↑340m · 摄影留3–4小时",
+      "note": "若Skye是必去，建议独立至少两晚，再从Storr/Quiraing挑一条作当天主徒步。此项未计入两条主线预算。",
+      "access": "原图标入口；高段陡峭、有落石风险。没有假定成员有山地经验或能摸黑上山。",
+      "source": "https://www.walkhighlands.co.uk/skye/old-man-of-storr.shtml"
+    },
+    {
+      "id": 11,
+      "name": "Quiraing",
+      "region": "west",
+      "lat": 57.6281,
+      "lon": -6.2899,
+      "fit": "延期 / 改线",
+      "day": null,
+      "time": "6.5km · 3–4小时 · ↑374m",
+      "note": "比湖边散步更有山地感；完整环线有岩石路、小段攀爬与暴露地形。也可只看入口前段，但仍需要Skye住宿/改线。",
+      "access": "原图为Staffin–Uig山口停车区；强风、低云时取消完整环线。",
+      "source": "https://www.walkhighlands.co.uk/skye/quiraing.shtml"
+    },
+    {
+      "id": 12,
+      "name": "Elgol",
+      "region": "west",
+      "lat": 57.1474,
+      "lon": -6.1072,
+      "fit": "延期 / 改线",
+      "day": null,
+      "time": "岩岸摄影 · 预算1.5–2小时",
+      "note": "Skye南部看Cuillin的海岸点；与北部两条山线分日更从容。未放入Kintyre两轮的共同段。",
+      "access": "原图是海滩位置；驾车到Elgol harbour car park。单轨道路、潮汐及晚间返程另留时间。",
+      "source": "https://aquaxplore.co.uk/how_to_find.asp",
+      "parking": "Elgol harbour car park, Isle of Skye"
+    }
   ],
   "routes": {
     "east": {
-      "hotelNote":"东线此前已见单房价的条件算例：Atholl £259 + Kingsmills两晚£325 + Fisher’s £184，两人分摊住宿£384/人，加两轮£659/人。不是三房可购买报价，未自动代入上方模型。",
-      "name":"东线 · 海岸与松林", "subtitle":"保留 Brora + Boat of Garten，湖区是全团共同的一天。", "base":"Pitlochry 1晚 → Inverness 2晚 → Pitlochry 1晚", "miles":378,
-      "tradeoff":"球场风格差异更大、3日顺路南下。Machrihanish只放可选延期段，Skye未纳入。",
-      "golf":[{"id":"brora","name":"Brora","date":"10/02","fee":160,"holes":18,"checked":true,"source":"https://www.broragolfclub.co.uk/green_fees_and_booking","rank":"Top100GolfCourses 2026 英爱59；上午普通访客价"},{"id":"boat","name":"Boat of Garten","date":"10/03","fee":115,"holes":18,"checked":true,"source":"https://www.boatgolf.com/golf/visitors/","rank":"松林 / 石楠；不标世界百佳"}],
-      "days":[
-        {"id":"30","label":"9/30","title":"会合后，住进 Perthshire","drive":"Edinburgh → Pitlochry：留2–2.5小时；不含之前从英格兰北上的车程。","golf":"当天不排球。最快中午抵达爱丁堡，午餐和会合后出发。","walk":"抵达后河边或小镇短走。若晚到，可改Queensferry并调整次日。","meet":"所有人的抵达方式仍待确认；从伦敦出发不等于同乘两辆车。","hotel":"Atholl Palace / Dunkeld House（Dunkeld稍偏南），1晚。","spots":[],"road":"east30"},
-        {"id":"01","label":"10/1","title":"Loch Morlich · 共同湖区日","drive":"Pitlochry → Loch Morlich → Inverness：留3小时驾驶与缓冲，步行、午餐另计。","golf":"暂不安排整轮，保留大家共同看山看湖的时间。","walk":"环湖5.75km、1.5–2小时；摄影再留30–45分钟。Rogie Falls或Nairn作为替换/有余量的备选，不全去。","meet":"湖畔停车场会合后一起去Inverness。下午不保证赶到每一处日落机位。","hotel":"Kingsmills / Leonardo Inverness，第1晚。","spots":[2],"road":"east01"},
-        {"id":"02","label":"10/2","title":"Brora 海岸球局 + Loch Fleet","drive":"Inverness往返Brora：含Loch Fleet绕行，留3–3.5小时总道路时间。","golf":"Brora拟询10:30–11:00，18洞留4.5–5小时。上午£160。","walk":"非球手：Brora→Golspie海岸11km、3–3.5小时；也可Golspie短走。Loch Fleet南岸留给接齐大家后的摄影短停。","meet":"先送Brora起点，球后在Golspie接人。若晚于16:30会合就略过Loch Fleet；不把观海豹当长徒步。","hotel":"Inverness原酒店，第2晚。","spots":[4],"road":"east02"},
-        {"id":"03","label":"10/3","title":"Boat 山林球场，打完向南","drive":"Inverness → Boat → Pitlochry：道路与缓冲留2.5–3小时。","golf":"Boat of Garten拟询10:30–11:00，18洞£115。","walk":"非球手：River Spey与林间环线9.75km、2.5–3小时；回村午餐等候。","meet":"全员在Boat村会合后南下。若朋友4日从INV飞，今晚改留Inverness，地图和房价需重算。","hotel":"Fisher’s Hotel / Pitlochry镇内双床，1晚。","spots":[],"road":"east03"},
-        {"id":"04","label":"10/4","title":"朋友返程，发起人可慢返","drive":"Pitlochry → 伦敦：按9–11小时含休息预留；或去EDI接航班。","golf":"当天不排球。","walk":"自驾返伦敦者以返程为主，不承诺完整观光日。","meet":"朋友最迟10/5 12:00回伦敦；发起人可延期。北线后接Glencoe / Machrihanish只由延期者承担额外费用。","hotel":"共同四晚在今天退房；延期住宿另算。","spots":[],"road":null}
+      "hotelNote": "东线此前已见单房价的条件算例：Atholl £259 + Kingsmills两晚£325 + Fisher’s £184，两人分摊住宿£384/人，加两轮£659/人。不是三房可购买报价，未自动代入上方模型。",
+      "name": "东线 · 海岸与松林",
+      "subtitle": "Perth / Pitlochry 会合，Brora海岸 + Boat松林；爱丁堡为可选途经点。",
+      "base": "Pitlochry 1晚 → Inverness 2晚 → Pitlochry 1晚",
+      "miles": 334,
+      "tradeoff": "球场风格差异更大、3日顺路南下。Machrihanish只放可选延期段，Skye未纳入。",
+      "golf": [
+        {
+          "id": "brora",
+          "name": "Brora",
+          "date": "10/02",
+          "fee": 160,
+          "holes": 18,
+          "checked": true,
+          "source": "https://www.broragolfclub.co.uk/green_fees_and_booking",
+          "rank": "Top100GolfCourses 2026 英爱59；上午普通访客价"
+        },
+        {
+          "id": "boat",
+          "name": "Boat of Garten",
+          "date": "10/03",
+          "fee": 115,
+          "holes": 18,
+          "checked": true,
+          "source": "https://www.boatgolf.com/golf/visitors/",
+          "rank": "松林 / 石楠；不标世界百佳"
+        }
       ],
-      "hotels":[["9/30","Atholl Palace / Dunkeld House","已见单房£259含早 / £242.50预付含早；三间双床未齐。","https://www.athollpalace.com/"],["10/1–3","Kingsmills / Leonardo","Kingsmills两晚£325/房仅见两间；需第三间房报价。","https://www.kingsmillshotel.com/special-offers/autumn-breaks/"],["10/3","Fisher’s Hotel","已见Cosy Twin含早£184/房；3间库存与停车待核。","https://www.fishershotelpitlochry.com/"]]
+      "days": [
+        {
+          "id": "30",
+          "label": "9/30",
+          "title": "Perth / Pitlochry 会合，住进 Perthshire",
+          "drive": "本人从谢菲尔德 / 约克沿西侧北上，经Stirling到Perth；城中心道路模型约6 / 5.3小时，休息另留。Perth→Pitlochry再留约1小时。",
+          "golf": "当天不排球。按实际火车到达与取车时间会合，没有必须中午到爱丁堡的安排。",
+          "walk": "早到可在Dunkeld / Pitlochry河边短走；晚到就入住，不再为爱丁堡会合折返。",
+          "meet": "优先Perth解决第二辆车，再往Pitlochry；若车已落实，可直接在Pitlochry接人。30日晚全团到齐仍待确认。",
+          "hotel": "Atholl Palace / Dunkeld House（Dunkeld稍偏南），1晚。",
+          "spots": [],
+          "road": "east30"
+        },
+        {
+          "id": "01",
+          "label": "10/1",
+          "title": "Loch Morlich · 共同湖区日",
+          "drive": "Pitlochry → Loch Morlich → Inverness：留3小时驾驶与缓冲，步行、午餐另计。",
+          "golf": "暂不安排整轮，保留大家共同看山看湖的时间。",
+          "walk": "环湖5.75km、1.5–2小时；摄影再留30–45分钟。Rogie Falls或Nairn作为替换/有余量的备选，不全去。",
+          "meet": "湖畔停车场会合后一起去Inverness。下午不保证赶到每一处日落机位。",
+          "hotel": "Kingsmills / Leonardo Inverness，第1晚。",
+          "spots": [
+            2
+          ],
+          "road": "east01"
+        },
+        {
+          "id": "02",
+          "label": "10/2",
+          "title": "Brora 海岸球局 + Loch Fleet",
+          "drive": "Inverness往返Brora：含Loch Fleet绕行，留3–3.5小时总道路时间。",
+          "golf": "Brora拟询10:30–11:00，18洞留4.5–5小时。上午£160。",
+          "walk": "非球手：Brora→Golspie海岸11km、3–3.5小时；也可Golspie短走。Loch Fleet南岸留给接齐大家后的摄影短停。",
+          "meet": "先送Brora起点，球后在Golspie接人。若晚于16:30会合就略过Loch Fleet；不把观海豹当长徒步。",
+          "hotel": "Inverness原酒店，第2晚。",
+          "spots": [
+            4
+          ],
+          "road": "east02"
+        },
+        {
+          "id": "03",
+          "label": "10/3",
+          "title": "Boat 山林球场，打完向南",
+          "drive": "Inverness → Boat → Pitlochry：道路与缓冲留2.5–3小时。",
+          "golf": "Boat of Garten拟询10:30–11:00，18洞£115。",
+          "walk": "非球手：River Spey与林间环线9.75km、2.5–3小时；回村午餐等候。",
+          "meet": "全员在Boat村会合后南下。若朋友4日从INV飞，今晚改留Inverness，地图和房价需重算。",
+          "hotel": "Fisher’s Hotel / Pitlochry镇内双床，1晚。",
+          "spots": [],
+          "road": "east03"
+        },
+        {
+          "id": "04",
+          "label": "10/4",
+          "title": "朋友返程，发起人可慢返",
+          "drive": "铁路返程优先比较Pitlochry / Perth→伦敦；有租车则先落实还车。开回伦敦仍按9–11小时含休息预留。",
+          "golf": "当天不排球。",
+          "walk": "按车次安排小镇短走；自驾返伦敦者以返程为主。",
+          "meet": "朋友最迟10/5 12:00到伦敦，建议4日白天离开；发起人可延期。若需Perth还车，应先还车再上火车，不默认Pitlochry有还车点。",
+          "hotel": "共同四晚在今天退房；延期住宿另算。",
+          "spots": [],
+          "road": null
+        }
+      ],
+      "hotels": [
+        [
+          "9/30",
+          "Atholl Palace / Dunkeld House",
+          "已见单房£259含早 / £242.50预付含早；三间双床未齐。",
+          "https://www.athollpalace.com/"
+        ],
+        [
+          "10/1–3",
+          "Kingsmills / Leonardo",
+          "Kingsmills两晚£325/房仅见两间；需第三间房报价。",
+          "https://www.kingsmillshotel.com/special-offers/autumn-breaks/"
+        ],
+        [
+          "10/3",
+          "Fisher’s Hotel",
+          "已见Cosy Twin含早£184/房；3间库存与停车待核。",
+          "https://www.fishershotelpitlochry.com/"
+        ]
+      ],
+      "roadScope": "Perth会合起至10/3住宿地",
+      "transport": {
+        "summary": "铁路会合候选：Perth取车 / Pitlochry接人；4日从同一区域南返。",
+        "outbound": "朋友可查伦敦→Perth / Pitlochry的9月30日列车；本人从谢菲尔德 / 约克沿M6、M74、Stirling方向北上。Perth有租车门店，Pitlochry适合第二辆车已解决时直接接人。车票未查定，不承诺中午到齐。",
+        "return": "4日从Pitlochry乘车南返，或先去Perth还租车再坐火车；优先当天到伦敦。Perth门店不在站内，官网常规周日10–16点且不支持非营业时还车，目标日须复核。",
+        "alternative": "Aviemore / Inverness可减少当地接驳，但应连30日晚基地一起重排；不能默认先在Pitlochry全团会合再去更北车站。火车途经或换乘爱丁堡，不等于自驾车要去爱丁堡。"
+      }
     },
     "west": {
-      "hotelNote":"西线四晚暂无目标日期三房报价；£175–250/房/晚是筛选预算。Ugadale住客优惠不能自动用于Machrihanish Championship，须分别询价。",
-      "name":"西线 · 山谷与半岛", "subtitle":"Glencoe 看山，Kintyre 打球；海湾、荒原与自驾风景串在一起。", "base":"Glencoe 1晚 → Machrihanish 2晚 → Balloch / Glasgow 1晚", "miles":385,
-      "tradeoff":"更贴近山谷摄影，含一场世界百佳。1日南下、3日早球后转场；Kintyre并不邻近Skye。",
-      "golf":[{"id":"woodlands","name":"Woodlands Glencoe","date":"10/01 可选","fee":24.95,"holes":9,"checked":false,"source":"https://www.woodlands.scot/golf-course/","rank":"山脚九洞；与完整Glencoe上午摄影二选一"},{"id":"mach","name":"Machrihanish Championship","date":"10/02","fee":120,"holes":18,"checked":true,"source":"https://www.machgolf.com/greenfees","rank":"GOLF 2025–26 世界92；不是Dunes或Islay的The Machrie"},{"id":"dunaverty","name":"Dunaverty","date":"10/03","fee":65,"holes":18,"checked":true,"source":"https://www.dunavertygolfclub.com/visitors","rank":"半岛南端短links；不标世界 / 英爱百佳"}],
-      "days":[
-        {"id":"30","label":"9/30","title":"A82 穿过荒原，晚上住山谷","drive":"Edinburgh → Callander → Glencoe：留3–4小时，不含午餐会合与北上前段。","golf":"当天不排球。从谢菲尔德/约克开始，全天会是长途驾驶日。","walk":"路上按顺序选Lochan na h-Achlaise、Buachaille、Loch Achtriochtan中的1–2处短停；迟到就先入住。","meet":"别为拍日落赶路。若会合晚或疲劳，改住Callander；次日取消九洞，山谷短停后南下。","hotel":"Isles of Glencoe / Glencoe Inn，1晚。","spots":[6,5,7],"road":"west30"},
-        {"id":"01","label":"10/1","title":"上午山谷，午后沿海去半岛","drive":"12:00–12:30离开Glencoe，经Oban、Tarbert南下；留4.5–6小时含午餐和短停。","golf":"愿加打者约08:30开始Woodlands九洞，留2–2.5小时；无法再参加完整摄影上午。","walk":"主选：白屋＋山谷湖泊约2–3小时含转移；想走更完整步道可改Greenway 5km、约2小时。","meet":"中午接齐徒步者再南下。Glenfinnan不附加在这半天里；它需另作取舍。","hotel":"Ugadale Hotel / 2栋Cottages / The Royal，第1晚。","spots":[5,7],"road":"west01"},
-        {"id":"02","label":"10/2","title":"世界百佳 + Kintyre 海滩","drive":"半岛当地接送；实际里程取决于住宿和徒步起点。","golf":"Machrihanish拟询09:30–10:00，18洞留4.5–5小时；十月£120。","walk":"非球手：村边海岸，或接送至West Port Beach走4.5km、1–2小时。下午一起海边 / Campbeltown。","meet":"住村内最方便分组。Mull灯塔只在有人开车、时间天气允许时另选；不假定996外还有车留给徒步者。","hotel":"半岛原住宿续住，第2晚。","spots":[],"road":null},
-        {"id":"03","label":"10/3","title":"Dunaverty 早场，午后北返","drive":"Machrihanish → Southend → Balloch：按4–5小时道路与休息预留，约13:00离开Southend。","golf":"优先询08:20 / 08:30，18洞£65。此前见早场空位，不是已保留；若只剩下午必须重排。","walk":"非球手：Dunaverty Bay / Keil短走约1–2小时，再午餐等候。","meet":"球后Southend会合，经Tarbert、Inveraray回Loch Lomond南端；当晚住返程方便的位置。","hotel":"Balloch / Loch Lomond南端或GLA附近，1晚。","spots":[],"road":"west03"},
-        {"id":"04","label":"10/4","title":"从西侧返伦敦","drive":"Balloch / Glasgow → 伦敦：长途返程留约9–11小时含休息；或选GLA航班。","golf":"当天不排球。","walk":"仅按离开时间安排附近短走，不固定远途活动。","meet":"航班与机场未定；EDI返程另计跨城还车和接驳。发起人可独立延长，不受5日中午期限限制。","hotel":"共同四晚今天退房；延期另算。","spots":[],"road":null}
+      "hotelNote": "西线四晚暂无目标日期三房报价；£175–250/房/晚是筛选预算。Ugadale住客优惠不能自动用于Machrihanish Championship，须分别询价。",
+      "name": "西线 · 山谷与半岛",
+      "subtitle": "Glasgow 会合，经Loch Lomond到Glencoe，再去Kintyre打球；爱丁堡可不经过。",
+      "base": "Glencoe 1晚 → Machrihanish 2晚 → Balloch / Glasgow 1晚",
+      "miles": 359,
+      "tradeoff": "更贴近山谷摄影，含一场世界百佳。1日南下、3日早球后转场；Kintyre并不邻近Skye。",
+      "golf": [
+        {
+          "id": "woodlands",
+          "name": "Woodlands Glencoe",
+          "date": "10/01 可选",
+          "fee": 24.95,
+          "holes": 9,
+          "checked": false,
+          "source": "https://www.woodlands.scot/golf-course/",
+          "rank": "山脚九洞；与完整Glencoe上午摄影二选一"
+        },
+        {
+          "id": "mach",
+          "name": "Machrihanish Championship",
+          "date": "10/02",
+          "fee": 120,
+          "holes": 18,
+          "checked": true,
+          "source": "https://www.machgolf.com/greenfees",
+          "rank": "GOLF 2025–26 世界92；不是Dunes或Islay的The Machrie"
+        },
+        {
+          "id": "dunaverty",
+          "name": "Dunaverty",
+          "date": "10/03",
+          "fee": 65,
+          "holes": 18,
+          "checked": true,
+          "source": "https://www.dunavertygolfclub.com/visitors",
+          "rank": "半岛南端短links；不标世界 / 英爱百佳"
+        }
       ],
-      "hotels":[["9/30","Isles of Glencoe / Glencoe Inn","有双床房型；目标日期三房价格与库存待询。","https://www.islesofglencoe.co.uk/rooms/"],["10/1–3","Ugadale Hotel / Cottages / Royal","比较3间双床或2栋两卧cottage；不是一栋住6人。","https://machrihanishdunes.com/stay/the-ugadale-cottages/accommodation/"],["10/3","Balloch / GLA附近","湖畔晚餐或方便早航班；确定返程后再选酒店。","https://www.visitscotland.com/places-to-go/loch-lomond-trossachs"]]
+      "days": [
+        {
+          "id": "30",
+          "label": "9/30",
+          "title": "Glasgow 会合，沿湖进 Glencoe",
+          "drive": "Glasgow Central → Balloch / Loch Lomond → Crianlarich → Glencoe：道路模型93英里 / 2.2小时，安排约3小时，摄影另计。此前谢菲尔德 / 约克→Glasgow还需约5 / 4.3小时模型车程及休息。",
+          "golf": "当天不排球。朋友若坐早班火车到Glasgow，争取13:30–14:00完成午餐及取车；这是待核车次的目标窗口。",
+          "walk": "路上按顺序选Lochan na h-Achlaise、Buachaille、Loch Achtriochtan中的1–2处短停；迟到就先入住。",
+          "meet": "爱丁堡不再是必经点。晚到或疲劳改住Balloch / Crianlarich；次日取消九洞，缩短山谷活动后南下。",
+          "hotel": "Isles of Glencoe / Glencoe Inn，1晚。",
+          "spots": [
+            6,
+            5,
+            7
+          ],
+          "road": "west30"
+        },
+        {
+          "id": "01",
+          "label": "10/1",
+          "title": "上午山谷，午后沿海去半岛",
+          "drive": "12:00–12:30离开Glencoe，经Oban、Tarbert南下；留4.5–6小时含午餐和短停。",
+          "golf": "愿加打者约08:30开始Woodlands九洞，留2–2.5小时；无法再参加完整摄影上午。",
+          "walk": "主选：白屋＋山谷湖泊约2–3小时含转移；想走更完整步道可改Greenway 5km、约2小时。",
+          "meet": "中午接齐徒步者再南下。Glenfinnan不附加在这半天里；它需另作取舍。",
+          "hotel": "Ugadale Hotel / 2栋Cottages / The Royal，第1晚。",
+          "spots": [
+            5,
+            7
+          ],
+          "road": "west01"
+        },
+        {
+          "id": "02",
+          "label": "10/2",
+          "title": "世界百佳 + Kintyre 海滩",
+          "drive": "半岛当地接送；实际里程取决于住宿和徒步起点。",
+          "golf": "Machrihanish拟询09:30–10:00，18洞留4.5–5小时；十月£120。",
+          "walk": "非球手：村边海岸，或接送至West Port Beach走4.5km、1–2小时。下午一起海边 / Campbeltown。",
+          "meet": "住村内最方便分组。Mull灯塔只在有人开车、时间天气允许时另选；不假定996外还有车留给徒步者。",
+          "hotel": "半岛原住宿续住，第2晚。",
+          "spots": [],
+          "road": null
+        },
+        {
+          "id": "03",
+          "label": "10/3",
+          "title": "Dunaverty 早场，午后北返",
+          "drive": "Machrihanish → Southend → Balloch：按4–5小时道路与休息预留，约13:00离开Southend。",
+          "golf": "优先询08:20 / 08:30，18洞£65。此前见早场空位，不是已保留；若只剩下午必须重排。",
+          "walk": "非球手：Dunaverty Bay / Keil短走约1–2小时，再午餐等候。",
+          "meet": "球后Southend会合，经Tarbert、Inveraray回Loch Lomond南端；当晚住返程方便的位置。",
+          "hotel": "Balloch / Loch Lomond南端或GLA附近，1晚。",
+          "spots": [],
+          "road": "west03"
+        },
+        {
+          "id": "04",
+          "label": "10/4",
+          "title": "从西侧返伦敦",
+          "drive": "优先比较Glasgow Central→London Euston火车；Balloch→车站接驳及还车另留。若自驾回伦敦，按约9–11小时含休息规划。",
+          "golf": "当天不排球。",
+          "walk": "仅按离开时间安排附近短走，不固定远途活动。",
+          "meet": "朋友建议4日白天南返，最迟5日中午到伦敦；车次与价格未核。发起人可慢返。Glasgow车站附近租车门店的周日营业时段须复核。",
+          "hotel": "共同四晚今天退房；延期另算。",
+          "spots": [],
+          "road": null
+        }
+      ],
+      "hotels": [
+        [
+          "9/30",
+          "Isles of Glencoe / Glencoe Inn",
+          "有双床房型；目标日期三房价格与库存待询。",
+          "https://www.islesofglencoe.co.uk/rooms/"
+        ],
+        [
+          "10/1–3",
+          "Ugadale Hotel / Cottages / Royal",
+          "比较3间双床或2栋两卧cottage；不是一栋住6人。",
+          "https://machrihanishdunes.com/stay/the-ugadale-cottages/accommodation/"
+        ],
+        [
+          "10/3",
+          "Balloch / GLA附近",
+          "湖畔晚餐或方便早航班；确定返程后再选酒店。",
+          "https://www.visitscotland.com/places-to-go/loch-lomond-trossachs"
+        ]
+      ],
+      "roadScope": "Glasgow会合起至10/3住宿地",
+      "transport": {
+        "summary": "铁路会合候选：London Euston → Glasgow Central，再沿A82进山。",
+        "outbound": "Avanti官方给出伦敦至Glasgow约5小时的一般旅时；拟比较30日早班、午后会合，具体车次/票价未核。取车、午餐后沿Loch Lomond / Crianlarich到Glencoe；本人直接从谢菲尔德 / 约克西侧北上。",
+        "return": "4日从Glasgow Central坐火车回伦敦较顺路；若租车，先在已确认的门店营业时归还。Balloch住宿需另留去Glasgow的接驳时间。",
+        "alternative": "若朋友能29日晚出发，可另比Caledonian Sleeper卧铺到Fort William，30日上午进入高地；日期、余位和取车均待核，不作为默认。30日白天从伦敦出发去Fort William不能套用这一早到安排。"
+      }
     },
     "skye": {
       "name": "天空岛线 · 海岛与群山",
-      "subtitle": "新增第三方案：天空岛连住两晚，Sconser海湾球场 + Boat松林球场。原东线、西线保留。",
+      "subtitle": "Glasgow火车＋同店租车优先；Glencoe、天空岛两晚与Boat松林，飞机和29日晚卧铺另作比较。",
       "base": "Glencoe 1晚 → Portree / Sligachan 2晚 → Pitlochry 1晚",
-      "miles": 533,
+      "miles": 593,
       "tradeoff": "更重视天空岛风景；本线没有已核实的世界百佳球场。3日需早起转场，Boat球位未确认。Machrihanish继续留在西线。",
       "golf": [
         {
@@ -77,11 +456,11 @@
         {
           "id": "30",
           "label": "9/30",
-          "title": "午后会合，穿过A82山谷",
-          "drive": "最快中午到Edinburgh，会合午餐后约13:30–14:00出发；到Glencoe留3–4小时道路时间，短停另计。",
-          "golf": "不排球。此前还有谢菲尔德 / 约克→爱丁堡的北上驾驶。",
+          "title": "Glasgow取车，沿湖进Glencoe",
+          "drive": "Glasgow Central → Balloch / Loch Lomond → Crianlarich → Glencoe：道路模型93英里 / 2.2小时，安排约3小时，摄影另计。此前谢菲尔德 / 约克→Glasgow还需约5 / 4.3小时模型车程及休息。",
+          "golf": "当天不排球。朋友30日07:30–12:01直达火车为实查候选，13:00取车；约13:30上路，17–18点入住是含短停的规划窗口。",
           "walk": "沿A82选荒原湖、Buachaille谷底、Loch Achtriochtan中的1–2处短停；晚到就直接入住。",
-          "meet": "今晚不赶到天空岛。若会合晚或疲劳改住Callander，次日取消长徒步，先确保抵岛。",
+          "meet": "本人可沿西侧北上直接在Glencoe酒店会合，不用去爱丁堡。朋友若选29日晚卧铺，30日07:30到Glasgow，可08:30取车先玩；晚到或疲劳可改Balloch / Crianlarich。",
           "hotel": "Isles of Glencoe / Glencoe Inn，1晚；3间双床报价待询。",
           "spots": [
             6,
@@ -134,14 +513,14 @@
         {
           "id": "04",
           "label": "10/4",
-          "title": "朋友南返，本人可继续慢游",
-          "drive": "朋友从Pitlochry返伦敦，留9–11小时含休息；或约2小时去EDI并按航班另留还车/值机。",
+          "title": "Glasgow同店还车，火车返伦敦",
+          "drive": "Pitlochry约09:30–10:00出发，经Stirling回Glasgow；公路模型86英里/1.9小时，预留2.5–3小时，13:00前还车。",
           "golf": "当天不排球。",
-          "walk": "开车回伦敦者以返程为主。本人可独立留下慢游，但若3日已离开天空岛，再回岛会产生折返。",
-          "meet": "朋友最迟10/5 12:00到伦敦；本人不受此期限限制。若本人要留在岛上，应提前分车并放弃本人3日Boat，而非默认所有人同进同出。",
+          "walk": "可早餐前后在小镇短走；14:34火车方案不再排整段徒步。晚班则还车后在Glasgow等候/短游，球包寄存另核。",
+          "meet": "实查候选14:34→19:19 Euston；省钱晚班17:34→22:52。本人可独立慢返。若改飞机GLA19:50起飞，17:00机场还车；INV方案须3日晚改住Inverness。",
           "hotel": "共同四晚今天退房；本人或其他延期者另计住宿、车辆和交通。",
           "spots": [],
-          "road": null
+          "road": "skye04"
         }
       ],
       "hotels": [
@@ -243,7 +622,113 @@
           "fit": "替换北部活动 / 本人延期",
           "note": "Elgol走Broadford支路和单轨路，不是往Portree的顺路点；可替换2日下午Quiraing观景，不能再附加到两条北部徒步之后。"
         }
+      },
+      "roadScope": "Glasgow会合起至10/4回Glasgow还车",
+      "transport": {
+        "summary": "交通首选提议：30日07:30 Euston→12:01 Glasgow；4日14:34→19:19返伦敦。含九座车分摊约£220.50/人，铁路球包接收条件待核。",
+        "outbound": "按5位朋友：30日07:30–12:01直达，13:00在Glasgow Central门店取车，沿Loch Lomond / A82到Glencoe。本人可直接在Glencoe酒店会合。29日晚Glasgow卧铺Classic也查到5人3间共£855，可30日08:30取车先观光。",
+        "return": "3日晚Pitlochry，4日约09:30–10:00出发，13:00前回Glasgow Central同店还车，再搭14:34–19:19直达。晚班17:34–22:52每人省£41，但13点还车后要等候。朋友4日到伦敦，本人可慢返。",
+        "alternative": "Glasgow飞机往返裸票£76.98＋球包£90/人，普通托运另计；按晚班还车租期已重查。Inverness飞行方案要把3日晚改住Inverness；Fort William卧铺要另核当地租车与异地费。详见“天空岛交通”比较。"
       }
     }
+  },
+  "transportRequest": "https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5672067553",
+  "transportComparison": {
+    "checked": "2026-09-15 Europe/London",
+    "payers": 5,
+    "note": "按5位朋友分摊1辆租车；每人票价与整车总价分开。机票是2人日历基础价，火车/卧铺是5人查询；无预订。",
+    "modes": [
+      {
+        "name": "Glasgow 日间火车",
+        "time": "9/30 07:30–12:01；10/4 14:34–19:19",
+        "fare": 160.5,
+        "sports": 0,
+        "air": false,
+        "car": {
+          "mpv": 259.96,
+          "van": 300
+        },
+        "rental": "9/30 13:00 → 10/4 13:00，Glasgow Central同店",
+        "note": "直达；铁路球包接收及额外费待核，预订手续费另计。"
+      },
+      {
+        "name": "Glasgow 火车 · 晚返省钱",
+        "time": "去程同上；10/4 17:34–22:52",
+        "fare": 119.5,
+        "sports": 0,
+        "air": false,
+        "car": {
+          "mpv": 259.96,
+          "van": 300
+        },
+        "rental": "同上，13:00还车后在市内等候",
+        "note": "每人省£41；22:52到Euston后再回家。"
+      },
+      {
+        "name": "29日晚 Glasgow 卧铺去＋日间火车回",
+        "time": "9/29 23:45 → 9/30 07:30；10/4 14:34–19:19",
+        "fare": 260,
+        "sports": 0,
+        "air": false,
+        "car": {
+          "mpv": 305,
+          "van": 390.5
+        },
+        "rental": "9/30 08:30 → 10/4 13:00，Glasgow Central同店",
+        "note": "Classic 5人3包厢£855单程；返程£445/5人。球包卧铺免费，Avanti返程条件待核。"
+      },
+      {
+        "name": "Glasgow 飞机",
+        "time": "9/30 LTN 08:50→GLA 10:10；10/4 GLA 19:50→LTN 21:00",
+        "fare": 76.98,
+        "sports": 90,
+        "air": true,
+        "car": {
+          "mpv": 305,
+          "van": 390.5
+        },
+        "rental": "9/30 11:30 → 10/4 17:00，GLA机场同店",
+        "note": "裸票£30.99＋£45.99；抵达的是Luton机场，不是伦敦市中心。"
+      },
+      {
+        "name": "Inverness 飞机",
+        "time": "9/30 LTN 09:30→INV 11:00；10/4 INV 18:25→LTN 19:45",
+        "fare": 153.98,
+        "sports": 90,
+        "air": true,
+        "car": {
+          "mpv": 347.69,
+          "van": 390.5
+        },
+        "rental": "9/30 12:00 → 10/4 16:00，INV机场同店",
+        "note": "裸票£33.99＋£119.99；3日晚改住Inverness，当前地图仍是Glasgow方案。"
+      }
+    ],
+    "sleepers": [
+      {
+        "name": "Glasgow",
+        "time": "29日23:45 → 30日07:30",
+        "total": 855,
+        "perPerson": 171,
+        "rooms": "Classic 8+间；Club £1,075/5人",
+        "url": "https://www.sleeper.scot/booking/?origin=LON&destination=GLC&adults=5&outwardDate=2026-09-29"
+      },
+      {
+        "name": "Fort William",
+        "time": "29日21:15 → 30日10:00",
+        "total": 1115,
+        "perPerson": 223,
+        "rooms": "Classic 7间；租车及异地费另核",
+        "url": "https://www.sleeper.scot/booking/?origin=LON&destination=FTW&adults=5&outwardDate=2026-09-29"
+      },
+      {
+        "name": "Inverness",
+        "time": "29日21:15 → 30日08:45",
+        "total": 1115,
+        "perPerson": 223,
+        "rooms": "Classic 5间；3日晚住宿随返程重排",
+        "url": "https://www.sleeper.scot/booking/?origin=LON&destination=INV&adults=5&outwardDate=2026-09-29"
+      }
+    ]
   }
 }

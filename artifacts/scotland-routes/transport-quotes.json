@@ -1,0 +1,201 @@
+{
+  "checked": "2026-09-15 Europe/London",
+  "currency": "GBP",
+  "flights": {
+    "queried": "2026-09-15 Europe/London",
+    "basis": "easyJet low fare finder per person based on 2 people; not 5-person inventory",
+    "outbound": {
+      "date": "2026-09-30",
+      "from": "LTN",
+      "to": "INV",
+      "departure": "09:30",
+      "arrival": "11:00",
+      "gbp": 33.99,
+      "source": "https://www.easyjet.com/en/cheap-flights/london-luton/inverness"
+    },
+    "return": [
+      {
+        "date": "2026-10-04",
+        "from": "INV",
+        "to": "LTN",
+        "departure": "09:15",
+        "arrival": "10:35",
+        "gbp": 53.74
+      },
+      {
+        "date": "2026-10-04",
+        "from": "INV",
+        "to": "LTN",
+        "departure": "18:25",
+        "arrival": "19:45",
+        "gbp": 119.99
+      }
+    ],
+    "return_source": "https://www.easyjet.com/en/cheap-flights/inverness/london-luton",
+    "glasgow": {
+      "outbound": {
+        "date": "2026-09-30",
+        "departure": "08:50",
+        "arrival": "10:10",
+        "gbp": 30.99,
+        "source": "https://www.easyjet.com/en/cheap-flights/london-luton/glasgow"
+      },
+      "return": {
+        "date": "2026-10-04",
+        "departure": "19:50",
+        "arrival": "21:00",
+        "gbp": 45.99,
+        "source": "https://www.easyjet.com/en/cheap-flights/glasgow/london-luton"
+      },
+      "other_return": [
+        {
+          "departure": "12:55",
+          "arrival": "14:10",
+          "gbp": 39.99
+        },
+        {
+          "departure": "15:45",
+          "arrival": "17:00",
+          "gbp": 65.99
+        }
+      ]
+    }
+  },
+  "rail": {
+    "checked": "2026-09-15 Europe/London",
+    "adults": 5,
+    "railcards": 0,
+    "source": "https://www.thetrainline.com/train-times/london-euston-to-glasgow-central",
+    "splitSave_enabled": true,
+    "outbound": {
+      "date": "2026-09-30",
+      "from": "EUS",
+      "to": "GLC",
+      "departure": "07:30",
+      "arrival": "12:01",
+      "changes": 0,
+      "gbp_total": 357.5
+    },
+    "return_options": [
+      {
+        "date": "2026-10-04",
+        "departure": "14:34",
+        "arrival": "19:19",
+        "changes": 0,
+        "gbp_total": 445
+      },
+      {
+        "date": "2026-10-04",
+        "departure": "17:34",
+        "arrival": "22:52",
+        "changes": 0,
+        "gbp_total": 240
+      }
+    ],
+    "roundtrip_fast_pp": 160.5,
+    "roundtrip_late_pp": 119.5,
+    "booking_fee": "excluded; default selection showed 2.79 per booking, selected combination not checked at checkout"
+  },
+  "sleeper": {
+    "checked": "2026-09-15 Europe/London",
+    "date": "2026-09-29",
+    "adults": 5,
+    "rooms": 3,
+    "railcards": 0,
+    "room_allocation": "2+2+1; not confirmed sharing preference",
+    "routes": [
+      {
+        "to": "GLC",
+        "departure": "23:45",
+        "arrival_next_day": "07:30",
+        "boarding": "22:30",
+        "vacate": "08:00",
+        "classic_total": 855,
+        "classic_inventory": "8+ rooms left",
+        "club_total": 1075,
+        "seat_total": 325,
+        "source": "https://www.sleeper.scot/booking/?origin=LON&destination=GLC&adults=5&outwardDate=2026-09-29"
+      },
+      {
+        "to": "FTW",
+        "departure": "21:15",
+        "arrival_next_day": "10:00",
+        "boarding": "20:30",
+        "vacate": "10:00",
+        "classic_total": 1115,
+        "classic_inventory": "7 rooms left",
+        "club_total": null,
+        "seat_total": 350,
+        "seat_note": "Requires change of train; not a berth",
+        "source": "https://www.sleeper.scot/booking/?origin=LON&destination=FTW&adults=5&outwardDate=2026-09-29"
+      },
+      {
+        "to": "INV",
+        "departure": "21:15",
+        "arrival_next_day": "08:45",
+        "boarding": "20:30",
+        "vacate": "08:45",
+        "classic_total": 1115,
+        "classic_inventory": "5 rooms left",
+        "club_total": null,
+        "seat_total": 400,
+        "source": "https://www.sleeper.scot/booking/?origin=LON&destination=INV&adults=5&outwardDate=2026-09-29"
+      }
+    ]
+  },
+  "rental_assumptions": {
+    "renter_age": "30+",
+    "same_branch": true,
+    "model": "or similar",
+    "mpv": "Full Size People Carrier Auto, Caddy, 7 people / 4 bags",
+    "van": "Large Passenger Van Auto, Tourneo Custom, 9 people / 8 bags"
+  },
+  "rental_quotes": [
+    {
+      "option": "Glasgow 日间火车",
+      "period": "9/30 13:00 → 10/4 13:00，Glasgow Central同店",
+      "vehicle_totals": {
+        "mpv": 259.96,
+        "van": 300
+      },
+      "source": "https://www.enterprise.co.uk/en/car-hire-locations/uk/glasgow-central-station-sc06.html"
+    },
+    {
+      "option": "29日晚 Glasgow 卧铺去＋日间火车回",
+      "period": "9/30 08:30 → 10/4 13:00，Glasgow Central同店",
+      "vehicle_totals": {
+        "mpv": 305,
+        "van": 390.5
+      },
+      "source": "https://www.enterprise.co.uk/en/car-hire-locations/uk/glasgow-central-station-sc06.html"
+    },
+    {
+      "option": "Glasgow 飞机",
+      "period": "9/30 11:30 → 10/4 17:00，GLA机场同店",
+      "vehicle_totals": {
+        "mpv": 305,
+        "van": 390.5
+      },
+      "source": "https://www.enterprise.co.uk/en/car-hire-locations/uk/glasgow-international-airport-sc21.html"
+    },
+    {
+      "option": "Inverness 飞机",
+      "period": "9/30 12:00 → 10/4 16:00，INV机场同店",
+      "vehicle_totals": {
+        "mpv": 347.69,
+        "van": 390.5
+      },
+      "source": "https://www.enterprise.co.uk/en/car-hire-locations/uk/inverness-airport-sc33.html"
+    }
+  ],
+  "sports": {
+    "fee_per_item_per_flight": 45,
+    "max_kg": 20,
+    "source": "https://www.easyjet.com/en/help-centre/policy-terms-and-conditions/fees-charges"
+  },
+  "ordinary_hold_bag": {
+    "exact_quote": null,
+    "planning_allowance_per_person_roundtrip": 80,
+    "not_price_cap": true
+  }
+}

@@ -6,22 +6,22 @@
 
 ## 当前建议
 
-以10月2、3日两轮为主，1日留给高地自驾，4日不排高尔夫。30日晚优先Dunkeld或Pitlochry；1、2日晚Inverness连住；3日从北往南打Boat of Garten后住Pitlochry。这样用Brora的海岸links配Boat的山林景观，3日已经开始南下，便于4日回爱丁堡或伦敦。若球友4日从Inverness机场返程，则3日改为继续住Inverness，不能让他们为这条南下路线折返。
+以10月2、3日两轮为主，1日留给高地自驾，4日不排高尔夫。30日晚优先Dunkeld或Pitlochry；1、2日晚Inverness连住；3日从北往南打Boat of Garten后住Pitlochry。这样用Brora的海岸links配Boat的山林景观，3日已经开始南下，便于4日在Pitlochry / Perth坐火车或自驾回伦敦。爱丁堡非必经，见[铁路会合修正](transport-meeting-points.md)。若球友4日从Inverness返程，则3日改为继续住Inverness，不能让他们为这条南下路线折返。
 
 ## 每天怎样走
 
 | 日期 | 安排提议 | 驾驶与时间余量 | 住宿 |
 | --- | --- | --- | --- |
 | 09-29 周二 | 本人Essendon打球后北上，优先谢菲尔德朋友家；本人自行联系，尚未确认 | 收杆时间未知；晚到就以吃饭休息为主 | 谢菲尔德朋友家；约克酒店为备选，利兹口误已更正 |
-| 09-30 周三 | 谢菲尔德或约克→爱丁堡，中午以后到；午餐、会合后继续北上 | 谢菲尔德出发留5–5.5小时，约克留4–5小时；爱丁堡→Dunkeld再留1.5–2小时。约14:00–15:00离开爱丁堡，16:00–17:00到酒店较合理 | Dunkeld/Pitlochry；晚到爱丁堡或疲劳时住Queensferry |
+| 09-30 周三 | 本人谢菲尔德或约克沿西侧经Stirling到Perth，朋友可在Perth取车或Pitlochry会合 | 城中心模型Sheffield→Perth约6小时、York起约5.3小时，均不含休息；Perth→Pitlochry再留约1小时。会合随真实车次安排，不要求中午到爱丁堡 | Dunkeld/Pitlochry，晚到就入住；取车必须在营业时间内 |
 | 10-01 周四 | 经A9慢行进高地；The Hermitage散步，Cairngorms/Loch Morlich短停，下午到Inverness | 不排整条Snow Roads；选两处短停，给酒店与晚餐留时间 | Inverness，第1晚 |
 | 10-02 周五 | Inverness→Brora，拟询10:30–11:00两组相邻球位，打完回基地 | 单程先留1小时15分–1小时30分，另加45分钟热身；18洞留4.5–5小时 | Inverness，同酒店第2晚 |
 | 10-03 周六 | 退房→Boat of Garten，拟询10:30–11:00；球后顺A9南下 | Inverness→Boat留约1小时；Boat→Pitlochry留1.25–1.5小时，约17:00–18:00到酒店 | Pitlochry；若4日INV航班则回Inverness |
-| 10-04 周日 | 不打球；按返程交通安排 | Pitlochry→爱丁堡机场先留1.5–2小时，租车归还及机场办理另计；若开回伦敦，留9–11小时含休息，4日主要为返程日 | 球友可当晚回伦敦；本人可继续慢返 |
+| 10-04 周日 | 不打球；优先比较Pitlochry / Perth火车回伦敦 | 若需Perth还租车，应先还车再接驳车站，目标日营业时间、异地归还和车次待核；自驾回伦敦留9–11小时含休息 | 建议球友4日到伦敦；本人可继续慢返 |
 
-上表球位为希望争取的窗口，尚未核实可售；车程是含余量的规划值，不是出发日实时导航。爱丁堡会合、30日晚全团到齐及4日的交通均待本人/同行者确认。大家同从伦敦出发不等于一起开车。
+上表球位为希望争取的窗口，尚未核实可售；车程是含余量的规划值，不是出发日实时导航。Perth / Pitlochry会合、30日晚全团到齐及4日的交通均待本人/同行者确认。大家同从伦敦出发不等于一起开车。
 
-参考：[谢菲尔德→爱丁堡](https://routecalculator.co.uk/distance/Sheffield/Edinburgh)250英里/4小时29分纯驾驶；[约克→爱丁堡](https://ukdistances.co.uk/en/england/york-gb/edinburgh-sct/)约204英里/4小时10分；[Dunkeld与爱丁堡](https://www.rome2rio.com/s/Dunkeld-Cathedral/Edinburgh)约58英里/1小时7分；[Brora与Inverness](https://www.rome2rio.com/s/Inverness/Brora)约1小时9分；[Boat与Pitlochry](https://www.rome2rio.com/s/Pitlochry/Boat-of-Garten)62英里/1小时9分；[Pitlochry→伦敦](https://www.rome2rio.com/s/Pitlochry/London)约444–446英里/8小时12分纯驾驶。未采用这些网页的通用汽车油费，996仍用本人油耗模型。
+参考：30日新路径依据[铁路会合与OSRM模型](transport-meeting-points.md)；其余沿用[Brora与Inverness](https://www.rome2rio.com/s/Inverness/Brora)约1小时9分；[Boat与Pitlochry](https://www.rome2rio.com/s/Pitlochry/Boat-of-Garten)62英里/1小时9分；[Pitlochry→伦敦](https://www.rome2rio.com/s/Pitlochry/London)约444–446英里/8小时12分纯驾驶。未采用这些网页的通用汽车油费，996仍用本人油耗模型。
 
 路景依据：[The Hermitage步行](https://www.nts.org.uk/visit/places/the-hermitage/highlights/walks)、[Queen’s View](https://forestryandland.gov.scot/visit/destinations/queens-view)。Queen’s View可替代一处停留，不必全塞入1日。十月初树叶颜色依天气，不保证深秋效果。
 

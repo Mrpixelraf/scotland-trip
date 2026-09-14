@@ -166,5 +166,69 @@
     "source": "https://nominatim.openstreetmap.org/search?q=Invermoriston%2C+Scotland&format=jsonv2&limit=1",
     "osm_id": 373284525,
     "osm_type": "node"
+  },
+  "glasgow": {
+    "name": "Glasgow Central railway station",
+    "lat": 55.8583132,
+    "lon": -4.2584361,
+    "source": "https://nominatim.openstreetmap.org/search?q=Glasgow+Central+railway+station%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 6099806145,
+    "osm_type": "node"
+  },
+  "perth": {
+    "name": "Perth railway station",
+    "lat": 56.3921135,
+    "lon": -3.439572,
+    "source": "https://nominatim.openstreetmap.org/search?q=Perth+railway+station%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 4064272,
+    "osm_type": "way"
+  },
+  "sheffield": {
+    "name": "Sheffield",
+    "lat": 53.3806626,
+    "lon": -1.4702278,
+    "source": "https://nominatim.openstreetmap.org/search?q=Sheffield%2C+England&format=jsonv2&limit=1",
+    "osm_id": 106956,
+    "osm_type": "relation"
+  },
+  "york": {
+    "name": "York",
+    "lat": 53.9656579,
+    "lon": -1.0743052,
+    "source": "https://nominatim.openstreetmap.org/search?q=York%2C+England&format=jsonv2&limit=1",
+    "osm_id": 134353,
+    "osm_type": "relation"
+  },
+  "carlisle": {
+    "name": "Carlisle",
+    "lat": 54.8948478,
+    "lon": -2.9362311,
+    "source": "https://nominatim.openstreetmap.org/search?q=Carlisle%2C+England&format=jsonv2&limit=1",
+    "osm_id": 19668579,
+    "osm_type": "relation"
+  },
+  "stirling": {
+    "name": "Stirling",
+    "lat": 56.1181242,
+    "lon": -3.9360012,
+    "source": "https://nominatim.openstreetmap.org/search?q=Stirling%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 21091709,
+    "osm_type": "node"
+  },
+  "gla": {
+    "name": "Glasgow Airport",
+    "lat": 55.870556,
+    "lon": -4.4357037,
+    "source": "https://nominatim.openstreetmap.org/search?q=Glasgow+Airport&format=jsonv2&limit=1",
+    "osm_id": 1100796130,
+    "osm_type": "way"
+  },
+  "inv_airport": {
+    "name": "Inverness Airport",
+    "lat": 57.5431461,
+    "lon": -4.0505795,
+    "source": "https://nominatim.openstreetmap.org/search?q=Inverness+Airport&format=jsonv2&limit=1",
+    "osm_id": 145063230,
+    "osm_type": "way"
   }
 }
