@@ -2,6 +2,8 @@
 
 2026-09-14更新。依据[本人最新路线与打球日期](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670627361)。本人随后确认大家都从伦敦出发；其他球友自驾、飞行或铁路方式尚未定。按6人、3间双床房比较，仅为规划假设，未代表同行者确认拼房。
 
+最新补充：本人认为本框架基本合理，10月1日可以考虑加打世界百佳。新增[Cruden Bay三轮分支](top100-value.md)：30日改住Aberdeen一带、1日Cruden后到Inverness，2日Brora、3日Boat不变；球位和改线尚未确认。下面保留两轮基线及原目标日期酒店查询记录。
+
 ## 当前建议
 
 以10月2、3日两轮为主，1日留给高地自驾，4日不排高尔夫。30日晚优先Dunkeld或Pitlochry；1、2日晚Inverness连住；3日从北往南打Boat of Garten后住Pitlochry。这样用Brora的海岸links配Boat的山林景观，3日已经开始南下，便于4日回爱丁堡或伦敦。若球友4日从Inverness机场返程，则3日改为继续住Inverness，不能让他们为这条南下路线折返。

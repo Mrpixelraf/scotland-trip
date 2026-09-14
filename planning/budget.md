@@ -2,11 +2,15 @@
 
 2026-09-14编制。GBP。本人偏好三晚住宿＋三轮球£700–900/人，不含交通餐饮，未代表全团同意；未有机票或租车实时报价；所有估算与已公布商家价分开。球位和房间库存未知。
 
-最新[综合比较](integrated-road-trip.md)：无会员优惠，Boat＋Brora＋Nairn Dunbar球费£360/人；St Andrews Castle＋Boat＋Brora球费£465/人。三晚共享住宿占位£300–420后分别£660–780、£765–885，均非实时报价。后者为1晚Perth＋2晚Inverness；不是三晚全在高地。教练及单住补差未计。Castle Stuart £385已移出默认。
+早期[综合比较](integrated-road-trip.md)：无会员优惠，Boat＋Brora＋Nairn Dunbar球费£360/人；St Andrews Castle＋Boat＋Brora球费£465/人。三晚共享住宿占位£300–420后分别£660–780、£765–885，均非实时报价。后者为1晚Perth＋2晚Inverness；不是三晚全在高地。教练及单住补差未计。Castle Stuart £385已移出默认。
 
 ## 最新四晚两轮口径
 
 [新版路线与酒店](route-hotel-options.md)按6人比较：9月30日至10月4日退房，共四晚；2日Brora £160＋3日Boat £115，球费£275/人。1日未默认加打，4日不排球。已见单房价的条件算例：Atholl 30日晚含早£259＋Kingsmills 1–3日两晚£325＋Fisher’s 3日晚含早£184＝每两人住宿£768，加球费后£659/人。Kingsmills仅显示2间Classic Twin，故不能把3倍该价当作全团现成报价；拟预算£700–850/人用于筛选，尚未获全团同意。交通、一般餐饮、教练、29日本人房费、4日后本人慢返另计。
+
+## 可选：1日Cruden Bay，四晚三轮
+
+依据[最新加打需求](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670943874)。[Cruden改线方案](top100-value.md)球费£205＋Brora上午£160＋Boat £115＝£480/人，6人£2,880。四晚共享住宿先占位£300–400/人，球＋住£780–880/人，非已获3间双床报价；30日需改住Aberdeen一带，原Dunkeld/Atholl报价不沿用。其他排除项与上面的两轮口径相同。改线约多95英里，沿用64L/280–300英里及£1.80–1.95/L，996多约£35–45油费，另一辆车另计。两轮基线与此三轮分支尚待选择。
 
 下列三晚三轮和HGL内容为早期方案比较，不是新版总价。
 
