@@ -1,6 +1,6 @@
 <div id="scotland-routes">
   <style>
-    #scotland-routes { --route-east:var(--viz-series-1); --route-west:var(--viz-series-2); }
+    #scotland-routes { --route-east:var(--viz-series-1); --route-west:var(--viz-series-2); --route-skye:var(--viz-series-3); }
     #scotland-routes .trip-head { display:flex;justify-content:space-between;gap:1rem;align-items:center;flex-wrap:wrap;margin-bottom:1rem; }
     #scotland-routes .trip-head h2 { margin:0; }
     #scotland-routes .trip-meta { display:flex;gap:1rem;flex-wrap:wrap; }
@@ -13,6 +13,7 @@
     #scotland-routes .trip-legend { display:flex;gap:1rem;flex-wrap:wrap;margin:.5rem 0; }
     #scotland-routes .trip-legend i { display:inline-block;width:1.6rem;height:3px;vertical-align:middle;margin-right:.3rem;background:var(--route-east); }
     #scotland-routes .trip-legend .west { background:var(--route-west); }
+    #scotland-routes .trip-legend .skye { background:var(--route-skye); }
     #scotland-routes .trip-detail dl { margin:.5rem 0; }
     #scotland-routes .trip-detail dt { margin-top:.8rem;font-weight:500; }
     #scotland-routes .trip-detail dd { margin:.25rem 0 .75rem; }
@@ -34,14 +35,16 @@
     }
   </style>
   <div class="trip-head">
-    <h2>苏格兰 · 两条风景线</h2>
+    <h2>苏格兰 · 三条风景线</h2>
     <div class="text-small">2026.09.30 — 10.04 · 6位旅行者 · 4晚 · 候选方案</div>
   </div>
   <div class="viz-controls" role="group" aria-label="选择路线">
-    <button type="button" class="btn" data-route="east" aria-pressed="true">东线 · 海岸与松林</button>
+    <button type="button" class="btn" data-route="east" aria-pressed="false">东线 · 海岸与松林</button>
     <button type="button" class="btn" data-route="west" aria-pressed="false">西线 · 山谷与半岛</button>
+    <button type="button" class="btn" data-route="skye" aria-pressed="true">天空岛线 · 海岛与群山</button>
   </div>
   <p id="trip-subtitle"></p>
+  <p class="text-small" id="trip-tradeoff"></p>
   <div class="trip-meta text-small" id="trip-meta"></div>
   <hr>
   <div class="viz-controls" role="group" aria-label="查看内容">
@@ -54,8 +57,8 @@
     <div class="viz-controls" id="trip-days" aria-label="选择日期" role="group"></div>
     <div class="trip-map-layout">
       <div class="trip-map">
-        <svg id="trip-map-svg" role="img" aria-label="苏格兰东西两条公路候选路线、住宿城镇与12处摄影地点"></svg>
-        <div class="trip-legend text-small"><span><i></i>东线</span><span><i class="west"></i>西线</span><span>数字：组员原图编号</span><span>方块：球场</span></div>
+        <svg id="trip-map-svg" role="img" aria-label="苏格兰东线、西线和天空岛三条公路候选路线、住宿城镇与12处摄影地点"></svg>
+        <div class="trip-legend text-small"><span><i></i>东线</span><span><i class="west"></i>西线</span><span><i class="skye"></i>天空岛线</span><span>数字：组员原图编号</span><span>方块：球场</span></div>
         <div class="text-small" id="trip-road-summary"></div>
         <div class="text-small">公路线条为OSRM / OpenStreetMap规划快照；城镇中心与球场定位不代表酒店或停车入口。非徒步导航。</div>
         <label class="form-label" for="trip-spot-select">查看原图地点如何接入</label>
@@ -86,9 +89,9 @@
         <p class="text-small" id="trip-all-six"></p>
       </section>
     </div>
-    <h3>同一住宿假设下比较两条线</h3>
+    <h3>同一住宿假设下比较三条线</h3>
     <div class="table-responsive"><table class="table table-sm"><thead><tr><th>路线</th><th>核心两轮</th><th>四晚 + 两轮 / 人</th><th>按£175–250 / 房 / 晚</th></tr></thead><tbody id="trip-compare"></tbody></table></div>
-    <p class="text-small">上表两条线均按完整两轮比较，独立于你的个人勾选；两边使用同一房价假设。西线九洞另加£24.95。</p>
+    <p class="text-small">上表均按两轮18洞比较，独立于个人勾选，使用同一房价假设；天空岛一轮是在9个果岭打两圈。西线可选九洞另加£24.95。天空岛酒店实际可能更贵，下方另列筛选预算。</p>
     <h3>当前路线的酒店选择</h3>
     <div class="table-responsive"><table class="table table-sm"><thead><tr><th>住宿日</th><th>候选</th><th>价格性质 / 待确认</th></tr></thead><tbody id="trip-hotels"></tbody></table></div>
     <p class="text-small" id="trip-hotel-note"></p>
@@ -109,7 +112,7 @@
       <tr><td>东线优先</td><td>2 Loch Morlich、4 Loch Fleet</td><td>1日共同环湖；2日接人后短停。1 Rogie Falls、3 Nairn作备选。</td></tr>
       <tr><td>西线优先</td><td>5 白屋山峰、6 荒原湖、7 山谷湖</td><td>30日顺路短停，1日上午按天气补看；想完整摄影就不加九洞。</td></tr>
       <tr><td>需改当天安排</td><td>8 Glenfinnan</td><td>从Glencoe来回另加半天以上；不要叠加在1日山谷活动后。</td></tr>
-      <tr><td>延期 / 重新选线</td><td>9 Eilean Donan、10 Storr、11 Quiraing、12 Elgol</td><td>建议另留Skye至少两晚。若成为全团必去，就要替换Kintyre球局，另算酒店交通。</td></tr>
+      <tr><td>天空岛线</td><td>9 Eilean Donan、10 Storr、11 Quiraing、12 Elgol</td><td>已新增天空岛线：岛上连住两晚，1日Storr主徒步、2日Quiraing短景观；Elgol作替换。东/西线仍不包含这些点。</td></tr>
     </tbody></table></div>
     <ol class="trip-spots" id="trip-wishlist"></ol>
     <p class="text-small">地点及坐标摘自组员提供的公开地图；强度和接送安排为本项目重新研究的提议，未代表该成员确认。未核实的拍摄停留时间均标为预算，不是完整步道时长。</p>
@@ -118,11 +121,15 @@
     <h3>不需要 GitHub 权限的研究资料</h3>
     <p class="text-small">本页的路线和预算已包含查看所需信息。以下链接是球场、景点和步道资料；GitHub用于共同修改与讨论，现已公开可读。</p>
     <div class="table-responsive"><table class="table table-sm"><thead><tr><th>项目</th><th>资料</th><th>本页如何使用</th></tr></thead><tbody>
-      <tr><td>原始地点</td><td><a href="https://claude.ai/public/artifacts/fea19929-5477-4189-afa5-a8005c208c0a" target="_blank" rel="noopener noreferrer">组员高地追光地图</a></td><td>12处地点和定位，按两条路线重新安排；不等于全团必去。</td></tr>
+      <tr><td>原始地点</td><td><a href="https://claude.ai/public/artifacts/fea19929-5477-4189-afa5-a8005c208c0a" target="_blank" rel="noopener noreferrer">组员高地追光地图</a></td><td>12处地点和定位，按三条路线分别安排；不等于全团必去。</td></tr>
       <tr><td>Brora</td><td><a href="https://www.broragolfclub.co.uk/green_fees_and_booking" target="_blank" rel="noopener noreferrer">官方球费与养护</a></td><td>上午£160；£90下午价未作默认。</td></tr>
       <tr><td>Boat of Garten</td><td><a href="https://www.boatgolf.com/golf/visitors/" target="_blank" rel="noopener noreferrer">官方访客页</a></td><td>沿用9月14日核查普通价£115；多人优惠待询。</td></tr>
       <tr><td>Machrihanish</td><td><a href="https://www.machgolf.com/greenfees" target="_blank" rel="noopener noreferrer">官方球费</a> · <a href="https://golf.com/courses/machrihanish-championship/" target="_blank" rel="noopener noreferrer">GOLF世界排名</a> · <a href="https://www.machgolf.com/booking-tandcs" target="_blank" rel="noopener noreferrer">准入与预订条款</a></td><td>十月£120；2025–26世界92。资格、养护与可用球位待书面确认。</td></tr>
       <tr><td>Dunaverty / Woodlands</td><td><a href="https://www.dunavertygolfclub.com/visitors" target="_blank" rel="noopener noreferrer">Dunaverty 2026价</a> · <a href="https://www.woodlands.scot/golf-course/" target="_blank" rel="noopener noreferrer">Woodlands九洞</a></td><td>分别18洞£65、可选9洞£24.95。</td></tr>
+      <tr><td>天空岛球场</td><td><a href="https://www.isleofskyegolfclub.co.uk/visitorinformation" target="_blank" rel="noopener noreferrer">Sconser官方2026/27球费</a></td><td>18洞两圈£40，9洞£30；9个果岭，不标世界百佳。球位待询。</td></tr>
+      <tr><td>天空岛徒步</td><td><a href="https://www.walkhighlands.co.uk/skye/old-man-of-storr.shtml" target="_blank" rel="noopener noreferrer">Storr</a> · <a href="https://www.walkhighlands.co.uk/skye/quiraing.shtml" target="_blank" rel="noopener noreferrer">Quiraing</a> · <a href="https://www.walkhighlands.co.uk/skye/lochsligachan.shtml" target="_blank" rel="noopener noreferrer">Loch Sligachan</a></td><td>区分完整徒步与观景短停；球手2日下午不走完整Quiraing。Sligachan短走按时折返，雨后溪流不强过。</td></tr>
+      <tr><td>Broadford实查套餐</td><td><a href="https://www.broadfordhotel.co.uk/offers/drambuie-getaway" target="_blank" rel="noopener noreferrer">Drambuie两晚</a> · <a href="https://www.broadfordhotel.co.uk/offers/explore-more" target="_blank" rel="noopener noreferrer">Explore More两晚</a></td><td>10/1–3仅见一类套房B&B £902 / Drambuie £926.80，均为一房两晚；3双床未齐，不使用£250宣传起价。</td></tr>
+      <tr><td>天空岛优惠筛选</td><td><a href="https://www.cuillinhills-hotel-skye.co.uk/updates.html" target="_blank" rel="noopener noreferrer">Cuillin Hills直订权益</a> · <a href="https://sonascollection.com/offer/northern-lights-skeabost/" target="_blank" rel="noopener noreferrer">Skeabost套餐日期</a> · <a href="https://bespokehotels.com/sligachanhotel/offer/seasonal-escape-fb-credit/" target="_blank" rel="noopener noreferrer">Sligachan套餐日期</a></td><td>Cuillin Hills有2026/27直订权益；另两家上述套餐不适用10/1–3，未把冬季价算作本次报价。</td></tr>
       <tr><td>湖区开放</td><td><a href="https://forestryandland.gov.scot/visit/forest-parks/glenmore-forest-park" target="_blank" rel="noopener noreferrer">FLS Glenmore最新限制</a></td><td>Loch Morlich环湖开放，Green Lochan等仍关闭，出发前复核。</td></tr>
       <tr><td>日间徒步</td><td><a href="https://www.walkhighlands.co.uk/sutherland/brora-golspie.shtml" target="_blank" rel="noopener noreferrer">Brora → Golspie</a> · <a href="https://www.walkhighlands.co.uk/cairngorms/boat-of-garten.shtml" target="_blank" rel="noopener noreferrer">Boat河岸环线</a> · <a href="https://www.nts.org.uk/visit/places/glencoe/highlights/outdoor-adventures" target="_blank" rel="noopener noreferrer">Glencoe Greenway</a> · <a href="https://www.walkhighlands.co.uk/argyll/west-port-beach.shtml" target="_blank" rel="noopener noreferrer">West Port Beach</a></td><td>按打球窗口、实际车辆和接送安排选择。</td></tr>
       <tr><td>自驾路况</td><td><a href="https://www.traffic.gov.scot/" target="_blank" rel="noopener noreferrer">Traffic Scotland</a> · <a href="https://project-osrm.org/" target="_blank" rel="noopener noreferrer">OSRM模型</a></td><td>地图是公路模型快照；不含出发日交通、工程或导航保证。</td></tr>
@@ -150,7 +157,10 @@
     const root=document.getElementById('scotland-routes');
     const $=id=>root.querySelector('#'+id);
     const data=JSON.parse($('trip-data').textContent);
-    const state={route:'east',view:'route',day:'01',spot:2,rounds:{}};
+    const requestedRoute=new URLSearchParams(window.location.search).get('route');
+    const state={route:data.trip.routes[requestedRoute]?requestedRoute:'skye',view:'route',day:'01',spot:10,rounds:{}};
+    state.spot={east:2,west:5,skye:10}[state.route];
+    const contextualSpot=p=>({...p,...(data.trip.routes[state.route].spotOverrides||{})[String(p.id)]});
     Object.entries(data.trip.routes).forEach(([k,r])=>state.rounds[k]=new Set(r.golf.filter(g=>g.checked).map(g=>g.id)));
     const money=n=>'£'+new Intl.NumberFormat('en-GB',{maximumFractionDigits:2}).format(n);
     const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -164,7 +174,7 @@
       drawMap();
     }
     function renderSpot(){
-      const p=data.trip.spots.find(p=>p.id===state.spot);
+      const p=contextualSpot(data.trip.spots.find(p=>p.id===state.spot));
       $('trip-spot-select').value=String(p.id);
       const map='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(p.parking||p.lat+','+p.lon);
       $('trip-spot-detail').innerHTML='<p><strong>'+p.id+' · '+escape(p.name)+'</strong> · '+escape(p.fit)+'</p><div class="text-small">'+escape(p.time)+'<br>'+escape(p.note)+'<br>'+escape(p.access)+'</div><div class="trip-source-links text-small">'+external(p.source,'到访来源')+' '+external(map,p.parking?'查看停车位置':'查看原图落点')+(p.walkSource?' '+external(p.walkSource,'步道数据'):'')+'</div>';
@@ -188,7 +198,7 @@
         return '<tr><td>'+escape(route.name)+'</td><td>'+money(g)+'</td><td>'+(valid?money(lodging+g):'—')+'</td><td>'+money(350+g)+'–'+money(500+g)+'</td></tr>';
       }).join('');
       $('trip-hotels').innerHTML=r.hotels.map(h=>'<tr><td>'+h[0]+'</td><td>'+external(h[3],h[1])+'</td><td>'+escape(h[2])+'</td></tr>').join('');
-      $('trip-hotel-note').textContent=state.route==='east'?'东线此前已见单房价的条件算例：Atholl £259 + Kingsmills两晚£325 + Fisher’s £184，两人分摊住宿£384/人，加两轮£659/人。不是三房可购买报价，未自动代入上方模型。':'西线四晚暂无目标日期三房报价；£175–250/房/晚是筛选预算。Ugadale住客优惠不能自动用于Machrihanish Championship，须分别询价。';
+      $('trip-hotel-note').textContent=r.hotelNote;
       renderFuel();
     }
     function renderFuel(){
@@ -200,9 +210,10 @@
       const r=data.trip.routes[state.route];
       root.querySelectorAll('[data-route]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.route===state.route));
       $('trip-subtitle').textContent=r.subtitle;
+      $('trip-tradeoff').textContent=r.tradeoff;
       $('trip-meta').innerHTML='<span>'+escape(r.base)+'</span><span>共同段道路约'+r.miles+'英里 · 不含伦敦往返 / 额外绕行</span>';
       $('trip-rounds').innerHTML=r.golf.map(g=>'<div class="trip-golf-item"><label class="form-check"><input type="checkbox" class="form-check-input" data-round="'+g.id+'" '+(state.rounds[state.route].has(g.id)?'checked':'')+'><span class="form-check-label">'+escape(g.date)+' · '+escape(g.name)+' · '+g.holes+'洞 · '+money(g.fee)+'</span></label><div class="text-small">'+escape(g.rank)+' · '+external(g.source,'球费来源')+'</div></div>').join('');
-      renderDay();renderSpot();renderBudget();
+      renderWishes();renderDay();renderSpot();renderBudget();
     }
     function drawMap(){
       if(state.view!=='route')return;
@@ -210,7 +221,7 @@
       if(!window.d3){el.innerHTML='<text x="10" y="30">地图未加载，请使用每日行程与地点清单。</text>';return;}
       const d3=window.d3,svg=d3.select(el).attr('viewBox',`0 0 ${width} ${height}`).attr('height',height);
       svg.selectAll('*').remove();
-      svg.append('title').text('东线与西线、原图12处候选地点');
+      svg.append('title').text('东线、西线、天空岛线与原图12处候选地点');
       svg.append('desc').text('地图使用地理投影与实际道路几何；数字详情可通过下方下拉框访问。');
       const corners={type:'MultiPoint',coordinates:[[-6.55,55.18],[-2.9,58.18]]};
       const projection=d3.geoMercator().fitExtent([[18,22],[width-18,height-25]],corners);
@@ -223,22 +234,25 @@
       Object.keys(data.trip.routes).forEach(route=>{
         Object.entries(data.roads).filter(([k])=>k.startsWith(route)).forEach(([k,r])=>{
           const current=route===state.route&&k===state.route+state.day;
-          layer.append('path').attr('d',path(r)).attr('fill','none').attr('stroke',route==='east'?'var(--route-east)':'var(--route-west)').attr('stroke-width',current?4:2).attr('opacity',route===state.route?.95:.3).attr('stroke-linecap','round').attr('stroke-linejoin','round');
+          layer.append('path').attr('d',path(r)).attr('fill','none').attr('stroke','var(--route-'+route+')').attr('stroke-width',current?4:2).attr('opacity',route===state.route?.95:.3).attr('stroke-linecap','round').attr('stroke-linejoin','round');
         });
       });
       // Positions are projected OSM coordinates; only label offsets are adjusted.
-      const townKeys=['edinburgh','pitlochry','inverness','glencoe','oban','tarbert','balloch'];
-      const offsets={edinburgh:[-8,19],pitlochry:[8,5],inverness:[8,4],glencoe:[-9,19],oban:[-8,16],tarbert:[8,4],balloch:[8,5]};
+      const townKeys=['edinburgh','pitlochry','inverness','glencoe','oban','tarbert','balloch','portree'];
+      const offsets={edinburgh:[-8,19],pitlochry:[8,5],inverness:[8,4],glencoe:[-9,19],oban:[-8,16],tarbert:[8,4],balloch:[8,5],portree:[-25,20]};
       townKeys.forEach(k=>{
         const p=data.places[k],[x,y]=projection([p.lon,p.lat]),[dx,dy]=offsets[k];
         layer.append('circle').attr('cx',x).attr('cy',y).attr('r',3).attr('fill','var(--foreground)');
         if(width<420&&['glencoe','tarbert','balloch'].includes(k))return;
-        layer.append('text').attr('class','map-label').attr('x',x+dx).attr('y',y+dy).attr('text-anchor',dx<0?'end':'start').text(p.name);
+        const label=layer.append('text').attr('class','map-label').attr('x',x+dx).attr('y',y+dy).attr('text-anchor',dx<0?'end':'start').text(p.name);
+        const box=label.node().getBBox();
+        if(box.x<4)label.attr('x',x+dx+4-box.x);
+        else if(box.x+box.width>width-4)label.attr('x',x+dx-(box.x+box.width-width+4));
       });
-      ['brora','boat','mach','dunaverty'].forEach(k=>{
+      ['brora','boat','mach','dunaverty','skye'].forEach(k=>{
         const p=data.places[k],[x,y]=projection([p.lon,p.lat]);
         layer.append('rect').attr('x',x-4).attr('y',y-4).attr('width',8).attr('height',8).attr('fill','var(--foreground)');
-        layer.append('text').attr('class','map-label').attr('x',x+9).attr('y',y+(k==='mach'?-7:5)).text({brora:'Brora',boat:'Boat',mach:'Machrihanish',dunaverty:'Dunaverty'}[k]);
+        layer.append('text').attr('class','map-label').attr('x',x+9).attr('y',y+(k==='mach'?-7:k==='skye'?18:5)).text({brora:'Brora',boat:'Boat',mach:'Machrihanish',dunaverty:'Dunaverty',skye:'Sconser'}[k]);
       });
       // Displace crowded numbered labels, keeping leaders tied to geographic anchors.
       const mapOffsets={1:[-14,-13],2:[26,28],3:[22,-17],4:[-17,-18],5:[16,-24],6:[25,20],7:[-30,-5],8:[-12,-20],9:[24,-6],10:[-16,-9],11:[-8,-18],12:[-18,16]};
@@ -259,7 +273,7 @@
     }
     root.addEventListener('click',e=>{
       const b=e.target.closest('button');if(!b)return;
-      if(b.dataset.route){state.route=b.dataset.route;state.spot=state.route==='east'?2:5;renderRoute();}
+      if(b.dataset.route){state.route=b.dataset.route;state.spot={east:2,west:5,skye:10}[state.route];renderRoute();}
       if(b.dataset.day){state.day=b.dataset.day;const d=data.trip.routes[state.route].days.find(d=>d.id===state.day);if(d.spots.length)state.spot=d.spots[0];renderDay();renderSpot();}
       if(b.dataset.view){state.view=b.dataset.view;root.querySelectorAll('[data-view]').forEach(x=>x.setAttribute('aria-pressed',x.dataset.view===state.view));root.querySelectorAll('[data-panel]').forEach(x=>x.hidden=x.dataset.panel!==state.view);drawMap();}
       if(b.dataset.spot){state.spot=Number(b.dataset.spot);state.view='route';root.querySelector('[data-view="route"]').click();renderSpot();drawMap();}
@@ -270,8 +284,11 @@
     });
     $('trip-room').addEventListener('input',renderBudget);
     ['trip-mileage','trip-litres','trip-petrol'].forEach(id=>$(id).addEventListener('input',renderFuel));
-    $('trip-spot-select').innerHTML=data.trip.spots.map(p=>'<option value="'+p.id+'">'+p.id+' · '+escape(p.name)+' · '+escape(p.fit)+'</option>').join('');
-    $('trip-wishlist').innerHTML=data.trip.spots.map(p=>'<li><div><strong>'+escape(p.name)+'</strong> · '+escape(p.fit)+'</div><div class="text-small">'+escape(p.time)+'</div><p>'+escape(p.note)+'</p><div class="text-small">'+escape(p.access)+' '+external(p.source,'来源')+'</div><button type="button" class="btn btn-ghost" data-spot="'+p.id+'">地图查看 '+p.id+'</button></li>').join('');
+    function renderWishes(){
+      const spots=data.trip.spots.map(contextualSpot);
+      $('trip-spot-select').innerHTML=spots.map(p=>'<option value="'+p.id+'">'+p.id+' · '+escape(p.name)+' · '+escape(p.fit)+'</option>').join('');
+      $('trip-wishlist').innerHTML=spots.map(p=>'<li><div><strong>'+escape(p.name)+'</strong> · '+escape(p.fit)+'</div><div class="text-small">'+escape(p.time)+'</div><p>'+escape(p.note)+'</p><div class="text-small">'+escape(p.access)+' '+external(p.source,'来源')+'</div><button type="button" class="btn btn-ghost" data-spot="'+p.id+'">地图查看 '+p.id+'</button></li>').join('');
+    }
     new ResizeObserver(()=>drawMap()).observe($('trip-map-svg').parentElement);
     renderRoute();
   })();

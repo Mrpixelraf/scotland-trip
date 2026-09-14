@@ -18,6 +18,7 @@
   ],
   "routes": {
     "east": {
+      "hotelNote":"东线此前已见单房价的条件算例：Atholl £259 + Kingsmills两晚£325 + Fisher’s £184，两人分摊住宿£384/人，加两轮£659/人。不是三房可购买报价，未自动代入上方模型。",
       "name":"东线 · 海岸与松林", "subtitle":"保留 Brora + Boat of Garten，湖区是全团共同的一天。", "base":"Pitlochry 1晚 → Inverness 2晚 → Pitlochry 1晚", "miles":378,
       "tradeoff":"球场风格差异更大、3日顺路南下。Machrihanish只放可选延期段，Skye未纳入。",
       "golf":[{"id":"brora","name":"Brora","date":"10/02","fee":160,"holes":18,"checked":true,"source":"https://www.broragolfclub.co.uk/green_fees_and_booking","rank":"Top100GolfCourses 2026 英爱59；上午普通访客价"},{"id":"boat","name":"Boat of Garten","date":"10/03","fee":115,"holes":18,"checked":true,"source":"https://www.boatgolf.com/golf/visitors/","rank":"松林 / 石楠；不标世界百佳"}],
@@ -31,6 +32,7 @@
       "hotels":[["9/30","Atholl Palace / Dunkeld House","已见单房£259含早 / £242.50预付含早；三间双床未齐。","https://www.athollpalace.com/"],["10/1–3","Kingsmills / Leonardo","Kingsmills两晚£325/房仅见两间；需第三间房报价。","https://www.kingsmillshotel.com/special-offers/autumn-breaks/"],["10/3","Fisher’s Hotel","已见Cosy Twin含早£184/房；3间库存与停车待核。","https://www.fishershotelpitlochry.com/"]]
     },
     "west": {
+      "hotelNote":"西线四晚暂无目标日期三房报价；£175–250/房/晚是筛选预算。Ugadale住客优惠不能自动用于Machrihanish Championship，须分别询价。",
       "name":"西线 · 山谷与半岛", "subtitle":"Glencoe 看山，Kintyre 打球；海湾、荒原与自驾风景串在一起。", "base":"Glencoe 1晚 → Machrihanish 2晚 → Balloch / Glasgow 1晚", "miles":385,
       "tradeoff":"更贴近山谷摄影，含一场世界百佳。1日南下、3日早球后转场；Kintyre并不邻近Skye。",
       "golf":[{"id":"woodlands","name":"Woodlands Glencoe","date":"10/01 可选","fee":24.95,"holes":9,"checked":false,"source":"https://www.woodlands.scot/golf-course/","rank":"山脚九洞；与完整Glencoe上午摄影二选一"},{"id":"mach","name":"Machrihanish Championship","date":"10/02","fee":120,"holes":18,"checked":true,"source":"https://www.machgolf.com/greenfees","rank":"GOLF 2025–26 世界92；不是Dunes或Islay的The Machrie"},{"id":"dunaverty","name":"Dunaverty","date":"10/03","fee":65,"holes":18,"checked":true,"source":"https://www.dunavertygolfclub.com/visitors","rank":"半岛南端短links；不标世界 / 英爱百佳"}],
@@ -42,6 +44,206 @@
         {"id":"04","label":"10/4","title":"从西侧返伦敦","drive":"Balloch / Glasgow → 伦敦：长途返程留约9–11小时含休息；或选GLA航班。","golf":"当天不排球。","walk":"仅按离开时间安排附近短走，不固定远途活动。","meet":"航班与机场未定；EDI返程另计跨城还车和接驳。发起人可独立延长，不受5日中午期限限制。","hotel":"共同四晚今天退房；延期另算。","spots":[],"road":null}
       ],
       "hotels":[["9/30","Isles of Glencoe / Glencoe Inn","有双床房型；目标日期三房价格与库存待询。","https://www.islesofglencoe.co.uk/rooms/"],["10/1–3","Ugadale Hotel / Cottages / Royal","比较3间双床或2栋两卧cottage；不是一栋住6人。","https://machrihanishdunes.com/stay/the-ugadale-cottages/accommodation/"],["10/3","Balloch / GLA附近","湖畔晚餐或方便早航班；确定返程后再选酒店。","https://www.visitscotland.com/places-to-go/loch-lomond-trossachs"]]
+    },
+    "skye": {
+      "name": "天空岛线 · 海岛与群山",
+      "subtitle": "新增第三方案：天空岛连住两晚，Sconser海湾球场 + Boat松林球场。原东线、西线保留。",
+      "base": "Glencoe 1晚 → Portree / Sligachan 2晚 → Pitlochry 1晚",
+      "miles": 533,
+      "tradeoff": "更重视天空岛风景；本线没有已核实的世界百佳球场。3日需早起转场，Boat球位未确认。Machrihanish继续留在西线。",
+      "golf": [
+        {
+          "id": "skye",
+          "name": "Isle of Skye · Sconser",
+          "date": "10/02",
+          "fee": 40,
+          "holes": 18,
+          "checked": true,
+          "source": "https://www.isleofskyegolfclub.co.uk/visitorinformation",
+          "rank": "9个果岭、18个发球台，绕两圈；海湾与Cuillin景观，不标百佳"
+        },
+        {
+          "id": "boat",
+          "name": "Boat of Garten",
+          "date": "10/03",
+          "fee": 115,
+          "holes": 18,
+          "checked": true,
+          "source": "https://www.boatgolf.com/golf/visitors/",
+          "rank": "品质18洞松林 / 石楠；拟询11:30 / 11:40，尚无球位确认"
+        }
+      ],
+      "days": [
+        {
+          "id": "30",
+          "label": "9/30",
+          "title": "午后会合，穿过A82山谷",
+          "drive": "最快中午到Edinburgh，会合午餐后约13:30–14:00出发；到Glencoe留3–4小时道路时间，短停另计。",
+          "golf": "不排球。此前还有谢菲尔德 / 约克→爱丁堡的北上驾驶。",
+          "walk": "沿A82选荒原湖、Buachaille谷底、Loch Achtriochtan中的1–2处短停；晚到就直接入住。",
+          "meet": "今晚不赶到天空岛。若会合晚或疲劳改住Callander，次日取消长徒步，先确保抵岛。",
+          "hotel": "Isles of Glencoe / Glencoe Inn，1晚；3间双床报价待询。",
+          "spots": [
+            6,
+            5,
+            7
+          ],
+          "road": "skye30"
+        },
+        {
+          "id": "01",
+          "label": "10/1",
+          "title": "Eilean Donan → 天空岛 → Storr",
+          "drive": "约08:30离开Glencoe，经Fort William、Invergarry、A87大桥上岛；全日道路模型140英里 / 3.5小时，含往返Storr。",
+          "golf": "主方案不加球，把下午留给天空岛主徒步。1日九洞如要加入，须替换徒步，而非叠加。",
+          "walk": "Eilean Donan外观摄影约45分钟，Portree午餐；约14:00–17:00走Storr，5km、爬升340m，含摄影留3小时。晚到或恶劣天气改近镇短走。",
+          "meet": "今日全团共同活动。可按天气把Storr换成Quiraing，但完整环线要3–4小时并提前开始；不在同一下午走两条。",
+          "hotel": "天空岛连住两晚；Portree较方便北部景点，Sligachan较方便球场与山景。",
+          "spots": [
+            9,
+            10
+          ],
+          "road": "skye01"
+        },
+        {
+          "id": "02",
+          "label": "10/2",
+          "title": "Sconser打球，山景分组日",
+          "drive": "Portree→Sligachan接送→Sconser→Portree→Quiraing→Portree模型约68英里 / 1.7小时；北部短停可取消，其他接送另计。",
+          "golf": "拟询09:00 / 09:10，18洞两圈£40，留4–4.5小时。若改九洞£30，则能给下午更多徒步时间；需要重新确认球局。",
+          "walk": "无独立车辆：Sligachan老桥摄影、附近按时折返短走，约14:00同处接人。想独走完整Quiraing的成员需预订接送或另有司机/车；不能默认一辆车留给徒步者。",
+          "meet": "18洞后全团若有体力，可约15:30到Quiraing入口观景45–60分钟，随后回Portree；这不是6.5km完整环线。迟收杆或大风低云则取消。",
+          "hotel": "天空岛原酒店，第2晚；晚饭后早休息，次日早走。",
+          "spots": [
+            11
+          ],
+          "road": "skye02"
+        },
+        {
+          "id": "03",
+          "label": "10/3",
+          "title": "早离岛 → Boat → Pitlochry",
+          "drive": "Portree约06:45出发；经A87、Invermoriston、Loch Ness西岸、Inverness至Boat，143英里 / 模型3.4小时；留休息与热身约4.5小时。全日含南下模型206英里 / 4.7小时。",
+          "golf": "目标11:30 / 11:40开球，18洞£115，预计16:00–16:30结束；只有确认球位后才能落实。若只能更晚开球，取消/替换本轮，不赶天黑收杆。",
+          "walk": "非球手在Boat村走River Spey与松林环线，9.75km、2.5–3小时，再回村午餐。沿途Loch Ness只车览，不加游船和城堡参观。",
+          "meet": "球后接齐，留约1.5–2小时到Pitlochry，约18:00–18:30入住。需提前安排早饭；这是全程最累的一天。",
+          "hotel": "Fisher’s Hotel优先省预算；Atholl Palace作为特色升级，1晚；3间双床未确认。",
+          "spots": [],
+          "road": "skye03"
+        },
+        {
+          "id": "04",
+          "label": "10/4",
+          "title": "朋友南返，本人可继续慢游",
+          "drive": "朋友从Pitlochry返伦敦，留9–11小时含休息；或约2小时去EDI并按航班另留还车/值机。",
+          "golf": "当天不排球。",
+          "walk": "开车回伦敦者以返程为主。本人可独立留下慢游，但若3日已离开天空岛，再回岛会产生折返。",
+          "meet": "朋友最迟10/5 12:00到伦敦；本人不受此期限限制。若本人要留在岛上，应提前分车并放弃本人3日Boat，而非默认所有人同进同出。",
+          "hotel": "共同四晚今天退房；本人或其他延期者另计住宿、车辆和交通。",
+          "spots": [],
+          "road": null
+        }
+      ],
+      "hotels": [
+        [
+          "9/30",
+          "Isles of Glencoe / Glencoe Inn",
+          "湖畔 / 村中山谷住宿。筛选£180–260/房/晚，非实时报价；3间双床待询。",
+          "https://www.islesofglencoe.co.uk/rooms/"
+        ],
+        [
+          "10/1–3",
+          "Sligachan Hotel",
+          "1830年山间旅店，近球场和老桥。在线暂未取得1日入住报价；11月起套餐不适用。",
+          "https://bespokehotels.com/sligachanhotel/"
+        ],
+        [
+          "10/1–3",
+          "Cuillin Hills · 候补",
+          "Portree海湾山景、私家停车；10/1日历暂不可入住。直订权益适用2026/27，不能当已获目标日报价。",
+          "https://www.cuillinhills-hotel-skye.co.uk/updates.html"
+        ],
+        [
+          "10/1–3",
+          "Rosedale · Portree Harbour",
+          "渔民旧屋改建，港口氛围好；目标日未返回房价。无私家停车，早餐07:30起且不提供打包，3日早走要另安排。",
+          "https://rosedalehotelskye.co.uk/book-online/"
+        ],
+        [
+          "10/1–3",
+          "Broadford Hotel · 有条件备选",
+          "目标日只见一类Bonnie Lodge Suite：两晚B&B £902/房，Drambuie套餐£926.80/房；不是3双床报价，非低价首选。去北部景点更远。",
+          "https://www.broadfordhotel.co.uk/offers/drambuie-getaway"
+        ],
+        [
+          "10/1–3",
+          "Skeabost House · 候补",
+          "湖畔历史宅邸；日历10/1显示不可入住，先作候补。Northern Lights优惠10/26才开始。",
+          "https://sonascollection.com/our-hotels/skeabost/"
+        ],
+        [
+          "10/3",
+          "Fisher’s / Atholl Palace",
+          "Fisher’s此前见£184/房含早，3双床待核；Atholl Palace当日升级价另询。",
+          "https://www.fishershotelpitlochry.com/"
+        ]
+      ],
+      "hotelNote": "天空岛四晚住宿先以£400–600/人筛选，加两轮£155为£555–755/人，尚未取得符合预算的6人三间双床报价。Broadford唯一显示的套房两晚£902，折合£451/人仅岛上两晚；如同档住满再加前后夜和球费，会约£786–866/人，且床型/三房仍不满足。不能用宣传起价推定便宜或可订。",
+      "spotOverrides": {
+        "1": {
+          "fit": "不加入天空岛主线",
+          "note": "Rogie Falls不在本线核心窗口；3日为赶Boat开球不再绕行。"
+        },
+        "2": {
+          "fit": "3日替换活动",
+          "note": "Loch Morlich可由非球手替换Boat村步道，但须另有车辆/接送；不叠加在全团球后返程。"
+        },
+        "3": {
+          "fit": "不加入天空岛主线",
+          "note": "Nairn在Inverness以东，会增加3日赶球的绕行。"
+        },
+        "4": {
+          "fit": "不加入天空岛主线",
+          "note": "Loch Fleet位于更北；本线不去Brora，不安排这个停靠。"
+        },
+        "5": {
+          "fit": "9/30顺路短停",
+          "day": "30",
+          "note": "沿A82入Glencoe时，与两处湖景中选1–2处；这里只看谷底山峰，不攀登主峰。"
+        },
+        "6": {
+          "fit": "9/30顺路短停",
+          "day": "30"
+        },
+        "7": {
+          "fit": "9/30顺路短停",
+          "day": "30",
+          "note": "沿山谷驶抵住宿前短停；晚到就略过，不影响次日早上去天空岛。"
+        },
+        "8": {
+          "fit": "需换掉1日下午主徒步",
+          "note": "Glenfinnan位于Fort William以西，主线走大桥不经过。加入要另留绕行和60–90分钟步行，放弃同日下午完整Storr。"
+        },
+        "9": {
+          "fit": "10/1沿途优先",
+          "day": "01",
+          "note": "Glencoe经A87上岛途中先看城堡外观，留约45分钟；如进城堡，压缩下午活动并另计门票。"
+        },
+        "10": {
+          "fit": "10/1主徒步",
+          "day": "01",
+          "note": "约14:00开始，含摄影留3小时。先走这条；若到达延误改短走，完整Quiraing另作替换，不同日下午两条全走。"
+        },
+        "11": {
+          "fit": "10/2短景观 / 分组长徒步",
+          "day": "02",
+          "note": "打18洞者下午只看入口景观45–60分钟，不走完整环线。非球手想走3–4小时环线须有独立接送；也可在1日替代Storr。"
+        },
+        "12": {
+          "fit": "替换北部活动 / 本人延期",
+          "note": "Elgol走Broadford支路和单轨路，不是往Portree的顺路点；可替换2日下午Quiraing观景，不能再附加到两条北部徒步之后。"
+        }
+      }
     }
   }
 }
