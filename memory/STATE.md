@@ -25,8 +25,10 @@
 
 - [St Andrews核查](../planning/st-andrews.md)：赛事周Old无抽签，New/Jubilee/Eden封场。Castle £190、Craigtoun £155为官方价，但没有实时余位确认。Old要求有效差点证明（男女均≤36），本人目前未满足；Castle不要求。
 - [综合方案](../planning/integrated-road-trip.md)：比较三晚高地的Boat＋Brora＋Nairn Dunbar，与全团经St Andrews的Castle＋Boat＋Brora。后者为1晚Perth附近＋2晚Inverness，不再是三晚都在高地；仍为路线提议。
-- HGL保留比较基准；不能声称任何方案已证明最好。教练“另加球费”不代表普通访客价，需要书面确认。询价草稿未发送。
+- HGL保留比较基准；不能声称任何方案已证明最好。教练“另加球费”不代表普通访客价，需要书面确认。HGL及教练询价仍为草稿。
 - 旧记录中本人只能30日出发、本人必须5日中午回来，以及Castle Stuart £385默认组合均已替代。
+
+最新[询价范围调整](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670406244)：St Andrews改问10月1–3日任一天、除Old Course外可用球场，日期/球场/时段灵活；[本人随后将这封询价人数统一为6人](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670512325)。[本人已于2026-09-14 21:42发送](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670538668)（Europe/London），Gmail的SENT记录已核实；截至本次核查未见回信，等待球位与报价。这不是最终行程改期或预订确认。
 
 ## 待确认
 
