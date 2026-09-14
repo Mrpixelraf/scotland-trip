@@ -68,22 +68,32 @@ Thank you.
 
 ## St Andrews预订部
 
+状态：按本人要求扩大为10月1–3日任一天、St Andrews Links除Old Course外的球场。Gmail原草稿已修改，等待本人审阅，未发送。既有行程仍为候选，将根据回信调整。
+
 To: reservations@standrews.com（[官方预约入口](https://www.standrews.com/request-a-tee-time)）。
 
-Subject: Castle Course availability — 5–7 golfers, 1 October 2026
+Subject: St Andrews tee time availability — 5–7 golfers, 1–3 October 2026
 
 Hello St Andrews Links Reservations team,
 
-We are planning a self-drive golf trip for five adults, possibly increasing to six or seven, and would like to check The Castle Course on Thursday 1 October 2026. Please quote availability for two adjacent visitor tee times, ideally between 09:10 and 11:00, and the total price for each group size.
+We are a group of five golfers, possibly increasing to six or seven, visiting Scotland in early October. We would like to arrange an 18-hole round at St Andrews Links on any of the following dates:
 
-We have seen your GBP 190 adult rate and the Alfred Dunhill Links Championship busy dates. Could you confirm that The Castle Course will operate normally, any event-related access/parking restrictions, and expected course conditions? If The Castle Course cannot accommodate us, please advise Craigtoun alternatives and any suitable later times, clearly indicating the course.
+- Thursday 1 October 2026
+- Friday 2 October 2026
+- Saturday 3 October 2026
 
-We currently expect not to have formal golf-club memberships. One golfer has no official handicap certificate; your Before Your Round page says only the Old Course requires one. Please confirm the requirements for these proposed courses. We are not requesting an Old Course booking during the tournament.
+We are flexible on the date, course and tee time, and are enquiring about courses other than the Old Course. We would be interested in The Castle Course, Craigtoun, or any other courses available during these three days.
 
-Please also advise whether any group, accommodation-partner, or venue-approved coaching/guest-rate package would improve the total, with all green fees and tuition itemised. Our planning target is GBP 700–900 per person for three nights and three rounds across Scotland, excluding transport and meals; we are not asking for three rounds solely at St Andrews.
+Could you please let us know:
+- Which courses, dates and tee times are available, ideally with two adjacent tee times for our group and enough daylight to complete 18 holes?
+- The green fee per person and total cost for five, six and seven golfers.
+- Whether any group offers, accommodation packages, or coaching packages with a guest or tuition green fee would offer better value.
 
-We may also spend a short time spectating at the Old Course on 1 October, depending on tee times. Please let us know of any timing or access considerations, plus payment deadlines and cancellation conditions.
+We understand that the Alfred Dunhill Links Championship may affect availability, so please also advise of any course closures, maintenance or access restrictions.
 
-This is an availability and price enquiry only. Please do not make a paid or non-refundable booking.
+We currently expect not to have formal golf-club memberships, and one golfer does not have an official handicap certificate. Please confirm the playing requirements for the available courses.
 
-Thank you.
+Please include payment deadlines and cancellation terms with any options. This is an availability enquiry only, with no booking commitment at this stage.
+
+Kind regards,
+Yufan
