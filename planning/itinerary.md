@@ -16,6 +16,8 @@
 
 ## 1日开打分支
 
+新增[世界百佳方案](top100-value.md)：本人认为原框架基本合理，1日可考虑加一轮。首选询Cruden Bay £205，30日需改住Aberdeen北侧/Ellon/Cruden，1日上午两组三人后去Inverness，2日Brora、3日Boat、4日不打球。多约95英里、2–3小时驾驶。尚未确认球位或同意改线，与下列分支二选一，不叠加。
+
 30日晚Dunkeld/Pitlochry后，1日可争取Boat晚上午球位；如采用，应重排2、3日而不重复计算Boat。若St Andrews回信有1日上午两个相邻球位，则30日改Queensferry/Fife，1日Castle后住Perthshire，2日Boat后住Inverness，3日Brora后续住，4日仍不打球。这个分支为四晚三轮。
 
 St Andrews已发送6人、1–3日询价，尚未确认球位；没有自动发送改期邮件。其他球友若从伦敦飞INV，则会合、30日晚与3日晚应另排，不能默认他们都经过爱丁堡。
