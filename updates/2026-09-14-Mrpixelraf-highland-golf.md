@@ -8,7 +8,7 @@
 - 已补本人档案、当前记忆、行程、预算模型、候选及公开来源研究；准备英文询价草稿但未发送。README提供最新研究入口。
 - HGL和教练均是公开报价及候选，没有实时库存确认，没有预订、付款或共同支出决定。
 - 尚缺：各成员登记、共同预算、其他人的差点资格、拼房偏好、实际球位、酒店及交通报价。
-- 本次PR链接见本记录随附的GitHub提交和需求议题。
+- 本次PR：[苏格兰高尔夫行程、赛事与百强研究 #4](https://github.com/Mrpixelraf/scotland-trip/pull/4)。
 
 - 后续新增：[球场风格、自驾和整体体验偏好](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670185939)。综合方案增加Boat、Brora等，与HGL比较；教练另加球费不能判断价格档次。两封询价已存Gmail草稿，尚未发送。
 
