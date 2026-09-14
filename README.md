@@ -2,11 +2,11 @@
 
 一起规划苏格兰旅行，让每个人和各自的 AI 智能体都能接上最新进展。
 
-**当前阶段：6位旅行者，东线、西线和新增天空岛线三方案并列比较。2、3日为核心打球日，4日不排球；每轮人数可不同。天空岛版拟Glencoe一晚、Skye两晚、Pitlochry一晚，两轮球费£155，3日需早起转场。29日谢菲尔德优先、约克备选；30日最快中午到爱丁堡。尚无预订或全团选线确认。**
+**当前阶段：6位旅行者，东线、西线和新增天空岛线三方案并列比较。2、3日为核心打球日，4日不排球；每轮人数可不同。天空岛版拟Glencoe一晚、Skye两晚、Pitlochry一晚，两轮球费£155，3日需早起转场。29日谢菲尔德优先、约克备选；爱丁堡不再必经，会合点随路线选Glasgow或Perth / Pitlochry。尚无预订或全团选线确认。**
 
 **在线互动行程：[苏格兰东线、西线与天空岛地图、预算和每日安排](https://mrpixelraf.github.io/scotland-trip/)**。可直接发群，浏览无需登录；仓库和讨论也已按发起人要求公开。
 
-最新：[天空岛版：岛上两晚、打球与徒步](planning/skye-golf-hiking.md) · [组员12处摄影地点如何接入](planning/photography-integration.md) · [西线独立方案：山谷＋半岛选球](planning/western-mountains-golf.md) · [打球、徒步与可选半岛路线](planning/golf-walking-routes.md) · [按两轮重排的路线与酒店实价](planning/route-hotel-options.md) · [世界/英爱百强高性价比筛选](planning/top100-value.md) · [St Andrews球位与赛事冲突](planning/st-andrews.md) · [球场、自驾与住宿综合方案](planning/integrated-road-trip.md) · [HGL套餐与教练研究](planning/highland-golf-research.md)。发起人计划9月29日打球后优先住谢菲尔德朋友家、约克备选，30日中午后到爱丁堡，返程可晚于球友；10月5日中午回伦敦的期限仅适用于球友。日期按2026年记录，详见[行程草案](planning/itinerary.md)。
+最新：[天空岛交通实价：火车、飞机、29日晚卧铺与球包](planning/skye-transport.md) · [火车会合与返程：爱丁堡非必经](planning/transport-meeting-points.md) · [天空岛版：岛上两晚、打球与徒步](planning/skye-golf-hiking.md) · [组员12处摄影地点如何接入](planning/photography-integration.md) · [西线独立方案：山谷＋半岛选球](planning/western-mountains-golf.md) · [打球、徒步与可选半岛路线](planning/golf-walking-routes.md) · [按两轮重排的路线与酒店实价](planning/route-hotel-options.md) · [世界/英爱百强高性价比筛选](planning/top100-value.md) · [St Andrews球位与赛事冲突](planning/st-andrews.md) · [球场、自驾与住宿综合方案](planning/integrated-road-trip.md) · [HGL套餐与教练研究](planning/highland-golf-research.md)。发起人计划9月29日打球后优先住谢菲尔德朋友家、约克备选，30日按所选路线直接北上，会合不必经爱丁堡，返程可晚于球友；10月5日中午回伦敦的期限仅适用于球友。日期按2026年记录，详见[行程草案](planning/itinerary.md)。
 
 ## 球友第一次加入
 

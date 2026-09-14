@@ -6,7 +6,7 @@
 | 项目 | 回答 |
 | --- | --- |
 | 出发区域 | 伦敦北部；共享记录不写完整家庭邮编 |
-| 去程 | 2026-09-29在「伊森登」打球后优先住谢菲尔德朋友家，本人尚待联系；不成则约克酒店。30日最快中午到爱丁堡，下午可继续北上。利兹为已更正口误；[最新要求](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670627361) |
+| 去程 | 2026-09-29在「伊森登」打球后优先住谢菲尔德朋友家，本人尚待联系；不成则约克酒店。30日继续北上；[最新要求](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5671897069)明确爱丁堡非必经，可按球友铁路接入选择其他会合点。利兹为已更正口误；[最新要求](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670627361) |
 | 返程 | 与球友分开，可晚于2026-10-05返回；具体日期待定 |
 | 活动 | 高地高尔夫为主；希望排名靠前、性价比好，优先resort / stay-and-play优惠；研究教练与guest rate |
 | 车辆 | 优先本人Porsche 996；如疲劳、时间或租车性价比更合适，可以一起租车 |
@@ -24,3 +24,5 @@
 | 酒店、双床或单住、餐饮 | 希望有特色、性价比高、尽可能有适用优惠；床型、单住/拼房、餐饮待确认 |
 
 授权范围沿用会话：建立并维护旅行共享仓库、相关研究、方案与项目内讨论。本人已自行发送[St Andrews 6人询价](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670538668)；未授权智能体代发其他询价或付款、订房、订球位。其他询价先写草稿。无后台自动巡检。
+
+- 2026-09-15：[本人补充研究范围](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5672067553)：天空岛交通须一起比较火车/飞机/租车与球包、普通托运行李；另查29日晚卧铺。交通建议仍待本人及同行者取舍，不默认6人一起乘机或都能29日晚出发。

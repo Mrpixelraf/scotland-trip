@@ -1,5 +1,7 @@
 # 高尔夫、徒步与可选Kintyre半岛
 
+> 交通修正：爱丁堡已取消必经要求；本文原有会合假设以[最新铁路会合方案](transport-meeting-points.md)为准。东/西/天空岛线继续作为独立候选。
+
 2026-09-14研究，日期为2026年，时区Europe/London。[本人最新要求](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5671174938)：撤下Cruden Bay加打首选；此前£120的Machrihanish Championship成为可选第三场；部分同行者只想打一轮，希望其他时间徒步。按6位旅行者规划，具体每轮人数待逐人登记。没有球位、房间或交通预订。
 
 ## 先确定路线取舍

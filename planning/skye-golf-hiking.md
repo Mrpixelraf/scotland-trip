@@ -1,10 +1,10 @@
 # 天空岛线：两晚海岛、两轮球、山地徒步
 
-2026-09-14查询，Europe/London。**新增第三条候选线，东线和西线继续保留；尚无预订，也没有全团选线确认。** [本人请求](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5671719947) · [三线互动地图与预算](https://mrpixelraf.github.io/scotland-trip/?route=skye)。
+2026-09-15交通更新；球场/酒店查询9月14日，Europe/London。**新增第三条候选线，东线和西线继续保留；尚无预订，也没有全团选线确认。** [本人请求](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5671719947) · [三线互动地图与预算](https://mrpixelraf.github.io/scotland-trip/?route=skye)。
 
 ## 推荐结构与主要取舍
 
-9月30日爱丁堡会合 → A82 / Glencoe一晚 → 10月1、2日天空岛两晚 → 3日经Loch Ness、Inverness去Boat of Garten打球，晚住Pitlochry → 4日朋友返伦敦。29日Essendon球后谢菲尔德朋友家优先、约克备选不变。6人、两车、核心打球日2/3日、4日不排球；朋友5日中午前回伦敦，本人可延期。
+9月30日优先Glasgow Central日间火车＋同店租车（29日晚卧铺作升级） → Loch Lomond / A82 / Glencoe一晚 → 10月1、2日天空岛两晚 → 3日经Loch Ness、Inverness去Boat of Garten打球，晚住Pitlochry → 4日朋友铁路或自驾返伦敦。29日Essendon球后谢菲尔德朋友家优先、约克备选不变。6人、两车、核心打球日2/3日、4日不排球；朋友5日中午前回伦敦，本人可延期。爱丁堡已取消必经要求，具体票车尚未购买，详见[火车、飞机、卧铺及球包成本](skye-transport.md)。
 
 这版把有限时间花在天空岛：1日下午一条主徒步、2日打球与分组观景，海湾球场搭配松林球场。**本线没有核实到顺路且便宜的世界百佳18洞球场**。想保留世界百佳Machrihanish £120的优势，请选原西线；把Kintyre再塞进天空岛两晚会使这段行程失去重点。岛上Isle of Skye GC为9个果岭、18个发球台，18洞是绕两圈，不是18个不同球洞。
 
@@ -16,13 +16,13 @@
 
 | 日期 | 自驾、打球与共同活动 | 徒步者怎么参与 | 住宿 |
 | --- | --- | --- | --- |
-| 9/30 周三 | 最快中午到Edinburgh，约13:30–14:00离开。经Callander、Crianlarich沿A82进Glencoe；道路留3–4小时，选1–2处短停 | 荒原湖Lochan na h-Achlaise → Buachaille谷底 → Loch Achtriochtan，依天气选，不全停 | Glencoe / Ballachulish 1晚 |
+| 9/30 周三 | 已查到5人07:30 Euston→12:01 Glasgow Central，13:00同店取车，争取13:30上路。29日晚Glasgow卧铺30日07:30到、可08:30取车先观光。本人沿西侧北上接入；经Balloch、Loch Lomond、Crianlarich走A82；会合后道路留约3小时，短停另计 | 荒原湖Lochan na h-Achlaise → Buachaille谷底 → Loch Achtriochtan，依天气选1–2处，不全停；本人从Sheffield起整天仍是长途 | Glencoe / Ballachulish 1晚 |
 | 10/1 周四 | 08:30出发经Fort William、Invergarry、Eilean Donan外观摄影约45分钟，再走大桥上岛；Portree午餐，约14:00–17:00 Storr | 全团主徒步：Storr 5km、爬升340m，摄影按3小时预算；不想爬高者需事先约好等候点/接送。晚到改短走 | Portree或Sligachan第1晚 |
 | 10/2 周五 | Sconser拟09:00 / 09:10开始，18洞两圈£40，留4–4.5小时；约14:00接齐。下午可去Quiraing入口看景45–60分钟，不走完整环线 | 没有独立车：送Sligachan老桥，附近按时折返短走，回原处等候。要走完整Quiraing的成员需有司机和车或预约当地接送，费用另算 | 天空岛同酒店第2晚 |
 | 10/3 周六 | Portree约06:45出发，A87→Invermoriston→Loch Ness西岸→Inverness→Boat；拟11:30 / 11:40开球£115，16:00–16:30结束。再留1.5–2小时去Pitlochry，约18:00–18:30入住 | Boat村River Spey与松林环线9.75km、2.5–3小时，回村午餐，再与球手一起走 | Pitlochry 1晚 |
-| 10/4 周日 | 朋友返伦敦，自驾按9–11小时含休息留足；或到EDI乘已确认航班，另留还车与值机时间 | 不排高尔夫。开车返程者不承诺完整观光日 | 共同四晚已结束；延期者另计 |
+| 10/4 周日 | 朋友约09:30–10:00从Pitlochry出发，13:00在Glasgow Central同店还车，14:34→19:19直达伦敦；17:34→22:52晚班每人省£41。Perth异地还车降为备用；自驾返伦敦留9–11小时含休息 | 不排高尔夫。建议4日到伦敦，不把未核定的5日早班当作满足期限 | 共同四晚已结束；延期者另计 |
 
-30日若会合晚或疲劳，可改住Callander；1日抵岛时间就会后移，应取消长徒步。1日不是再加一轮球的默认空档。本人如果更想留在天空岛，可在2日晚分组，放弃本人3日Boat并让朋友按计划南返；提前解决人、车、行李分配，不默认996足以运6人。
+本人可直接在Glencoe酒店与朋友会合，双方不需等在车站。若选INV飞机，3日晚改住Inverness、4日同机场还车，须另核酒店，不能套用下表Pitlochry房价。30日若会合晚或疲劳，可改住Balloch / Crianlarich；1日抵岛时间就会后移，应取消长徒步。1日不是再加一轮球的默认空档。本人如果更想留在天空岛，可在2日晚分组，放弃本人3日Boat并让朋友按计划南返；提前解决人、车、行李分配，不默认996足以运6人。
 
 ## 球场怎么选，优惠怎样问
 
@@ -72,6 +72,6 @@ Broadford这次有一个可以具体比较的套餐：同一套房两晚，Dramb
 
 ## 道路与下一步
 
-[地图道路数据](../artifacts/scotland-routes/roads.json)由OSRM / OpenStreetMap在9月14日查询：30日119英里/2.8h；1日含Storr往返140英里/3.5h；2日含Quiraing短停68英里/1.7h；3日206英里/4.7h；共同段模型合计533英里。只是不含交通的道路模型，不含伦敦往返和每一家酒店/停车入口，也不包含额外分组接送。上岛主方案全走大桥，不依赖渡轮。路况出发前查[Traffic Scotland](https://www.traffic.gov.scot/)。
+[地图道路数据](../artifacts/scotland-routes/roads.json)由OSRM / OpenStreetMap在9月14–15日查询：30日从Glasgow起93英里/2.2h；1日含Storr往返140英里/3.5h；2日含Quiraing短停68英里/1.7h；3日206英里/4.7h；至3日晚共同段模型合计507英里，现已加4日回Glasgow的86英里/1.9小时，总计593英里。只是无实时路况的道路模型，不含伦敦往返、本人30日前半段及每一家酒店/停车入口，也不包含额外分组接送。上岛主方案全走大桥，不依赖渡轮。路况出发前查[Traffic Scotland](https://www.traffic.gov.scot/)。
 
 落实顺序：先确认本线取舍与每轮人数，询Skye两晚三间双床及Boat3日球位，再安排交通。若Boat没有约11:30球位，整天方案必须重排；若Skye酒店只有相距较远的散房，要重新核对接送和2日集合。St Andrews原6人询价保持待回信，不因新增路线自动取消或重新发送。

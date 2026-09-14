@@ -8,7 +8,7 @@
 
 依据：[NTS Glencoe地貌](https://www.nts.org.uk/visit/places/glencoe/highlights/the-glen)、[Cairngorms国家公园山地](https://cairngorms.co.uk/the-national-park/landscapes/mountains-and-the-plateaux)。
 
-推荐路线：**Edinburgh→Stirling/Callander→Rannoch Moor/Glencoe→Oban→Tarbert→Machrihanish/Southend→Inveraray→Loch Lomond/Glasgow**。在既有共同假期里，不再加入Brora或Boat；这是采用本西线时的取舍，并非已取消北线。
+推荐路线：**Glasgow Central会合→Balloch / Loch Lomond→Crianlarich→Rannoch Moor / Glencoe→Oban→Tarbert→Machrihanish / Southend→Inveraray→Loch Lomond / Glasgow**。爱丁堡非必经，见[最新交通修正](transport-meeting-points.md)。在既有共同假期里，不再加入Brora或Boat；这是采用本西线时的取舍，并非已取消北线。
 
 ## 球场选择
 
@@ -31,15 +31,15 @@ Woodlands官网引用过Bunkered九洞评选和GOLF全球九洞50佳，但本轮
 | 日期 | 路线、拟定时间与住宿 | 打球 / 徒步的安排 |
 | --- | --- | --- |
 | 09-29 周二 | 本人Essendon球后优先谢菲尔德朋友家，约克备选 | 保留已知安排，朋友家未确认 |
-| 09-30 周三 | 最快中午到Edinburgh；如约14:00完成午餐及会合，经Stirling、Callander、Tyndrum进入A82，约17:00–18:00抵达Glencoe/Ballachulish，住1晚 | 不排球。途经Rannoch Moor与Glencoe山谷，只选少量停车观景，晚到就先休息；这天本人合计约7–9小时驾驶，不能称轻松短途 |
+| 09-30 周三 | 朋友可用已查到的07:30 Euston→12:01 Glasgow Central直达车，争取13:30–14:00完成午餐及取车后走A82，经Loch Lomond、Crianlarich进入Glencoe，约留3小时道路时间，摄影另计 | 不排球。本人从Sheffield / York北上到Glasgow之前已有约5 / 4.3小时模型驾驶，休息另计；当天仍是长途。车次与价格见[交通比较](skye-transport.md)，未订票 |
 | 10-01 周四 | 上午留Glencoe。约12:00–12:30会合后经A828到Oban，再经A816、A83和Tarbert到Kintyre，约17:00–18:30入住Machrihanish/Campbeltown，第1晚 | 全团步行优先；想加打者可约08:30–09:00开始Woodlands九洞，其他人走Glencoe Greenway/短林道，安排先送后接。九洞者不再同时承诺完整徒步。午后留4.5–6小时给道路、午餐及1–2次短停 |
 | 10-02 周五 | 半岛活动，原酒店续住第2晚 | Machrihanish拟询09:30–10:00，按实际人数配组，18洞留4.5–5小时。非球手从Machrihanish村走海岸或预先接送West Port Beach。下午可全团海边、Campbeltown或短游；Mull灯塔只在时间天气允许时另选 |
 | 10-03 周六 | 退房→Southend，Dunaverty拟争取08:20、08:30等早场；约13:00–14:00离开，经Tarbert、Inveraray、A83到Loch Lomond/Glasgow，住第4晚 | 非球手Southend海湾/Keil一带短走，结束会合后一起北上。留3.5–4.5小时道路及休息，约17:00–18:30到酒店。若球位只能下午，必须重排最后一晚和朋友返程 |
-| 10-04 周日 | 不排球，朋友返伦敦，本人可另慢返 | 自驾者上午出发，当天以长途返程为主；飞行者优先比较GLA，具体航班与票价未核，需计还车及机场办理。EDI返程需额外跨城接驳，不默认已选择GLA |
+| 10-04 周日 | 不排球，朋友返伦敦，本人可另慢返 | 优先比较Glasgow Central火车南返，Balloch至门店/车站另留接驳。4日当天到伦敦更有余量；自驾者当天以长途返程为主。租车归还须核周日营业，同日火车票价已查，租车按本线实际取还时段另核 |
 
-以上是拟定窗口，不是已预约时间。[Edinburgh→Glencoe](https://www.rome2rio.com/s/Edinburgh/Glencoe-Scotland)道路参考约115英里、2小时25分纯驾驶，行程按3–4小时含余量；[Glencoe→Oban沿海道路](https://discoverglencoe.scot/activities/drive-coastal-route-to-oban/)提供A828景观依据；[Oban→Machrihanish](https://www.rome2rio.com/s/Oban/Machrihanish)约91英里、1小时56分纯驾驶，不含此前Glencoe一段及午餐；[Campbeltown↔Balloch](https://www.rome2rio.com/s/Balloch/Campbeltown)约115英里、2小时20分，Southend出发及休息需另加。出发前再核[Traffic Scotland](https://www.traffic.gov.scot/)，不承诺A83目标日期无工程/绕行。
+以上是拟定窗口，不是已预约时间。Glasgow→Balloch→Crianlarich→Glencoe的[OSRM道路快照](../artifacts/scotland-routes/roads.json)为93英里、2.2小时纯驾驶，行程先留3小时，摄影另计；[Glencoe→Oban沿海道路](https://discoverglencoe.scot/activities/drive-coastal-route-to-oban/)提供A828景观依据；[Oban→Machrihanish](https://www.rome2rio.com/s/Oban/Machrihanish)约91英里、1小时56分纯驾驶，不含此前Glencoe一段及午餐；[Campbeltown↔Balloch](https://www.rome2rio.com/s/Balloch/Campbeltown)约115英里、2小时20分，Southend出发及休息需另加。出发前再核[Traffic Scotland](https://www.traffic.gov.scot/)，不承诺A83目标日期无工程/绕行。
 
-30日如果会合晚或疲劳明显，改住Callander一带，1日继续进Glencoe并取消可选九洞，短步行后南下；不要为了不确定球位赶夜路。若连这一节奏也赶，就把Glencoe/Oban多留一晚、Machrihanish改到3日只打一场；两轮与观光不能在迟到后原样全保留。
+30日如果会合晚或疲劳明显，改住Balloch / Crianlarich一带，1日继续进Glencoe并取消可选九洞，短步行后南下；不要为了不确定球位赶夜路。若连这一节奏也赶，就把Glencoe / Oban多留一晚、Machrihanish改到3日只打一场；两轮与观光不能在迟到后原样全保留。
 
 ## 徒步如何与打球共存
 
