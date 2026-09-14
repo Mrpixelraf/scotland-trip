@@ -2,7 +2,7 @@
 
 2026年，时间均为Europe/London。依据[最新路线与打球日期](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670627361)。以6位旅行者规划，各轮参与人数待定；部分人只想打一轮、其他时间徒步。大家从伦敦出发，其他球友交通和会合时间未定。本人约束已记录，下面球场、酒店及具体时刻仍是提议，未预订。
 
-最新[本人补充](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5671174938)撤下Cruden Bay首选，选Machrihanish为可选第三场。下表仍是保留Brora＋Boat的北线提议，分组徒步、本人可选西线延期及全团改走半岛的取舍详见[打球与徒步路线](golf-walking-routes.md)，尚未选定路线。
+最新[本人补充](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5671174938)撤下Cruden Bay首选，选Machrihanish为可选第三场。下表仍是保留Brora＋Boat的北线提议，分组徒步、本人可选西线延期及全团改走半岛的取舍详见[打球与徒步路线](golf-walking-routes.md)，尚未选定路线。本人现要求单独比较西线并重视山地，详见[Glencoe＋Kintyre选球方案](western-mountains-golf.md)；下表北线保持为独立候选。
 
 | 日期 | 安排提议 | 住宿 |
 | --- | --- | --- |

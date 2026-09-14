@@ -25,6 +25,8 @@
 
 最新[半岛与分组活动需求](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5671174938)已替代Cruden Bay首选：本人认为Cruden绕路，选择Machrihanish Championship（世界92、十月£120）作为可选第三场，部分同行者只想打一轮。新增[打球＋徒步方案](../planning/golf-walking-routes.md)：A保留Brora、Boat，1日共同游湖，2日Brora→Golspie沿海11km并顺路接人，3日Boat河岸山林9.75km环线；朋友4日返程，本人及能延期者可另经Glencoe/Oban到半岛，暂拟6日加打。B让全团4日前去Kintyre，需重选原来的两轮。本人尚未确认A/B、延期日期或取消Brora/Boat。三轮全选球费£395，但各人仅计实际参打项目；延长段酒店交通另由参与者承担。
 
+本人随后[认可现有框架并要求单独重做西线](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5671333616)，补充希望观光进入山地。新增[西线独立方案](../planning/western-mountains-golf.md)：30日Glencoe、1日山谷徒步或Woodlands九洞后南下半岛、2日Machrihanish、3日Dunaverty早场后去Loch Lomond/Glasgow、4日返程；四晚三个基地。两轮18洞£185，加可选九洞£209.95；Dunaverty已新核实2026本期£65，不再是价格未知。西线未替代北线，球位/3房/1日九洞取舍未确认。
+
 旧Cruden三轮改线与£780–880预算保留为已替代研究，不再作为默认。没有发送商家询价。
 
 此前新增需求：[观赛与世界/英爱百强性价比](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670346157)。[筛选报告](../planning/top100-value.md)：Machrihanish世界92、十月£120；Cruden Bay世界61、本期平日£205/7日起£140但邻近养护；Brora英爱59、13:30起£90。个人西线/东线加打分别比较，不全部加入两轮主方案。赛事1–3日免费，4日成人售票£21.20另£1/订单，未买票。
