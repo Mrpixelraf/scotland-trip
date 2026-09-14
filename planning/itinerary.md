@@ -1,14 +1,16 @@
 # 行程草案
 
-2026年，时间均为Europe/London。依据[最新路线与打球日期](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670627361)。以6人规划；大家从伦敦出发，其他球友交通和会合时间未定。本人约束已记录，下面球场、酒店及具体时刻仍是提议，未预订。
+2026年，时间均为Europe/London。依据[最新路线与打球日期](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670627361)。以6位旅行者规划，各轮参与人数待定；部分人只想打一轮、其他时间徒步。大家从伦敦出发，其他球友交通和会合时间未定。本人约束已记录，下面球场、酒店及具体时刻仍是提议，未预订。
+
+最新[本人补充](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5671174938)撤下Cruden Bay首选，选Machrihanish为可选第三场。下表仍是保留Brora＋Boat的北线提议，分组徒步、本人可选西线延期及全团改走半岛的取舍详见[打球与徒步路线](golf-walking-routes.md)，尚未选定路线。
 
 | 日期 | 安排提议 | 住宿 |
 | --- | --- | --- |
 | 09-29 周二 | 本人「伊森登」球后北上，优先谢菲尔德朋友家，尚待本人联系；约克酒店为备选 | 谢菲尔德/约克；利兹口误已更正 |
 | 09-30 周三 | 最快中午抵达爱丁堡，午餐或会合后再北上，不排球 | Dunkeld/Pitlochry优先；晚到或疲劳时Queensferry |
-| 10-01 周四 | A9与Cairngorms风景、轻松散步，下午到Inverness；打球仅为可选分支 | Inverness第1晚 |
-| 10-02 周五 | Brora海岸links，拟询10:30–11:00两组相邻球位 | Inverness续住 |
-| 10-03 周六 | Boat of Garten山林球场，拟询10:30–11:00，球后南下 | Pitlochry；若4日从INV飞则继续Inverness |
+| 10-01 周四 | A9与Cairngorms风景、全团Loch Morlich步行，下午到Inverness；北线当前不默认加打 | Inverness第1晚 |
+| 10-02 周五 | Brora海岸links，拟询10:30–11:00并按实际人数配组；非球手Brora→Golspie海岸步行，球后顺路接回 | Inverness续住 |
+| 10-03 周六 | Boat山林球场，拟询10:30–11:00；非球手从球会附近走River Spey环线，球后会合南下 | Pitlochry；若4日从INV飞则继续Inverness |
 | 10-04 周日 | 留空不打球，安排观光或返程；长途开回伦敦者当天以返程为主 | 本人可与球友分开慢返 |
 | 10-05及以后 | 球友仍需5日12:00前回伦敦，本人无此期限 | 本人返程另定 |
 
@@ -16,7 +18,7 @@
 
 ## 1日开打分支
 
-新增[世界百佳方案](top100-value.md)：本人认为原框架基本合理，1日可考虑加一轮。首选询Cruden Bay £205，30日需改住Aberdeen北侧/Ellon/Cruden，1日上午两组三人后去Inverness，2日Brora、3日Boat、4日不打球。多约95英里、2–3小时驾驶。尚未确认球位或同意改线，与下列分支二选一，不叠加。
+Cruden Bay原1日三轮分支已因本人认为绕路而撤下，保留在[历史筛选](top100-value.md)供查证。Machrihanish在Kintyre，不能直接替换原表的1日Cruden：若保留Brora与Boat，建议放4日后个人延长段，暂拟6日；若全团在4日前都去半岛，需要重选其他两轮，尚未决定。
 
 30日晚Dunkeld/Pitlochry后，1日可争取Boat晚上午球位；如采用，应重排2、3日而不重复计算Boat。若St Andrews回信有1日上午两个相邻球位，则30日改Queensferry/Fife，1日Castle后住Perthshire，2日Boat后住Inverness，3日Brora后续住，4日仍不打球。这个分支为四晚三轮。
 
