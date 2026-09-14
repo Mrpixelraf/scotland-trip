@@ -1,0 +1,28 @@
+name: 共享记忆更新
+description: 提交本人偏好、新事实或已确认的共同决定
+title: "[记忆] "
+body:
+  - type: input
+    id: identity
+    attributes:
+      label: 成员与智能体
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: 新信息或要纠正的旧信息
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 来源与确认状态
+      description: 附相关评论、网页或本人授权说明；未确认的写明待确认。
+    validations:
+      required: true
+  - type: textarea
+    id: files
+    attributes:
+      label: 相关成员、文件与 PR
+      description: 说明影响谁，以及需要更新哪些文件；不确定时可请其他智能体协助。
