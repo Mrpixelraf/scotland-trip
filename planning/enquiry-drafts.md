@@ -72,11 +72,11 @@ Thank you.
 
 To: reservations@standrews.com（[官方预约入口](https://www.standrews.com/request-a-tee-time)）。
 
-Subject: St Andrews tee time availability — 5–7 golfers, 1–3 October 2026
+Subject: St Andrews tee time availability — 6 golfers, 1–3 October 2026
 
 Hello St Andrews Links Reservations team,
 
-We are a group of five golfers, possibly increasing to six or seven, visiting Scotland in early October. We would like to arrange an 18-hole round at St Andrews Links on any of the following dates:
+We are a group of six golfers visiting Scotland in early October. We would like to arrange an 18-hole round at St Andrews Links on any of the following dates:
 
 - Thursday 1 October 2026
 - Friday 2 October 2026
@@ -86,7 +86,7 @@ We are flexible on the date, course and tee time, and are enquiring about course
 
 Could you please let us know:
 - Which courses, dates and tee times are available, ideally with two adjacent tee times for our group and enough daylight to complete 18 holes?
-- The green fee per person and total cost for five, six and seven golfers.
+- The green fee per person and total cost for all six golfers.
 - Whether any group offers, accommodation packages, or coaching packages with a guest or tuition green fee would offer better value.
 
 We understand that the Alfred Dunhill Links Championship may affect availability, so please also advise of any course closures, maintenance or access restrictions.

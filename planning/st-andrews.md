@@ -12,7 +12,7 @@
 | New Course | 9月26–30日、10月1–4日CC；Jubilee/New composite course安排 | 不能作为这一周普通预订备选；10月5日08:00起开放 |
 | Jubilee Course | 9月26–30日、10月1–5日CC | 朋友旅行窗口不可用，5日仍封场 |
 | Eden Course | 9月28–30日、10月1–4日CC；Eden/Strathtyrum composite course安排 | 朋友旅行窗口不可用；10月5日08:00起开放 |
-| The Castle Course | 已显示的日历没有列出9月30日至10月4日限制 | 候选，需要预订部确认5–7人的实际球位 |
+| The Castle Course | 已显示的日历没有列出9月30日至10月4日限制 | 候选，需要预订部确认6人的实际球位 |
 | Craigtoun | 9月27日有活动；10月列12日上午养护，没有列出目标日期限制 | 备选，需要确认实际球位 |
 
 NB是没有抽签，CC是封场，不能将两种代码混为一谈。10月6日没有列出Old限制也不等于能订到；须再确认赛后安排及实际准入方式。
@@ -38,9 +38,9 @@ The Castle Course位于St Andrews，不是高地Cabot的Castle Stuart。前者�
 - 超过14天的其他球场申请：官网visitor booking request form。
 - 未来两周：reservations@standrews.com，+44 (0)1334 466718。
 - 今天/明天：+44 (0)1334 466666。
-- 5/6/7人均需要分成两组，询相邻球位；表单确认收到不等于预订确认。
+- 本次询价6人，分成两组，询相邻球位；表单确认收到不等于预订确认。
 
-最新按本人要求询2026年10月1、2、3日任一天、St Andrews Links除Old Course外的可用球场，日期和时段灵活；Castle、Craigtoun及其他届时开放球场均可提供选项。询5/6/7人的相邻球位、总价、日照与赛事限制；Gmail原草稿已修改，未发送，见[本人要求](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670406244)。此前仅询10月1日上午的范围已替代，既有路线仍为候选。
+最新按本人要求询2026年10月1、2、3日任一天、St Andrews Links除Old Course外的可用球场，日期和时段灵活；Castle、Craigtoun及其他届时开放球场均可提供选项。询6人的相邻球位、总价、日照与赛事限制；Gmail原草稿已修改，未发送，见[日期要求](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670406244)及[人数调整](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670512325)。此前仅询10月1日上午的范围已替代，既有路线仍为候选。
 
 ## 怎样接高地比较合理
 

@@ -28,7 +28,7 @@
 - HGL保留比较基准；不能声称任何方案已证明最好。教练“另加球费”不代表普通访客价，需要书面确认。询价草稿未发送。
 - 旧记录中本人只能30日出发、本人必须5日中午回来，以及Castle Stuart £385默认组合均已替代。
 
-最新[询价范围调整](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670406244)：St Andrews改问10月1–3日任一天、除Old Course外可用球场，日期/球场/时段灵活；Gmail草稿待本人审阅，未发送。这不是最终行程改期。
+最新[询价范围调整](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670406244)：St Andrews改问10月1–3日任一天、除Old Course外可用球场，日期/球场/时段灵活；[本人随后将这封询价人数统一为6人](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670512325)。Gmail草稿待本人审阅，未发送。这不是最终行程改期。
 
 ## 待确认
 
