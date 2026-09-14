@@ -40,7 +40,7 @@ The Castle Course位于St Andrews，不是高地Cabot的Castle Stuart。前者�
 - 今天/明天：+44 (0)1334 466666。
 - 本次询价6人，分成两组，询相邻球位；表单确认收到不等于预订确认。
 
-最新按本人要求询2026年10月1、2、3日任一天、St Andrews Links除Old Course外的可用球场，日期和时段灵活；Castle、Craigtoun及其他届时开放球场均可提供选项。询6人的相邻球位、总价、日照与赛事限制；Gmail原草稿已修改，未发送，见[日期要求](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670406244)及[人数调整](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670512325)。此前仅询10月1日上午的范围已替代，既有路线仍为候选。
+最新按本人要求询2026年10月1、2、3日任一天、St Andrews Links除Old Course外的可用球场，日期和时段灵活；Castle、Craigtoun及其他届时开放球场均可提供选项。询6人的相邻球位、总价、日照与赛事限制，见[日期要求](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670406244)及[人数调整](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670512325)。[本人已于2026-09-14 21:42发送邮件](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670538668)（Europe/London），Gmail已核实SENT状态；截至本次核查未见回信，等待球位及报价。此前仅询10月1日上午的范围已替代，既有路线仍为候选。
 
 ## 怎样接高地比较合理
 

@@ -1,6 +1,8 @@
-# 英文询价草稿（未发送）
+# 英文询价记录与草稿
 
 2026-09-14，代表Mrpixelraf整理。未经授权不发送邮件或提交商家表单。最终人数和同伴资格尚未确定；本人三晚三轮目标£700–900，暂按无球会会员优惠，本人没有正式差点。以下不作预订承诺。
+
+发送状态：St Andrews的6人询价已由本人发送，等待回复；其余询价仍为草稿。
 
 ## Highland Golf Links
 
@@ -68,7 +70,7 @@ Thank you.
 
 ## St Andrews预订部
 
-状态：按本人要求扩大为10月1–3日任一天、St Andrews Links除Old Course外的球场。Gmail原草稿已修改，等待本人审阅，未发送。既有行程仍为候选，将根据回信调整。
+状态：本人已于2026-09-14 21:42（Europe/London）发送，Gmail的SENT记录已核实，见[发送确认](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670538668)。询6人、10月1–3日任一天、St Andrews Links除Old Course外的球场。以下保留已发送正文；截至本次核查未见回信，球位、报价与行程仍待确认。
 
 To: reservations@standrews.com（[官方预约入口](https://www.standrews.com/request-a-tee-time)）。
 
