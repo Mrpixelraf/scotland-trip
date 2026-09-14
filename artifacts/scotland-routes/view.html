@@ -1,0 +1,279 @@
+<div id="scotland-routes">
+  <style>
+    #scotland-routes { --route-east:var(--viz-series-1); --route-west:var(--viz-series-2); }
+    #scotland-routes .trip-head { display:flex;justify-content:space-between;gap:1rem;align-items:center;flex-wrap:wrap;margin-bottom:1rem; }
+    #scotland-routes .trip-head h2 { margin:0; }
+    #scotland-routes .trip-meta { display:flex;gap:1rem;flex-wrap:wrap; }
+    #scotland-routes .trip-map-layout { display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:1.5rem;margin-top:1rem;align-items:start; }
+    #scotland-routes .trip-map { width:100%; min-width:0; }
+    #scotland-routes .trip-map svg { display:block;width:100%; }
+    #scotland-routes .trip-map svg text { fill:var(--foreground);font-size:12px; }
+    #scotland-routes .trip-map .map-label { paint-order:stroke;stroke:var(--background);stroke-width:4px;stroke-linejoin:round; }
+    #scotland-routes .trip-map .map-num { fill:var(--primary-foreground);font-weight:500; }
+    #scotland-routes .trip-legend { display:flex;gap:1rem;flex-wrap:wrap;margin:.5rem 0; }
+    #scotland-routes .trip-legend i { display:inline-block;width:1.6rem;height:3px;vertical-align:middle;margin-right:.3rem;background:var(--route-east); }
+    #scotland-routes .trip-legend .west { background:var(--route-west); }
+    #scotland-routes .trip-detail dl { margin:.5rem 0; }
+    #scotland-routes .trip-detail dt { margin-top:.8rem;font-weight:500; }
+    #scotland-routes .trip-detail dd { margin:.25rem 0 .75rem; }
+    #scotland-routes .trip-spots { margin:1rem 0; }
+    #scotland-routes .trip-spots li { padding:.9rem 0;border-bottom:1px solid var(--border); }
+    #scotland-routes .trip-spots p { margin:.35rem 0; }
+    #scotland-routes .trip-money { display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:1.5rem;margin-top:1.3rem; }
+    #scotland-routes .trip-money section { min-width:0; }
+    #scotland-routes .trip-golf-item { padding:.55rem 0; }
+    #scotland-routes .trip-bar { display:flex;height:16px;width:100%;margin:.7rem 0;overflow:hidden;background:var(--muted); }
+    #scotland-routes .trip-bar span:first-child { background:var(--viz-series-1); }
+    #scotland-routes .trip-bar span:last-child { background:var(--viz-series-2); }
+    #scotland-routes .trip-source-links { display:flex;gap:.8rem;flex-wrap:wrap; }
+    #scotland-routes [hidden] { display:none !important; }
+    #scotland-routes .trip-full { min-width:0; }
+    @media(max-width:780px) {
+      #scotland-routes .trip-map-layout,#scotland-routes .trip-money { grid-template-columns:1fr; }
+      #scotland-routes .trip-map-layout { gap:.7rem; }
+    }
+  </style>
+  <div class="trip-head">
+    <h2>苏格兰 · 两条风景线</h2>
+    <div class="text-small">2026.09.30 — 10.04 · 6位旅行者 · 4晚 · 候选方案</div>
+  </div>
+  <div class="viz-controls" role="group" aria-label="选择路线">
+    <button type="button" class="btn" data-route="east" aria-pressed="true">东线 · 海岸与松林</button>
+    <button type="button" class="btn" data-route="west" aria-pressed="false">西线 · 山谷与半岛</button>
+  </div>
+  <p id="trip-subtitle"></p>
+  <div class="trip-meta text-small" id="trip-meta"></div>
+  <hr>
+  <div class="viz-controls" role="group" aria-label="查看内容">
+    <button type="button" class="btn" data-view="route" aria-pressed="true">地图与每日行程</button>
+    <button type="button" class="btn" data-view="budget" aria-pressed="false">预算与酒店</button>
+    <button type="button" class="btn" data-view="wish" aria-pressed="false">组员的12处愿望</button>
+    <button type="button" class="btn" data-view="sources" aria-pressed="false">研究来源</button>
+  </div>
+  <section data-panel="route" aria-label="地图与每日行程">
+    <div class="viz-controls" id="trip-days" aria-label="选择日期" role="group"></div>
+    <div class="trip-map-layout">
+      <div class="trip-map">
+        <svg id="trip-map-svg" role="img" aria-label="苏格兰东西两条公路候选路线、住宿城镇与12处摄影地点"></svg>
+        <div class="trip-legend text-small"><span><i></i>东线</span><span><i class="west"></i>西线</span><span>数字：组员原图编号</span><span>方块：球场</span></div>
+        <div class="text-small" id="trip-road-summary"></div>
+        <div class="text-small">公路线条为OSRM / OpenStreetMap规划快照；城镇中心与球场定位不代表酒店或停车入口。非徒步导航。</div>
+        <label class="form-label" for="trip-spot-select">查看原图地点如何接入</label>
+        <select class="form-select" id="trip-spot-select"></select>
+        <div id="trip-spot-detail" aria-live="polite"></div>
+      </div>
+      <article class="trip-detail" id="trip-day-detail" aria-live="polite"></article>
+    </div>
+    <hr>
+    <div class="text-small"><strong>9月29日去程：</strong>Essendon球后，谢菲尔德朋友家优先（待联系）；约克备选 <a href="https://www.premierinn.com/gb/en/hotels/england/north-yorkshire/york/york-north-west.html" target="_blank" rel="noopener noreferrer">Premier Inn York North West</a>，个人房费先留£90–150。此晚未计入共同四晚。</div>
+  </section>
+  <section data-panel="budget" aria-label="预算与酒店" hidden>
+    <div class="trip-money">
+      <section>
+        <h3>我想打的球</h3>
+        <div id="trip-rounds"></div>
+        <label class="form-label" for="trip-room">双床房平均每晚（£ / 房）</label>
+        <input id="trip-room" class="form-control" type="number" min="0" max="2000" step="0.5" value="212.5">
+        <div class="text-small">预算输入；默认两人一房、四晚。全团三间双床尚未报价。</div>
+        <p id="trip-budget-error" role="alert" hidden></p>
+      </section>
+      <section aria-live="polite">
+        <h3>我的住宿 + 球费</h3>
+        <div class="card viz-stat"><span class="text-small">当前选择 · 每人</span><div id="trip-person-total" class="viz-stat-value tabular-nums"></div><div id="trip-person-formula" class="text-small"></div></div>
+        <div class="trip-bar" role="img" id="trip-budget-bar" aria-label="住宿与高尔夫费用占比"><span id="trip-lodging-bar"></span><span id="trip-golf-bar"></span></div>
+        <div class="text-small" id="trip-budget-legend"></div>
+        <p class="text-small">不含交通、普通餐饮、教练、租球具、9月29日及10月4日后的个人加住。勾选仅用于个人测算，不会提交报名或改变预订。</p>
+        <p class="text-small" id="trip-all-six"></p>
+      </section>
+    </div>
+    <h3>同一住宿假设下比较两条线</h3>
+    <div class="table-responsive"><table class="table table-sm"><thead><tr><th>路线</th><th>核心两轮</th><th>四晚 + 两轮 / 人</th><th>按£175–250 / 房 / 晚</th></tr></thead><tbody id="trip-compare"></tbody></table></div>
+    <p class="text-small">上表两条线均按完整两轮比较，独立于你的个人勾选；两边使用同一房价假设。西线九洞另加£24.95。</p>
+    <h3>当前路线的酒店选择</h3>
+    <div class="table-responsive"><table class="table table-sm"><thead><tr><th>住宿日</th><th>候选</th><th>价格性质 / 待确认</th></tr></thead><tbody id="trip-hotels"></tbody></table></div>
+    <p class="text-small" id="trip-hotel-note"></p>
+    <details>
+      <summary>996油费与交通怎样另算</summary>
+      <div class="viz-controls">
+        <label class="form-label">全程英里数（含伦敦往返）<input class="form-control" id="trip-mileage" type="number" min="0" max="10000" value="1400"></label>
+        <label class="form-label">每箱实际使用升数<input class="form-control" id="trip-litres" type="number" min="1" max="120" step="1" value="64"></label>
+        <label class="form-label">平均汽油价（£/L）<input class="form-control" id="trip-petrol" type="number" min="0.1" max="10" step="0.01" value="1.8"></label>
+      </div>
+      <p id="trip-fuel-result" aria-live="polite"></p>
+      <p class="text-small">按本人每箱280–300英里计算，64L只是油箱估算，若实际只加55L就应替换。默认1400英里和£1.80/L均为敏感性输入，不是该路线实测里程或Costco实时报价。金额属整辆996，不自动分给6人；第二辆车、停车、租车/机票另询。</p>
+    </details>
+  </section>
+  <section data-panel="wish" aria-label="组员的摄影徒步愿望" hidden>
+    <p>原图包含短程摄影点与山地步道；“西部高地”标签并不表示都在半岛路线附近。</p>
+    <div class="table-responsive"><table class="table table-sm"><thead><tr><th>接入方式</th><th>地点</th><th>对现有行程的影响</th></tr></thead><tbody>
+      <tr><td>东线优先</td><td>2 Loch Morlich、4 Loch Fleet</td><td>1日共同环湖；2日接人后短停。1 Rogie Falls、3 Nairn作备选。</td></tr>
+      <tr><td>西线优先</td><td>5 白屋山峰、6 荒原湖、7 山谷湖</td><td>30日顺路短停，1日上午按天气补看；想完整摄影就不加九洞。</td></tr>
+      <tr><td>需改当天安排</td><td>8 Glenfinnan</td><td>从Glencoe来回另加半天以上；不要叠加在1日山谷活动后。</td></tr>
+      <tr><td>延期 / 重新选线</td><td>9 Eilean Donan、10 Storr、11 Quiraing、12 Elgol</td><td>建议另留Skye至少两晚。若成为全团必去，就要替换Kintyre球局，另算酒店交通。</td></tr>
+    </tbody></table></div>
+    <ol class="trip-spots" id="trip-wishlist"></ol>
+    <p class="text-small">地点及坐标摘自组员提供的公开地图；强度和接送安排为本项目重新研究的提议，未代表该成员确认。未核实的拍摄停留时间均标为预算，不是完整步道时长。</p>
+  </section>
+  <section data-panel="sources" aria-label="研究来源" hidden>
+    <h3>不需要 GitHub 权限的研究资料</h3>
+    <p class="text-small">本页的路线和预算已包含查看所需信息。以下链接是球场、景点和步道资料；GitHub用于共同修改与讨论，现已公开可读。</p>
+    <div class="table-responsive"><table class="table table-sm"><thead><tr><th>项目</th><th>资料</th><th>本页如何使用</th></tr></thead><tbody>
+      <tr><td>原始地点</td><td><a href="https://claude.ai/public/artifacts/fea19929-5477-4189-afa5-a8005c208c0a" target="_blank" rel="noopener noreferrer">组员高地追光地图</a></td><td>12处地点和定位，按两条路线重新安排；不等于全团必去。</td></tr>
+      <tr><td>Brora</td><td><a href="https://www.broragolfclub.co.uk/green_fees_and_booking" target="_blank" rel="noopener noreferrer">官方球费与养护</a></td><td>上午£160；£90下午价未作默认。</td></tr>
+      <tr><td>Boat of Garten</td><td><a href="https://www.boatgolf.com/golf/visitors/" target="_blank" rel="noopener noreferrer">官方访客页</a></td><td>沿用9月14日核查普通价£115；多人优惠待询。</td></tr>
+      <tr><td>Machrihanish</td><td><a href="https://www.machgolf.com/greenfees" target="_blank" rel="noopener noreferrer">官方球费</a> · <a href="https://golf.com/courses/machrihanish-championship/" target="_blank" rel="noopener noreferrer">GOLF世界排名</a> · <a href="https://www.machgolf.com/booking-tandcs" target="_blank" rel="noopener noreferrer">准入与预订条款</a></td><td>十月£120；2025–26世界92。资格、养护与可用球位待书面确认。</td></tr>
+      <tr><td>Dunaverty / Woodlands</td><td><a href="https://www.dunavertygolfclub.com/visitors" target="_blank" rel="noopener noreferrer">Dunaverty 2026价</a> · <a href="https://www.woodlands.scot/golf-course/" target="_blank" rel="noopener noreferrer">Woodlands九洞</a></td><td>分别18洞£65、可选9洞£24.95。</td></tr>
+      <tr><td>湖区开放</td><td><a href="https://forestryandland.gov.scot/visit/forest-parks/glenmore-forest-park" target="_blank" rel="noopener noreferrer">FLS Glenmore最新限制</a></td><td>Loch Morlich环湖开放，Green Lochan等仍关闭，出发前复核。</td></tr>
+      <tr><td>日间徒步</td><td><a href="https://www.walkhighlands.co.uk/sutherland/brora-golspie.shtml" target="_blank" rel="noopener noreferrer">Brora → Golspie</a> · <a href="https://www.walkhighlands.co.uk/cairngorms/boat-of-garten.shtml" target="_blank" rel="noopener noreferrer">Boat河岸环线</a> · <a href="https://www.nts.org.uk/visit/places/glencoe/highlights/outdoor-adventures" target="_blank" rel="noopener noreferrer">Glencoe Greenway</a> · <a href="https://www.walkhighlands.co.uk/argyll/west-port-beach.shtml" target="_blank" rel="noopener noreferrer">West Port Beach</a></td><td>按打球窗口、实际车辆和接送安排选择。</td></tr>
+      <tr><td>自驾路况</td><td><a href="https://www.traffic.gov.scot/" target="_blank" rel="noopener noreferrer">Traffic Scotland</a> · <a href="https://project-osrm.org/" target="_blank" rel="noopener noreferrer">OSRM模型</a></td><td>地图是公路模型快照；不含出发日交通、工程或导航保证。</td></tr>
+      <tr><td>地图底图</td><td><a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noopener noreferrer">Natural Earth</a> · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a></td><td>已投影海岸/湖泊几何与城镇、球场坐标；不是海拔或徒步地形图。</td></tr>
+    </tbody></table></div>
+    <p class="text-small">各摄影地点的独立出处在“组员的12处愿望”里；酒店官网入口在“预算与酒店”里。所有报价和条件以实际确认时为准。</p>
+  </section>
+  <hr>
+  <div class="trip-source-links text-small">
+    <a href="https://claude.ai/public/artifacts/fea19929-5477-4189-afa5-a8005c208c0a" target="_blank" rel="noopener noreferrer">组员参考地图</a>
+    <a href="https://gist.github.com/Mrpixelraf/61a46535507361a21e009e5821afede7" target="_blank" rel="noopener noreferrer">加入项目 · 无需权限的说明</a>
+    <a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noopener noreferrer">Natural Earth 底图</a>
+    <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">© OpenStreetMap contributors</a>
+  </div>
+  <details><summary>成员协作入口 · 公开可读，登录后参与讨论</summary>
+    <p class="text-small">仓库和讨论已公开，任何人都能读取。要代表本人留言或提交修改，请在当前浏览器或智能体中使用自己的GitHub授权；主仓库写入需协作权限。</p>
+    <div class="trip-source-links"><a href="https://github.com/Mrpixelraf/scotland-trip" target="_blank" rel="noopener noreferrer">查看公开旅行项目</a><a href="https://github.com/Mrpixelraf/scotland-trip/issues/2" target="_blank" rel="noopener noreferrer">查看公开讨论</a></div>
+  </details>
+  <p class="text-small">更新2026-09-14 · 英国当地时间 · 无预订。球位、三间双床、无正式WHS准入及guest / coach-hosted rate仍待确认；教练另加球费不等于已经确定普通访客价。</p>
+  <div class="sr-only" id="trip-live" aria-live="polite"></div>
+  <script type="application/json" id="trip-data">__TRIP_DATA__</script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script>
+  (() => {
+    const root=document.getElementById('scotland-routes');
+    const $=id=>root.querySelector('#'+id);
+    const data=JSON.parse($('trip-data').textContent);
+    const state={route:'east',view:'route',day:'01',spot:2,rounds:{}};
+    Object.entries(data.trip.routes).forEach(([k,r])=>state.rounds[k]=new Set(r.golf.filter(g=>g.checked).map(g=>g.id)));
+    const money=n=>'£'+new Intl.NumberFormat('en-GB',{maximumFractionDigits:2}).format(n);
+    const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    const external=(url,label)=>'<a href="'+escape(url)+'" target="_blank" rel="noopener noreferrer">'+escape(label)+'</a>';
+    function renderDay(){
+      const r=data.trip.routes[state.route],day=r.days.find(d=>d.id===state.day);
+      $('trip-days').innerHTML=r.days.map(d=>'<button type="button" class="btn" data-day="'+d.id+'" aria-pressed="'+(d.id===state.day)+'">'+d.label+'</button>').join('');
+      $('trip-day-detail').innerHTML='<div class="text-small">'+day.label+' · '+(day.id==='04'?'返程日':'共同第'+({30:1,'01':2,'02':3,'03':4}[day.id])+'天')+'</div><h3>'+escape(day.title)+'</h3><dl>'+[['自驾',day.drive],['打球组',day.golf],['徒步 / 摄影组',day.walk],['会合与取舍',day.meet],['住哪里',day.hotel]].map(([a,b])=>'<dt>'+a+'</dt><dd>'+escape(b)+'</dd>').join('')+'</dl>';
+      const rd=day.road&&data.roads[day.road];
+      $('trip-road-summary').textContent=rd?'选中日公路模型：约'+rd.properties.miles+'英里 / '+rd.properties.hours+'小时纯驾驶；每日安排另留休息及活动时间。':'选中日为当地活动或返程；地图保留共同段，伦敦往返未绘制。';
+      drawMap();
+    }
+    function renderSpot(){
+      const p=data.trip.spots.find(p=>p.id===state.spot);
+      $('trip-spot-select').value=String(p.id);
+      const map='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(p.parking||p.lat+','+p.lon);
+      $('trip-spot-detail').innerHTML='<p><strong>'+p.id+' · '+escape(p.name)+'</strong> · '+escape(p.fit)+'</p><div class="text-small">'+escape(p.time)+'<br>'+escape(p.note)+'<br>'+escape(p.access)+'</div><div class="trip-source-links text-small">'+external(p.source,'到访来源')+' '+external(map,p.parking?'查看停车位置':'查看原图落点')+(p.walkSource?' '+external(p.walkSource,'步道数据'):'')+'</div>';
+    }
+    function renderBudget(){
+      const r=data.trip.routes[state.route],room=Number($('trip-room').value);
+      const valid=$('trip-room').value!==''&&Number.isFinite(room)&&room>=0&&room<=2000;
+      $('trip-budget-error').hidden=valid;
+      $('trip-budget-error').textContent='请输入0–2000之间的房价。';
+      const golf=r.golf.filter(g=>state.rounds[state.route].has(g.id)).reduce((a,g)=>a+g.fee,0);
+      const lodging=valid?room*4/2:0,total=lodging+golf;
+      $('trip-person-total').textContent=valid?money(total):'—';
+      $('trip-person-formula').textContent=valid?'四晚住宿 '+money(lodging)+' + 已选球费 '+money(golf):'等待有效房价';
+      $('trip-lodging-bar').style.width=valid&&total?lodging/total*100+'%':'0%';
+      $('trip-golf-bar').style.width=valid&&total?golf/total*100+'%':'0%';
+      $('trip-budget-bar').setAttribute('aria-label',valid?'住宿'+money(lodging)+'，球费'+money(golf):'无有效预算');
+      $('trip-budget-legend').textContent=valid?'住宿 '+money(lodging)+'　·　高尔夫 '+money(golf):'';
+      $('trip-all-six').textContent=valid?'只有6人都选择相同球局，才可将此条件合计为 '+money(total*6)+' / 全团。各人选择不同应分别相加。':'';
+      $('trip-compare').innerHTML=Object.entries(data.trip.routes).map(([key,route])=>{
+        const g=route.golf.filter(g=>g.holes===18).reduce((a,g)=>a+g.fee,0);
+        return '<tr><td>'+escape(route.name)+'</td><td>'+money(g)+'</td><td>'+(valid?money(lodging+g):'—')+'</td><td>'+money(350+g)+'–'+money(500+g)+'</td></tr>';
+      }).join('');
+      $('trip-hotels').innerHTML=r.hotels.map(h=>'<tr><td>'+h[0]+'</td><td>'+external(h[3],h[1])+'</td><td>'+escape(h[2])+'</td></tr>').join('');
+      $('trip-hotel-note').textContent=state.route==='east'?'东线此前已见单房价的条件算例：Atholl £259 + Kingsmills两晚£325 + Fisher’s £184，两人分摊住宿£384/人，加两轮£659/人。不是三房可购买报价，未自动代入上方模型。':'西线四晚暂无目标日期三房报价；£175–250/房/晚是筛选预算。Ugadale住客优惠不能自动用于Machrihanish Championship，须分别询价。';
+      renderFuel();
+    }
+    function renderFuel(){
+      const miles=Number($('trip-mileage').value),litres=Number($('trip-litres').value),price=Number($('trip-petrol').value);
+      const ok=[$('trip-mileage'),$('trip-litres'),$('trip-petrol')].every(x=>x.value!==''&&x.checkValidity());
+      $('trip-fuel-result').textContent=ok?'整辆996耗油价值约 '+money(miles/300*litres*price)+'–'+money(miles/280*litres*price)+'；未并入人均住宿球费。':'请填写有效的全程里程、补油量与油价。';
+    }
+    function renderRoute(){
+      const r=data.trip.routes[state.route];
+      root.querySelectorAll('[data-route]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.route===state.route));
+      $('trip-subtitle').textContent=r.subtitle;
+      $('trip-meta').innerHTML='<span>'+escape(r.base)+'</span><span>共同段道路约'+r.miles+'英里 · 不含伦敦往返 / 额外绕行</span>';
+      $('trip-rounds').innerHTML=r.golf.map(g=>'<div class="trip-golf-item"><label class="form-check"><input type="checkbox" class="form-check-input" data-round="'+g.id+'" '+(state.rounds[state.route].has(g.id)?'checked':'')+'><span class="form-check-label">'+escape(g.date)+' · '+escape(g.name)+' · '+g.holes+'洞 · '+money(g.fee)+'</span></label><div class="text-small">'+escape(g.rank)+' · '+external(g.source,'球费来源')+'</div></div>').join('');
+      renderDay();renderSpot();renderBudget();
+    }
+    function drawMap(){
+      if(state.view!=='route')return;
+      const el=$('trip-map-svg'),width=el.parentElement.clientWidth,height=width<420?510:590;
+      if(!window.d3){el.innerHTML='<text x="10" y="30">地图未加载，请使用每日行程与地点清单。</text>';return;}
+      const d3=window.d3,svg=d3.select(el).attr('viewBox',`0 0 ${width} ${height}`).attr('height',height);
+      svg.selectAll('*').remove();
+      svg.append('title').text('东线与西线、原图12处候选地点');
+      svg.append('desc').text('地图使用地理投影与实际道路几何；数字详情可通过下方下拉框访问。');
+      const corners={type:'MultiPoint',coordinates:[[-6.55,55.18],[-2.9,58.18]]};
+      const projection=d3.geoMercator().fitExtent([[18,22],[width-18,height-25]],corners);
+      const path=d3.geoPath(projection);
+      svg.append('defs').append('clipPath').attr('id','trip-map-clip').append('rect').attr('width',width).attr('height',height);
+      const layer=svg.append('g').attr('clip-path','url(#trip-map-clip)');
+      layer.append('rect').attr('width',width).attr('height',height).attr('fill','var(--background)');
+      layer.selectAll('.land').data(data.basemap.features).join('path').attr('d',path).attr('fill','var(--muted)').attr('stroke','var(--border)').attr('stroke-width',.8);
+      layer.selectAll('.lake').data(data.lakes.features).join('path').attr('d',path).attr('fill','var(--background)').attr('stroke','var(--border)').attr('stroke-width',.5);
+      Object.keys(data.trip.routes).forEach(route=>{
+        Object.entries(data.roads).filter(([k])=>k.startsWith(route)).forEach(([k,r])=>{
+          const current=route===state.route&&k===state.route+state.day;
+          layer.append('path').attr('d',path(r)).attr('fill','none').attr('stroke',route==='east'?'var(--route-east)':'var(--route-west)').attr('stroke-width',current?4:2).attr('opacity',route===state.route?.95:.3).attr('stroke-linecap','round').attr('stroke-linejoin','round');
+        });
+      });
+      // Positions are projected OSM coordinates; only label offsets are adjusted.
+      const townKeys=['edinburgh','pitlochry','inverness','glencoe','oban','tarbert','balloch'];
+      const offsets={edinburgh:[-8,19],pitlochry:[8,5],inverness:[8,4],glencoe:[-9,19],oban:[-8,16],tarbert:[8,4],balloch:[8,5]};
+      townKeys.forEach(k=>{
+        const p=data.places[k],[x,y]=projection([p.lon,p.lat]),[dx,dy]=offsets[k];
+        layer.append('circle').attr('cx',x).attr('cy',y).attr('r',3).attr('fill','var(--foreground)');
+        if(width<420&&['glencoe','tarbert','balloch'].includes(k))return;
+        layer.append('text').attr('class','map-label').attr('x',x+dx).attr('y',y+dy).attr('text-anchor',dx<0?'end':'start').text(p.name);
+      });
+      ['brora','boat','mach','dunaverty'].forEach(k=>{
+        const p=data.places[k],[x,y]=projection([p.lon,p.lat]);
+        layer.append('rect').attr('x',x-4).attr('y',y-4).attr('width',8).attr('height',8).attr('fill','var(--foreground)');
+        layer.append('text').attr('class','map-label').attr('x',x+9).attr('y',y+(k==='mach'?-7:5)).text({brora:'Brora',boat:'Boat',mach:'Machrihanish',dunaverty:'Dunaverty'}[k]);
+      });
+      // Displace crowded numbered labels, keeping leaders tied to geographic anchors.
+      const mapOffsets={1:[-14,-13],2:[26,28],3:[22,-17],4:[-17,-18],5:[16,-24],6:[25,20],7:[-30,-5],8:[-12,-20],9:[24,-6],10:[-16,-9],11:[-8,-18],12:[-18,16]};
+      data.trip.spots.forEach(p=>{
+        const [ax,ay]=projection([p.lon,p.lat]),[dx,dy]=mapOffsets[p.id],x=Math.max(15,Math.min(width-15,ax+dx)),y=ay+dy;
+        const active=p.id===state.spot;
+        layer.append('line').attr('x1',ax).attr('y1',ay).attr('x2',x).attr('y2',y).attr('stroke','var(--muted-foreground)').attr('stroke-width',.8);
+        layer.append('circle').attr('cx',ax).attr('cy',ay).attr('r',2).attr('fill','var(--foreground)');
+        const g=layer.append('g').style('cursor','pointer').on('click',()=>{state.spot=p.id;renderSpot();drawMap();});
+        g.append('circle').attr('cx',x).attr('cy',y).attr('r',active?14:11).attr('fill',active?'var(--primary)':'var(--background)').attr('stroke','var(--foreground)').attr('stroke-width',active?1.5:.8);
+        g.append('text').attr('x',x).attr('y',y+4).attr('text-anchor','middle').style('fill',active?'var(--primary-foreground)':'var(--foreground)').text(p.id);
+        g.append('circle').attr('cx',x).attr('cy',y).attr('r',17).attr('fill','transparent');
+      });
+      const [scaleStart]=projection([-6.35,55.45]),[scaleEnd]=projection([-5.552,55.45]);
+      const sx=18,sy=height-45,ex=sx+scaleEnd-scaleStart;
+      layer.append('line').attr('x1',sx).attr('y1',sy).attr('x2',ex).attr('y2',sy).attr('stroke','var(--foreground)').attr('stroke-width',2);
+      layer.append('text').attr('x',sx).attr('y',sy+17).text('约50 km');
+    }
+    root.addEventListener('click',e=>{
+      const b=e.target.closest('button');if(!b)return;
+      if(b.dataset.route){state.route=b.dataset.route;state.spot=state.route==='east'?2:5;renderRoute();}
+      if(b.dataset.day){state.day=b.dataset.day;const d=data.trip.routes[state.route].days.find(d=>d.id===state.day);if(d.spots.length)state.spot=d.spots[0];renderDay();renderSpot();}
+      if(b.dataset.view){state.view=b.dataset.view;root.querySelectorAll('[data-view]').forEach(x=>x.setAttribute('aria-pressed',x.dataset.view===state.view));root.querySelectorAll('[data-panel]').forEach(x=>x.hidden=x.dataset.panel!==state.view);drawMap();}
+      if(b.dataset.spot){state.spot=Number(b.dataset.spot);state.view='route';root.querySelector('[data-view="route"]').click();renderSpot();drawMap();}
+    });
+    root.addEventListener('change',e=>{
+      if(e.target.dataset.round){const selected=state.rounds[state.route];e.target.checked?selected.add(e.target.dataset.round):selected.delete(e.target.dataset.round);renderBudget();}
+      if(e.target.id==='trip-spot-select'){state.spot=Number(e.target.value);renderSpot();drawMap();}
+    });
+    $('trip-room').addEventListener('input',renderBudget);
+    ['trip-mileage','trip-litres','trip-petrol'].forEach(id=>$(id).addEventListener('input',renderFuel));
+    $('trip-spot-select').innerHTML=data.trip.spots.map(p=>'<option value="'+p.id+'">'+p.id+' · '+escape(p.name)+' · '+escape(p.fit)+'</option>').join('');
+    $('trip-wishlist').innerHTML=data.trip.spots.map(p=>'<li><div><strong>'+escape(p.name)+'</strong> · '+escape(p.fit)+'</div><div class="text-small">'+escape(p.time)+'</div><p>'+escape(p.note)+'</p><div class="text-small">'+escape(p.access)+' '+external(p.source,'来源')+'</div><button type="button" class="btn btn-ghost" data-spot="'+p.id+'">地图查看 '+p.id+'</button></li>').join('');
+    new ResizeObserver(()=>drawMap()).observe($('trip-map-svg').parentElement);
+    renderRoute();
+  })();
+  </script>
+</div>

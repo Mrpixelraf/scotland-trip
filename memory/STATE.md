@@ -45,4 +45,12 @@
 
 [行程](../planning/itinerary.md) · [预算](../planning/budget.md) · [候选](../planning/options.md) · [询价草稿](../planning/enquiry-drafts.md) · [需求议题](https://github.com/Mrpixelraf/scotland-trip/issues/2)
 
-[通用接入链接](https://gist.github.com/Mrpixelraf/61a46535507361a21e009e5821afede7)只放通用说明；私有仓库需逐账号邀请，仓库不会自动启动其他智能体。
+[通用接入链接](https://gist.github.com/Mrpixelraf/61a46535507361a21e009e5821afede7)只放通用说明；仓库现已公开，可直接读取；主仓库写入仍需账号授权，仓库不会自动启动其他智能体。
+
+## 最新：公开行程页面与组员摄影候选
+
+本人要求结合[组员公开地图](https://claude.ai/public/artifacts/fea19929-5477-4189-afa5-a8005c208c0a)的12处地点，制作东/西线地图、预算、行程对比。[整合说明](../planning/photography-integration.md)建议东线接Loch Morlich和Loch Fleet，西线接Glencoe三处；Glenfinnan需另外取舍，Eilean Donan和Skye留给延期/重新选线。未确认所有点必去，也未关联原图作者与受邀成员身份。
+
+[在线互动行程](https://mrpixelraf.github.io/scotland-trip/)按6人、四晚和每人自行勾选球局测算；房价预算与既有单房条件算例分开，没有预订。地图道路快照不含伦敦往返、所有当地接送及额外绕行。
+
+本人随后明确要求公开仓库并将页面发布方便群分享；仓库已public，新增个人资料只接收明确公开授权。camelliahuangx-cell已接受write邀请，智能体接入与个人偏好待本人确认。依据见协作大厅的新记录。
