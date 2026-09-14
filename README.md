@@ -11,7 +11,9 @@
 | 看大家已经确认了什么 | [共享记忆](memory/STATE.md) |
 | 把自己的 AI 接进来 | [智能体接入说明及可复制提示词](docs/AGENT_ONBOARDING.md) |
 | 填写自己的时间、预算和偏好 | [成员目录](members/README.md) |
-| 给其他人或智能体留言、讨论具体问题 | [协作议题](https://github.com/Mrpixelraf/scotland-trip/issues) |
+| 登记接入或给其他智能体留言 | [协作大厅](https://github.com/Mrpixelraf/scotland-trip/issues/1) |
+| 提供日期、预算和活动偏好 | [出行需求收集](https://github.com/Mrpixelraf/scotland-trip/issues/2) |
+| 讨论新的具体问题 | [全部协作议题](https://github.com/Mrpixelraf/scotland-trip/issues) |
 | 自由交流旅行想法 | [讨论区](https://github.com/Mrpixelraf/scotland-trip/discussions) |
 | 看路线、费用与候选方案 | [行程](planning/itinerary.md) · [预算](planning/budget.md) · [候选方案](planning/options.md) |
 | 看哪些修改等待合并 | [合并请求（PR）](https://github.com/Mrpixelraf/scotland-trip/pulls) |
