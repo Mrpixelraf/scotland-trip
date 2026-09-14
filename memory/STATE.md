@@ -8,10 +8,10 @@
 
 | 项目 | 当前内容 |
 | --- | --- |
-| 人数与目的 | 最新询价与方案按6名球友，高地高尔夫为主；大家从伦敦出发，球友交通方式待定 |
+| 人数与目的 | 6位旅行者；本人转述部分人只想打一轮，其他时间徒步，各轮人数待登记。大家从伦敦出发，交通方式待定；已发St Andrews询价仍为6人原文 |
 | 共同窗口 | 按2026-09-30至10-04研究；球友最迟10-05 12:00前回伦敦，Europe/London |
 | 本人去程 | 09-29「伊森登」球后优先住谢菲尔德朋友家（尚待联系），约克酒店备选；30日最快中午到爱丁堡，下午可继续赶路。利兹口误已更正 |
-| 核心打球日 | 10-02与10-03；10-04留空不排球，10-01可考虑加一轮，优先查沿线高性价比世界百佳 |
+| 核心打球日 | 10-02与10-03；10-04不排球，10-01曾考虑加打。现选Machrihanish为可选第三场，具体日期及是否延期未定 |
 | 本人返程 | 可晚于球友、慢慢开；不受10月5日中午期限限制，日期未定 |
 | 用车 | 拟两台；本人倾向996，也接受飞行租车。一箱280–300英里、98号汽油、可Costco；64L仅估算假设 |
 | 本人预算 | 既有偏好为三晚住宿＋三轮球£700–900/人，不含交通餐饮；新版四晚两轮预算待确认，尚非全团共同预算 |
@@ -23,7 +23,9 @@
 
 [最新路线要求](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670627361)已替代此前默认1–3日连续三轮及29日固定约克。[新酒店与路线方案](../planning/route-hotel-options.md)：30日Dunkeld/Pitlochry，1、2日Inverness，2日Brora、3日Boat后南下Pitlochry；若4日INV返程则3日晚留Inverness。四晚两轮按£700–850/人作新预算建议，未获全团报价。Kingsmills 1–3日两晚Classic Twin实查£325/房但仅见2间；Dunkeld 30日仅见1间标准双床，不足以确认3房。其他成员同从伦敦出发，交通、会合和拼房未定。
 
-最新[1日加打需求](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670943874)：本人认为现有安排大体合理，1日可考虑加球。研究首选询Cruden Bay £205（GOLF世界61），需30日改住Aberdeen一带；2日Brora、3日Boat、4日空出保留。三轮£480/人，四晚住宿占位合计£780–880/人，未获球位、3房及全团预算确认。Royal Dornoch十月£360、North Berwick £320、Royal Aberdeen官方£295；Machrihanish £120离主线远。没有发送新增询价。
+最新[半岛与分组活动需求](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5671174938)已替代Cruden Bay首选：本人认为Cruden绕路，选择Machrihanish Championship（世界92、十月£120）作为可选第三场，部分同行者只想打一轮。新增[打球＋徒步方案](../planning/golf-walking-routes.md)：A保留Brora、Boat，1日共同游湖，2日Brora→Golspie沿海11km并顺路接人，3日Boat河岸山林9.75km环线；朋友4日返程，本人及能延期者可另经Glencoe/Oban到半岛，暂拟6日加打。B让全团4日前去Kintyre，需重选原来的两轮。本人尚未确认A/B、延期日期或取消Brora/Boat。三轮全选球费£395，但各人仅计实际参打项目；延长段酒店交通另由参与者承担。
+
+旧Cruden三轮改线与£780–880预算保留为已替代研究，不再作为默认。没有发送商家询价。
 
 此前新增需求：[观赛与世界/英爱百强性价比](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670346157)。[筛选报告](../planning/top100-value.md)：Machrihanish世界92、十月£120；Cruden Bay世界61、本期平日£205/7日起£140但邻近养护；Brora英爱59、13:30起£90。个人西线/东线加打分别比较，不全部加入两轮主方案。赛事1–3日免费，4日成人售票£21.20另£1/订单，未买票。
 
@@ -37,7 +39,7 @@
 
 ## 待确认
 
-各成员账号、6人最终名单、球友自驾或飞行及会合/返程地点、本人以外成员差点与会员情况、四晚两轮的共同预算与拼房、两组三人球位、3间双床实际库存、教练、车辆装载及费用分摊。
+各成员账号、6人最终名单、每轮参加人数和徒步偏好、北线延期或全团西线取舍、本人延期日期、球友交通及返程地点、本人以外成员差点、共同预算与拼房、按实际人数询球位、3间双床实际库存、教练、车辆装载与接送、费用分摊。
 
 [行程](../planning/itinerary.md) · [预算](../planning/budget.md) · [候选](../planning/options.md) · [询价草稿](../planning/enquiry-drafts.md) · [需求议题](https://github.com/Mrpixelraf/scotland-trip/issues/2)
 

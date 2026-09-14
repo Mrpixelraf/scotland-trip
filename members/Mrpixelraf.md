@@ -11,12 +11,13 @@
 | 活动 | 高地高尔夫为主；希望排名靠前、性价比好，优先resort / stay-and-play优惠；研究教练与guest rate |
 | 车辆 | 优先本人Porsche 996；如疲劳、时间或租车性价比更合适，可以一起租车 |
 | 油耗输入 | 一箱280–300英里，平常98号汽油，可Costco加油；车型版本和实际补满升数待确认 |
-| 人数 | 最新询价和方案按6名球友；拟两台车。本人确认大家从伦敦出发，其他人交通方式及床型尚待确认 |
+| 人数 | 6位旅行者，拟两台车，大家从伦敦出发；本人转述部分人只想打一轮，其他时间徒步。各轮名单、其他人交通方式及床型待确认；不默认6人每轮都打 |
 | 打球日期 | 10月2、3日为核心，4日空出；认为现有安排基本合理，1日可以考虑插一轮，新增优先研究沿线高性价比世界百佳；[本人补充](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670943874)。尚未选定球场或酒店 |
 | 本人预算 | 三晚住宿＋三轮球£700–900/人，不含交通餐饮；重视整体体验，未代表全团确认 |
 | 差点 / 会员资格 | 本人只有平时记成绩，没有正式差点证明；报告大家好像都不是球会会员，预算先按无会员优惠 |
 | 进一步偏好 | 尽量找世界或英国/英爱Top 100中超高性价比球场；研究Alfred Dunhill现场观赛与门票，不等于已决定买票 |
 | 新增球场要求 | Castle Stuart £385太贵，不作为默认；研究St Andrews tee time，见[最新补充](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670280139) |
+| 最新加打选择 | 撤下Cruden Bay首选，Machrihanish Championship作为可选第三场，重视Kintyre半岛风景；尚未确认放弃Brora/Boat或延长至6日；[本人补充](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5671174938) |
 | 球场与自驾体验 | 希望球场风格迥异、景色不同；综合道路风景、住宿、驾驶和整体体验，见[最新补充](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670185939) |
 | 酒店、双床或单住、餐饮 | 待确认 |
 

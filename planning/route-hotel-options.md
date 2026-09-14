@@ -2,7 +2,7 @@
 
 2026-09-14更新。依据[本人最新路线与打球日期](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670627361)。本人随后确认大家都从伦敦出发；其他球友自驾、飞行或铁路方式尚未定。按6人、3间双床房比较，仅为规划假设，未代表同行者确认拼房。
 
-最新补充：本人认为本框架基本合理，10月1日可以考虑加打世界百佳。新增[Cruden Bay三轮分支](top100-value.md)：30日改住Aberdeen一带、1日Cruden后到Inverness，2日Brora、3日Boat不变；球位和改线尚未确认。下面保留两轮基线及原目标日期酒店查询记录。
+最新[半岛与徒步需求](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5671174938)：Cruden Bay首选已撤下；Machrihanish作为可选第三场，部分人只打一轮。新增[打球与徒步路线](golf-walking-routes.md)，比较北线保留并由能延期者去半岛，或全团改西线、重选球场。下面为北线及原目标日期酒店查询记录；若改西线，不沿用这些房价作为新路线报价。
 
 ## 当前建议
 
@@ -41,7 +41,7 @@
 | 10-02 | Brora：传统海岸links，海景、天然起伏 | 十月13:20前£160/人；13:30起£90/人 | Top100GolfCourses 2026英爱第59。基础采用上午场，余量更好；£90作为价格优先备选，须确认两组日照和完赛时间。9月16日暂定果岭养护，需要确认恢复 |
 | 10-03 | Boat of Garten：松林、石楠、Cairngorms山景 | 先按普通访客£115/人 | 与Brora风格差异大，且位于南返途中。既有核查为苏格兰第32，不能说英爱百强。四球£300能否按4+2配组适用须问球会，不预先按£75/人算全团 |
 
-两轮合计£275/人、6人£1,650。若Brora最早优惠时段获确认，则£205/人、6人£1,230。两组相邻球位、养护恢复和无正式差点者的准入仍需确认；会员优惠未计。
+两轮都打合计£275/人；只有6人全打才为£1,650。最新有成员只打一轮，应逐人计费。若Brora最早优惠时段获确认，则两轮全打£205/人，6人全打£1,230。两组相邻球位、养护恢复和无正式差点者的准入仍需确认；会员优惠未计。
 
 来源：[Brora球费与养护](https://www.broragolfclub.co.uk/green_fees_and_booking)、[Brora排名页面](https://www.top100golfcourses.com/golf-course/brora/reviews)、[Boat官方访客页](https://www.boatgolf.com/golf/visitors/)。Boat价格沿用当日此前直接核查，本轮该页访问返回403；未把其价格当成已保留的球位。
 

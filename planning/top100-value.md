@@ -2,9 +2,13 @@
 
 查询日2026-09-14。本人认可现有路线大体合理，最新希望在10月1日考虑加打一轮，并优先查沿线高性价比世界百佳。2、3日仍为核心，4日留空。以下均未确认球位，改线仅为提议。最新来源：[10月1日世界百佳研究](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670943874)；此前[世界/英爱百强需求](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670346157)。
 
-## 本次判断
+## 当前判断
 
-10月1日新增一轮，首选询 **Cruden Bay Championship £205/人**。它是GOLF 2025–26世界第61，价格明显低于沿线Royal Dornoch £360、North Berwick £320以及本人已否决的Castle Stuart £385，但需要30日改经Aberdeen。维持A9与Perthshire住宿原线时，本次没有找到已核实、约£120–200而又适合本团1日白天打的世界百佳；不能据此声称所有私人报价已经穷尽。
+[本人最新选择](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5671174938)：Cruden Bay太绕路，撤下首选；Machrihanish Championship £120成为可选第三场，重视半岛景观，部分同行者只想打一轮。参见[打球、徒步与半岛路线](golf-walking-routes.md)。Machrihanish与Brora、Boat不顺路，保留北线时适合延期者单独去；全团要在4日前去半岛则需重选其他两轮。路线和延期日期尚未决定。
+
+## 已被替代的Cruden判断
+
+此前10月1日新增一轮，首选询 **Cruden Bay Championship £205/人**。它是GOLF 2025–26世界第61，价格明显低于沿线Royal Dornoch £360、North Berwick £320以及本人已否决的Castle Stuart £385，但需要30日改经Aberdeen。维持A9与Perthshire住宿原线时，本次没有找到已核实、约£120–200而又适合本团1日白天打的世界百佳；不能据此声称所有私人报价已经穷尽。
 
 Machrihanish的£120才属于特别低价的世界百佳，但在Kintyre半岛，不宜硬插入这几天的高地路线。可作为本人延长西线返程的另一趟安排。
 
@@ -28,7 +32,9 @@ Machrihanish的£120才属于特别低价的世界百佳，但在Kintyre半岛�
 
 价格一手来源：[Royal Dornoch 2026–27官方PDF](https://royaldornoch.com/wp-content/uploads/2025/03/GREEN-FEES-26-27-1.pdf)、[North Berwick](https://www.northberwickgolfclub.com/green_fee_information)、[Royal Aberdeen 2026官方手册](https://online.fliphtml5.com/gmpn/kchp/)第2页（浏览器人工核读，优先于第三方文章的£285）、[Machrihanish](https://www.machgolf.com/greenfees)（March/October价格图片人工核读18洞£120、日票£190；2027另页）、[Cruden Bay](https://crudenbaygolfclub.co.uk/visitors/green-fees/)、[Brora](https://www.broragolfclub.co.uk/green_fees_and_booking)、[Silloth](https://www.sillothgolfclub.co.uk/green_fees)、[Elie](https://www.golfhouseclub.co.uk/green_fees)、[St Andrews](https://standrews.com/golf)。
 
-## 10月1日Cruden Bay三轮分支
+## 已撤下：10月1日Cruden Bay三轮分支
+
+本人已因绕路撤下这一提议，以下保留历史研究，不继续作为当前询价首选。
 
 以下时刻是拟询/规划窗口，不是已查到的空位，时间均为Europe/London。
 
@@ -49,7 +55,7 @@ Machrihanish的£120才属于特别低价的世界百佳，但在Kintyre半岛�
 
 **预算：**Cruden £205＋Brora上午£160＋Boat普通访客£115＝£480/人，6人£2,880。四晚共享住宿先占位£300–400/人，合计£780–880/人；不含交通、普通餐饮、教学及29日/慢返个人额外住宿。这是重新改线的预算框架，不是实际3间双床可订报价。此前Kingsmills两晚£325/房只显示2间；9月30日改到Aberdeen的酒店尚无目标日期报价。Brora若获最早£90时段，球费可减£70，但不能先当作已获得。
 
-## 需要通过询价核实的条件
+## 历史Cruden询价清单（当前不发送）
 
 Cruden官网明确**没有在线订场系统**；目前只能确认公开费率，不能确认1日六人有位。收件地址可用[官网价格页](https://crudenbaygolfclub.co.uk/visitors/green-fees/)列出的elaine@crudenbaygolfclub.co.uk。以下为询价清单，未发送邮件：
 
