@@ -60,11 +60,13 @@ Machrihanish在西南Kintyre半岛，Brora和Boat在北部高地，两边不顺�
 
 ## B：如果全团都要在4日前去半岛
 
-建议改为30日Edinburgh→Inveraray一晚，1日Loch Fyne与Tarbert慢行到Kintyre，1–3日晚在Machrihanish/Campbeltown连续住三晚；2、3日分别安排打球/徒步，4日离开。连续住可让打球少的人真正拥有独立活动时间。
+本人现要求单独重做西线并重视山地，最新详见[Glencoe＋Kintyre独立方案](western-mountains-golf.md)：加入Glencoe山谷、Machrihanish £120与Dunaverty £65两场18洞、可选Woodlands九洞。下文为此前仅走Inveraray的概念方案，保留取舍参考；当前仍未选定北线或西线。
 
-这个版本只能自然容纳2、3日两轮：Machrihanish作为世界百佳主选，附近Dunaverty可作较短海岸球场候选；不再同时去Brora、Boat。Dunaverty当年费用仍待球会报价，不能称其世界百佳。若第三轮也要、4日还空着，则须把一轮放1日并减少观光，或本人延期；不把“三轮可选”变成所有人连续三天必须打。
+此前建议改为30日Edinburgh→Inveraray一晚，1日Loch Fyne与Tarbert慢行到Kintyre，1–3日晚在Machrihanish/Campbeltown连续住三晚；2、3日分别安排打球/徒步，4日离开。连续住可让打球少的人真正拥有独立活动时间。
 
-截至本次查询，[Dunaverty官方订场入口](https://dunaverty.cw.sct.dotgolf.co.uk/Teebooking/SearchClubDay.aspx)3日可见08:20、08:30、08:40各四个空位，09:00–10:40为Winter League；2日页面未返回可用时段，不等于证明全天封场。没有点击预订或锁位，价格未显示。若要采用B，应同时问2日/3日两家球场，按实际人数重排，不直接把早场视为已订。
+这个版本只能自然容纳2、3日两轮：Machrihanish作为世界百佳主选，附近Dunaverty可作较短海岸球场候选；不再同时去Brora、Boat。Dunaverty现已核到[官方2026价](https://www.dunavertygolfclub.com/visitors)：本期18洞£65；不能称其世界百佳。若第三轮也要、4日还空着，则须把一轮放1日并减少观光，或本人延期；不把“三轮可选”变成所有人连续三天必须打。
+
+截至本次查询，[Dunaverty官方订场入口](https://dunaverty.cw.sct.dotgolf.co.uk/Teebooking/SearchClubDay.aspx)3日可见08:20、08:30、08:40各四个空位，09:00–10:40为Winter League；2日页面未返回可用时段，不等于证明全天封场。没有点击预订或锁位，订场页价格未显示；其后找到官网2026访客表，本期为£65。若要采用B，应同时问2日/3日两家球场，按实际人数重排，不直接把早场视为已订。
 
 返程需单独核算：球会称Machrihanish→Glasgow约3小时纯驾驶，留3.5–4.5小时公路余量，再加还车和机场办理。若球友自己开车回伦敦，3日早球后向Loch Lomond/Glasgow转场、最后一晚改住那里更合理；连续住三晚的版本更适合4日从GLA离开的成员。未核验GLA具体航班，不能承诺到达伦敦时刻。半岛道路情况出发前看[Traffic Scotland](https://www.traffic.gov.scot/)。
 

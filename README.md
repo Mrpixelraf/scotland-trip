@@ -4,7 +4,7 @@
 
 **当前阶段：按6位旅行者比较打球＋徒步；每轮参加人数不同，2、3日为核心、4日不排球。Cruden Bay已撤下，Machrihanish作为可选第三场；保留北线并延期去半岛，或全团改西线，尚待取舍。29日谢菲尔德优先、约克备选；30日最快中午到爱丁堡。尚无预订。**
 
-最新：[打球、徒步与可选半岛路线](planning/golf-walking-routes.md) · [按两轮重排的路线与酒店实价](planning/route-hotel-options.md) · [世界/英爱百强高性价比筛选](planning/top100-value.md) · [St Andrews球位与赛事冲突](planning/st-andrews.md) · [球场、自驾与住宿综合方案](planning/integrated-road-trip.md) · [HGL套餐与教练研究](planning/highland-golf-research.md)。发起人计划9月29日打球后优先住谢菲尔德朋友家、约克备选，30日中午后到爱丁堡，返程可晚于球友；10月5日中午回伦敦的期限仅适用于球友。日期按2026年记录，详见[行程草案](planning/itinerary.md)。
+最新：[西线独立方案：山谷＋半岛选球](planning/western-mountains-golf.md) · [打球、徒步与可选半岛路线](planning/golf-walking-routes.md) · [按两轮重排的路线与酒店实价](planning/route-hotel-options.md) · [世界/英爱百强高性价比筛选](planning/top100-value.md) · [St Andrews球位与赛事冲突](planning/st-andrews.md) · [球场、自驾与住宿综合方案](planning/integrated-road-trip.md) · [HGL套餐与教练研究](planning/highland-golf-research.md)。发起人计划9月29日打球后优先住谢菲尔德朋友家、约克备选，30日中午后到爱丁堡，返程可晚于球友；10月5日中午回伦敦的期限仅适用于球友。日期按2026年记录，详见[行程草案](planning/itinerary.md)。
 
 ## 球友第一次加入
 
