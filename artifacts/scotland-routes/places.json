@@ -126,5 +126,45 @@
     "source": "https://nominatim.openstreetmap.org/search?q=Fort+William%2C+Scotland&format=jsonv2&limit=1",
     "osm_id": 17917137,
     "osm_type": "node"
+  },
+  "portree": {
+    "name": "Portree",
+    "lat": 57.4130532,
+    "lon": -6.194446,
+    "source": "https://nominatim.openstreetmap.org/search?q=Portree%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 46628151,
+    "osm_type": "node"
+  },
+  "sligachan": {
+    "name": "Sligachan Hotel",
+    "lat": 57.2898328,
+    "lon": -6.1749502,
+    "source": "https://nominatim.openstreetmap.org/search?q=Sligachan+Hotel%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 166801651,
+    "osm_type": "way"
+  },
+  "skye": {
+    "name": "Isle of Skye Golf Club",
+    "lat": 57.3113081,
+    "lon": -6.0931191,
+    "source": "https://nominatim.openstreetmap.org/search?q=Isle+of+Skye+Golf+Club%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 264435988,
+    "osm_type": "way"
+  },
+  "invergarry": {
+    "name": "Invergarry",
+    "lat": 57.0697214,
+    "lon": -4.8049621,
+    "source": "https://nominatim.openstreetmap.org/search?q=Invergarry%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 60669893,
+    "osm_type": "node"
+  },
+  "invermoriston": {
+    "name": "Invermoriston",
+    "lat": 57.2148494,
+    "lon": -4.6174311,
+    "source": "https://nominatim.openstreetmap.org/search?q=Invermoriston%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 373284525,
+    "osm_type": "node"
   }
 }

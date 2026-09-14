@@ -20,6 +20,7 @@
 | 最新加打选择 | 撤下Cruden Bay首选，Machrihanish Championship作为可选第三场，重视Kintyre半岛风景；尚未确认放弃Brora/Boat或延长至6日；[本人补充](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5671174938) |
 | 球场与自驾体验 | 希望球场风格迥异、景色不同；综合道路风景、住宿、驾驶和整体体验，见[最新补充](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670185939) |
 | 西线比较 | 认为已有计划挺好，要求单独重新规划西线并选球会；补充观光希望进入山地。尚未确认改线或以九洞代替第三轮18洞；[本人补充](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5671333616) |
-| 酒店、双床或单住、餐饮 | 待确认 |
+| 天空岛新增方案 | 要求保留东/西线并新增第三条天空岛线，以海岛山地观光、徒步为重心，兼顾好且性价比高的球场；未同意取消旧方案；[本人要求](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5671719947) |
+| 酒店、双床或单住、餐饮 | 希望有特色、性价比高、尽可能有适用优惠；床型、单住/拼房、餐饮待确认 |
 
 授权范围沿用会话：建立并维护旅行共享仓库、相关研究、方案与项目内讨论。本人已自行发送[St Andrews 6人询价](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670538668)；未授权智能体代发其他询价或付款、订房、订球位。其他询价先写草稿。无后台自动巡检。

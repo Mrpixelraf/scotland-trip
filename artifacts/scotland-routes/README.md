@@ -1,4 +1,4 @@
-# 苏格兰东西线互动行程
+# 苏格兰东线、西线与天空岛互动行程
 
 在线分享：[https://mrpixelraf.github.io/scotland-trip/](https://mrpixelraf.github.io/scotland-trip/)。GitHub Pages从`main:/docs`发布。
 
@@ -6,7 +6,7 @@
 
 ## 文件与更新
 
-- `trip.json`：12处摄影候选、两条路线、每日活动、球费和酒店说明。
+- `trip.json`：12处摄影候选、三条路线、每日活动、球费和酒店说明。
 - `places.json`：从OpenStreetMap Nominatim取得的城镇/球场点，含请求来源与OSM ID。
 - `roads.json`：OSRM公路几何与模型里程/时间，含实际查询URL和途经点；不含伦敦往返，不能作徒步导航。
 - `basemap.json`、`lakes.json`：Natural Earth 1:10m国界/海岸及湖泊，裁剪苏格兰行程范围、简化并调整D3投影环方向。
@@ -35,4 +35,6 @@ python3 scripts/build-route-artifact.py
 
 ## 核验
 
-交互检查覆盖东/西线、每日高亮、12处地点、核心两轮/只打一轮/可选九洞、房价与无效输入、996敏感性计算；360、736、1024px明暗主题检查无页面横向溢出。商家价格为已查询费率或明确标注的预算，不是订位确认。
+交互检查覆盖东/西/天空岛线、每日高亮、12处地点、核心两轮/只打一轮/可选九洞、房价与无效输入、996敏感性计算；360、736、1024px明暗主题检查无页面横向溢出。商家价格为已查询费率或明确标注的预算，不是订位确认。
+
+天空岛线以`skye`为数据键，`spotOverrides`仅覆盖该线路的地点说明，保留其他两条路线。页面默认打开天空岛，可用`?route=east`、`?route=west`、`?route=skye`指定首次显示。三线比较用两轮18洞；Sconser为9果岭两圈，未误标世界百佳。第三日路程长与未核定球位已在每日详情明示。
