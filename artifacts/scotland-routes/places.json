@@ -1,0 +1,130 @@
+{
+  "edinburgh": {
+    "name": "Edinburgh",
+    "lat": 55.9533456,
+    "lon": -3.1883749,
+    "source": "https://nominatim.openstreetmap.org/search?q=Edinburgh%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 1920901,
+    "osm_type": "relation"
+  },
+  "pitlochry": {
+    "name": "Pitlochry",
+    "lat": 56.7036239,
+    "lon": -3.7355093,
+    "source": "https://nominatim.openstreetmap.org/search?q=Pitlochry%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 260624619,
+    "osm_type": "node"
+  },
+  "inverness": {
+    "name": "Inverness",
+    "lat": 57.4790124,
+    "lon": -4.225739,
+    "source": "https://nominatim.openstreetmap.org/search?q=Inverness%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 21063119,
+    "osm_type": "node"
+  },
+  "brora": {
+    "name": "Brora Golf Club",
+    "lat": 58.0234824,
+    "lon": -3.8426685,
+    "source": "https://nominatim.openstreetmap.org/search?q=Brora+Golf+Club%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 264432772,
+    "osm_type": "way"
+  },
+  "boat": {
+    "name": "Boat of Garten Golf Club",
+    "lat": 57.2505521,
+    "lon": -3.751713,
+    "source": "https://nominatim.openstreetmap.org/search?q=Boat+of+Garten+Golf+Club%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 562713312,
+    "osm_type": "node"
+  },
+  "callander": {
+    "name": "Callander",
+    "lat": 56.2436941,
+    "lon": -4.2148033,
+    "source": "https://nominatim.openstreetmap.org/search?q=Callander%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 369986773,
+    "osm_type": "way"
+  },
+  "crianlarich": {
+    "name": "Crianlarich",
+    "lat": 56.3903333,
+    "lon": -4.6184447,
+    "source": "https://nominatim.openstreetmap.org/search?q=Crianlarich%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 6749038713,
+    "osm_type": "node"
+  },
+  "glencoe": {
+    "name": "Glencoe",
+    "lat": 56.6827647,
+    "lon": -5.1014552,
+    "source": "https://nominatim.openstreetmap.org/search?q=Glencoe%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 25706756,
+    "osm_type": "node"
+  },
+  "oban": {
+    "name": "Oban",
+    "lat": 56.4120166,
+    "lon": -5.4723731,
+    "source": "https://nominatim.openstreetmap.org/search?q=Oban%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 26238533,
+    "osm_type": "node"
+  },
+  "lochgilphead": {
+    "name": "Lochgilphead",
+    "lat": 56.0375018,
+    "lon": -5.4330903,
+    "source": "https://nominatim.openstreetmap.org/search?q=Lochgilphead%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 26262972,
+    "osm_type": "node"
+  },
+  "tarbert": {
+    "name": "Tarbert",
+    "lat": 55.8634451,
+    "lon": -5.4152486,
+    "source": "https://nominatim.openstreetmap.org/search?q=Tarbert%2C+Argyll+and+Bute%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 3612309,
+    "osm_type": "relation"
+  },
+  "mach": {
+    "name": "Machrihanish Golf Club",
+    "lat": 55.423061,
+    "lon": -5.7312743,
+    "source": "https://nominatim.openstreetmap.org/search?q=Machrihanish+Golf+Club%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 956139199,
+    "osm_type": "way"
+  },
+  "dunaverty": {
+    "name": "Dunaverty Golf Club",
+    "lat": 55.3108128,
+    "lon": -5.6336864,
+    "source": "https://nominatim.openstreetmap.org/search?q=Dunaverty+Golf+Club%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 3463808,
+    "osm_type": "relation"
+  },
+  "inveraray": {
+    "name": "Inveraray",
+    "lat": 56.2303491,
+    "lon": -5.0730947,
+    "source": "https://nominatim.openstreetmap.org/search?q=Inveraray%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 26241742,
+    "osm_type": "node"
+  },
+  "balloch": {
+    "name": "Balloch",
+    "lat": 56.0023629,
+    "lon": -4.5832835,
+    "source": "https://nominatim.openstreetmap.org/search?q=Balloch%2C+West+Dunbartonshire%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 7197538319,
+    "osm_type": "node"
+  },
+  "fortwilliam": {
+    "name": "Fort William",
+    "lat": 56.8178257,
+    "lon": -5.1109516,
+    "source": "https://nominatim.openstreetmap.org/search?q=Fort+William%2C+Scotland&format=jsonv2&limit=1",
+    "osm_id": 17917137,
+    "osm_type": "node"
+  }
+}
