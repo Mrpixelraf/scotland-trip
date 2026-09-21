@@ -8,6 +8,10 @@
 
 [同日补充核查](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5763928851)已读到六套既有候选：Solas 9/30–10/3三晚£1,342（4卧，各住一间，3间洗浴＋WC）；Cuillin Cottage 9/30–10/4四晚£1,280（3卧4床1.5卫，至少4晚）；Croft41四晚£2,132，实际Borneskitaig而非Portree镇中心。Lon Godrum四晚£1,920但卫浴标注冲突；Cnoc三晚£2,219较贵且偏西北；Seaview目标日不可订。以上均4成人整套价。Solas另试1–3日两晚不可订。三/四晚岛上连住需要重核30日交通及3日Boat/4日返程，不能直接套原两晚路线；暂优先讨论Solas与Cuillin，未选房或预订。
 
+## 当前住宿优先级：路线筛选替代房屋单独排名
+
+[本人再次要求优化](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5764274585)后，主选改为Portree Bay £978两晚、单间备选Aurora £917两晚（均4成人10/1–3）。原Solas/Cuillin优先排名退为历史。30日Glencoe、岛上两晚、3日Pitlochry；2日撤下默认Quiraing折返，道路模型从68英里/1.7小时降至27英里/0.7小时；不含额外接送。3日Boat需先确认约11:00–11:30合适球位与准入，仍为最重驾驶日，未擅自取消或预订。前后夜四人酒店、交通及单住需求待确认。
+
 ## 当前有效事实
 
 来源：[时间与人员](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670106483)、[风格与路景](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670185939)、[预算、资格与St Andrews](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670280139)。关于球友的约束由发起人转述，待本人登记。

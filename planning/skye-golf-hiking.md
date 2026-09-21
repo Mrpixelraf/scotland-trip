@@ -4,6 +4,8 @@
 
 **2026-09-21人数修正：当前总共4人，旧6人、三房、两个tee time及5人交通均为历史研究条件，不能直接套用。最新见[四人整套房](four-person-stays.md)；本方案仍待选线和床型确认。**
 
+**9月21日路线优先修订**：[当前精简方案](four-person-stays.md)与[本人要求](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5764274585)替代下文旧版2日球后Quiraing折返、双tee time和过多酒店候选。岛上只留Portree Bay主选/Aurora单间备选，1日一条主徒步，2日仅球场及南侧附近活动，3日Boat先核合适上午末段球位。下文保留原研究条件，不作为逐项全塞入的执行单。
+
 ## 推荐结构与主要取舍
 
 9月30日优先Glasgow Central日间火车＋同店租车（29日晚卧铺作升级） → Loch Lomond / A82 / Glencoe一晚 → 10月1、2日天空岛两晚 → 3日经Loch Ness、Inverness去Boat of Garten打球，晚住Pitlochry → 4日朋友铁路或自驾返伦敦。29日Essendon球后谢菲尔德朋友家优先、约克备选不变。6人、两车、核心打球日2/3日、4日不排球；朋友5日中午前回伦敦，本人可延期。爱丁堡已取消必经要求，具体票车尚未购买，详见[火车、飞机、卧铺及球包成本](skye-transport.md)。

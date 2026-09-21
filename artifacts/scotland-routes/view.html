@@ -43,7 +43,7 @@
     <button type="button" class="btn" data-route="west" aria-pressed="false">西线 · 山谷与半岛</button>
     <button type="button" class="btn" data-route="skye" aria-pressed="true">天空岛线 · 海岛与群山</button>
   </div>
-  <p class="text-small"><strong>9月21日更新：总共4人。</strong>具体高地选线与床型待确认；<a href="https://github.com/Mrpixelraf/scotland-trip/blob/main/planning/four-person-stays.md" target="_blank" rel="noopener noreferrer">新增四人整套房比较</a>。交通页仍是9月15日的5人历史报价，需重新查询。</p>
+  <p class="text-small"><strong>9月21日更新：总共4人。</strong>具体高地选线与床型待确认；<a href="https://github.com/Mrpixelraf/scotland-trip/blob/main/planning/four-person-stays.md" target="_blank" rel="noopener noreferrer">路线筛选：两套岛上住宿</a>。交通页仍是9月15日的5人历史报价，需重新查询。</p>
   <p id="trip-subtitle"></p>
   <p class="text-small" id="trip-tradeoff"></p>
   <div class="trip-meta text-small" id="trip-meta"></div>
@@ -99,6 +99,7 @@
     <h3>当前路线的住宿选择</h3>
     <div class="table-responsive"><table class="table table-sm"><thead><tr><th>住宿日</th><th>候选</th><th>价格性质 / 待确认</th></tr></thead><tbody id="trip-hotels"></tbody></table></div>
     <p class="text-small" id="trip-hotel-note"></p>
+    <details id="trip-hotel-archive" hidden><summary>已退出主选的房源与旧酒店研究</summary><p class="text-small">仅供追溯，日期与人数条件各异；不再作为本轮投票清单。</p><div class="table-responsive"><table class="table table-sm"><thead><tr><th>原日期</th><th>旧候选</th><th>原查询条件</th></tr></thead><tbody id="trip-hotel-archive-rows"></tbody></table></div></details>
     <details>
       <summary>996油费与交通怎样另算</summary>
       <div class="viz-controls">
@@ -139,7 +140,7 @@
       <tr><td>东线优先</td><td>2 Loch Morlich、4 Loch Fleet</td><td>1日共同环湖；2日接人后短停。1 Rogie Falls、3 Nairn作备选。</td></tr>
       <tr><td>西线优先</td><td>5 白屋山峰、6 荒原湖、7 山谷湖</td><td>30日顺路短停，1日上午按天气补看；想完整摄影就不加九洞。</td></tr>
       <tr><td>需改当天安排</td><td>8 Glenfinnan</td><td>从Glencoe来回另加半天以上；不要叠加在1日山谷活动后。</td></tr>
-      <tr><td>天空岛线</td><td>9 Eilean Donan、10 Storr、11 Quiraing、12 Elgol</td><td>已新增天空岛线：岛上连住两晚，1日Storr主徒步、2日Quiraing短景观；Elgol作替换。东/西线仍不包含这些点。</td></tr>
+      <tr><td>天空岛线</td><td>9 Eilean Donan、10 Storr、11 Quiraing、12 Elgol</td><td>已新增天空岛线：岛上连住两晚，1日Storr主徒步、2日球后留南侧附近；Quiraing仅作替换；Elgol作替换。东/西线仍不包含这些点。</td></tr>
     </tbody></table></div>
     <ol class="trip-spots" id="trip-wishlist"></ol>
     <p class="text-small">地点及坐标摘自组员提供的公开地图；强度和接送安排为本项目重新研究的提议，未代表该成员确认。未核实的拍摄停留时间均标为预算，不是完整步道时长。</p>
@@ -228,6 +229,8 @@
       }).join('');
       $('trip-hotels').innerHTML=r.hotels.map(h=>'<tr><td>'+h[0]+'</td><td>'+external(h[3],h[1])+'</td><td>'+escape(h[2])+'</td></tr>').join('');
       $('trip-hotel-note').textContent=r.hotelNote;
+      $('trip-hotel-archive').hidden=!(r.hotelArchive&&r.hotelArchive.length);
+      $('trip-hotel-archive-rows').innerHTML=(r.hotelArchive||[]).map(h=>'<tr><td>'+escape(h[0])+'</td><td>'+external(h[3],h[1])+'</td><td>'+escape(h[2])+'</td></tr>').join('');
       renderFuel();
     }
     function renderFuel(){
