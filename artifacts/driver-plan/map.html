@@ -1,0 +1,62 @@
+<div id="driver-map-2026">
+  <style>
+    #driver-map-2026 .map-surface { width:100%;display:block; }
+    #driver-map-2026 .map-surface text { fill:var(--foreground);font-size:12px; }
+    #driver-map-2026 .map-surface .land { fill:var(--muted);stroke:var(--border);stroke-width:0.7; }
+    #driver-map-2026 .map-surface .road { fill:none;stroke:var(--viz-series-1);stroke-width:2;opacity:.3; }
+    #driver-map-2026 .map-surface .selected { stroke-width:3.5;opacity:1; }
+    #driver-map-2026 .map-surface .stop { fill:var(--foreground); }
+  </style>
+  <label class="form-label">完整自驾路线 · 2026年9月29日—10月5日
+    <select class="form-select" aria-label="选择路线日期">
+      <option value="all">全程 · London → Skye → London</option>
+      <option value="sep29">9/29 · Essendon → Sheffield</option>
+      <option value="sep30">9/30 · Sheffield → Glencoe → Fort William</option>
+      <option value="oct01">10/1 · 上岛与 Storr 徒步</option>
+      <option value="oct02">10/2 · Sconser 高尔夫</option>
+      <option value="oct03">10/3 · Boat of Garten → Pitlochry</option>
+      <option value="oct04">10/4 · Pitlochry → Penrith（建议）</option>
+      <option value="oct05">10/5 · Penrith → London（建议）</option>
+    </select>
+  </label>
+  <svg class="map-surface" role="img" aria-label="从北伦敦经谢菲尔德、Glencoe、天空岛、Boat of Garten、Pitlochry、Penrith回伦敦的道路地图"></svg>
+  <div class="text-small" aria-live="polite" data-detail></div>
+  <div class="text-small text-muted">地理：Natural Earth / OpenStreetMap · 道路：OSRM · 城镇级路线，非实时导航</div>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script>
+  (()=>{
+    const root=document.getElementById('driver-map-2026'), data=__DRIVER_GEO__;
+    const keys=['sep29','sep30','oct01','oct02','oct03','oct04','oct05'];
+    const stops=[['northlondon','North London'],['sheffield','Sheffield'],['essendon','Essendon'],['glencoe','Glencoe'],['fortwilliam','Fort William'],['portree','Portree / Skye'],['boat','Boat of Garten'],['pitlochry','Pitlochry'],['penrith','Penrith']];
+    const svg=d3.select(root.querySelector('svg')), select=root.querySelector('select');
+    function draw(){
+      const w=root.clientWidth,h=Math.min(650,Math.max(470,w*.87)),k=select.value;
+      const features=keys.map(id=>data.roads[id]);
+      const focus={type:'FeatureCollection',features:k==='all'?features:[data.roads[k]]};
+      const projection=d3.geoMercator().fitExtent([[50,45],[w-90,h-50]],focus),path=d3.geoPath(projection);
+      svg.attr('viewBox',`0 0 ${w} ${h}`).selectAll('*').remove();
+      svg.append('title').text('London—Skye 完整自驾道路地图');
+      svg.append('defs').append('clipPath').attr('id','driver-map-clip').append('rect').attr('width',w).attr('height',h);
+      const g=svg.append('g').attr('clip-path','url(#driver-map-clip)');
+      g.selectAll('.land').data(data.basemap.features).join('path').attr('class','land').attr('d',path);
+      g.selectAll('.road').data(features).join('path').attr('class',(_,i)=>'road'+(k==='all'||keys[i]===k?' selected':'')).attr('d',path);
+      const placed=[];
+      stops.forEach(([id,name])=>{
+        const p=data.places[id],xy=projection([p.lon,p.lat]);
+        if(xy[0]<8||xy[0]>w-8||xy[1]<15||xy[1]>h-15)return;
+        g.append('circle').attr('class','stop').attr('cx',xy[0]).attr('cy',xy[1]).attr('r',3);
+        const len=name.length*6.6;
+        for(const dy of [-9,17,-24,32]){
+          const left=xy[0]+8+len>w?xy[0]-len-8:xy[0]+8,top=xy[1]+dy-11;
+          const box=[left,top,left+len,top+14];
+          if(left<3||box[2]>w-3||top<3||box[3]>h-3||placed.some(b=>box[0]<b[2]+4&&box[2]>b[0]-4&&box[1]<b[3]+4&&box[3]>b[1]-4))continue;
+          g.append('text').attr('x',left).attr('y',top+11).text(name);placed.push(box);break;
+        }
+      });
+      const chosen=k==='all'?features:[data.roads[k]],miles=chosen.reduce((s,f)=>s+f.properties.miles,0),hours=chosen.reduce((s,f)=>s+f.properties.hours,0);
+      root.querySelector('[data-detail]').textContent=`道路模型：${miles.toLocaleString()}英里 · ${hours.toFixed(1)}小时纯驾驶；不含休息、拥堵、景点停车与额外接送。`;
+    }
+    select.addEventListener('change',draw);new ResizeObserver(draw).observe(root);draw();
+  })();
+  </script>
+</div>
