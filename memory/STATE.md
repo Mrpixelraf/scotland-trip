@@ -6,6 +6,8 @@
 
 [本人最新请求](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5763843443)确认总共4人，要求研究高地整套房；具体东线/天空岛与床型仍待明确。[四人住宿候选](../planning/four-person-stays.md)暂按天空岛2026-10-01至10-03两晚、4成人查询：Aurora View £917（4卧5床1卫）、Portree Bay Cottage £978（3卧4床1卫，床型待核）、Kyleakin小屋£630（2卧3床1卫，需共床）。均为整套两晚显示价，未订房。旧6人三房酒店与5人交通报价保留为历史，不适用于本次人数。
 
+[同日补充核查](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5763928851)已读到六套既有候选：Solas 9/30–10/3三晚£1,342（4卧，各住一间，3间洗浴＋WC）；Cuillin Cottage 9/30–10/4四晚£1,280（3卧4床1.5卫，至少4晚）；Croft41四晚£2,132，实际Borneskitaig而非Portree镇中心。Lon Godrum四晚£1,920但卫浴标注冲突；Cnoc三晚£2,219较贵且偏西北；Seaview目标日不可订。以上均4成人整套价。Solas另试1–3日两晚不可订。三/四晚岛上连住需要重核30日交通及3日Boat/4日返程，不能直接套原两晚路线；暂优先讨论Solas与Cuillin，未选房或预订。
+
 ## 当前有效事实
 
 来源：[时间与人员](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670106483)、[风格与路景](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670185939)、[预算、资格与St Andrews](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670280139)。关于球友的约束由发起人转述，待本人登记。

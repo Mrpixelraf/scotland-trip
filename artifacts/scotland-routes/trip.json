@@ -525,6 +525,42 @@
       ],
       "hotels": [
         [
+          "9/30–10/3，3晚",
+          "Solas · Kensaleyre · 各住一间",
+          "4成人整套£1,342；£111.83/人/晚。4卧（3 king＋1单人），3间洗浴＋WC；三层楼梯。另试10/1–3两晚显示不可订。",
+          "https://www.airbnb.co.uk/rooms/588127713334685474?adults=4&check_in=2026-09-30&check_out=2026-10-03"
+        ],
+        [
+          "9/30–10/4，4晚",
+          "Cuillin Cottage · Carbost · 价格优先",
+          "4成人整套£1,280；£80/人/晚。3卧4床（2双人＋2单人）、1.5卫；最少4晚。近海湾、Talisker与西侧山地。",
+          "https://www.airbnb.co.uk/rooms/945664648342157519?adults=4&check_in=2026-09-30&check_out=2026-10-04"
+        ],
+        [
+          "9/30–10/4，4晚",
+          "Croft41 · Borneskitaig · 景观升级",
+          "4成人整套£2,132；£133.25/人/晚。4卧6床2卫、海景烧木浴池。实际Uig以北，房东称离Portree 22英里，并非镇中心。",
+          "https://www.airbnb.co.uk/rooms/23572198?adults=4&check_in=2026-09-30&check_out=2026-10-04"
+        ],
+        [
+          "9/30–10/4，4晚",
+          "Lon Godrum · Glenhinnisdal · 待核",
+          "4成人整套£1,920；£120/人/晚。4 king卧室；页头1卫与正文4套内卫浴矛盾，暂无评价，先核设施。",
+          "https://www.airbnb.co.uk/rooms/1698477143598702928?adults=4&check_in=2026-09-30&check_out=2026-10-04"
+        ],
+        [
+          "9/30–10/3，3晚",
+          "Cnoc Na Lobhta · Totaig · 较贵",
+          "4成人整套£2,219；£184.92/人/晚。4卧6床，3间洗浴＋WC。西北Loch Dunvegan景观，去Sconser/Boat较绕，仅2条评价。",
+          "https://www.airbnb.co.uk/rooms/1679676892428394127?adults=4&check_in=2026-09-30&check_out=2026-10-03"
+        ],
+        [
+          "9/30–10/4，4晚",
+          "Seaview · 暂剔除",
+          "清单显示所选日期不可订，没有有效目标日报价。",
+          "https://www.airbnb.co.uk/rooms/50513618"
+        ],
+        [
           "10/1–3，2晚",
           "Aurora View · Edinbane",
           "9/21查4成人：整套两晚£917，£229.25/人；4卧5床1卫，可每人一间；9/26前免费取消。未锁房。",
@@ -585,7 +621,7 @@
           "https://www.fishershotelpitlochry.com/"
         ]
       ],
-      "hotelNote": "9/21整套房查询仅含10/1入住、10/3退房的岛上两晚、4成人；前后两晚另计。Aurora可每人一间，Portree Bay须核床型，Kyleakin需共床。价格与取消条款以预订确认页为准，没有锁房。上方四晚双床预算是独立模型，未自动代入两晚整套房价。其余旧酒店来源与三房条件均为9/14历史研究。",
+      "hotelNote": "9/21按4成人核查：上方既有候选为3晚/4晚，新增备选为10/1–3两晚，不能只比较整套总价。Solas优先各住一间，Cuillin优先价格。四晚住到4日须重排3日Boat/Pitlochry；Cuillin也可付四晚费提前离开，但闲置夜不自动退款。前五套取消摘要为预订后24小时免费、9/23前部分退款；两晚备选另标日期，最终以确认页为准。原30日Glencoe+两晚Skye+3日Pitlochry路线尚未改动；预算模型没有自动代入上述整套房。旧酒店研究仍按9/14历史条件保留。",
       "spotOverrides": {
         "1": {
           "fit": "不加入天空岛主线",
