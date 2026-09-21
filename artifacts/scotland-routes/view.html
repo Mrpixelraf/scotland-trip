@@ -36,13 +36,14 @@
   </style>
   <div class="trip-head">
     <h2>苏格兰 · 三条风景线</h2>
-    <div class="text-small">2026.09.30 — 10.04 · 6位旅行者 · 4晚 · 候选方案</div>
+    <div class="text-small">2026.09.30 — 10.04 · 4位旅行者 · 4晚 · 候选方案</div>
   </div>
   <div class="viz-controls" role="group" aria-label="选择路线">
     <button type="button" class="btn" data-route="east" aria-pressed="false">东线 · 海岸与松林</button>
     <button type="button" class="btn" data-route="west" aria-pressed="false">西线 · 山谷与半岛</button>
     <button type="button" class="btn" data-route="skye" aria-pressed="true">天空岛线 · 海岛与群山</button>
   </div>
+  <p class="text-small"><strong>9月21日更新：总共4人。</strong>具体高地选线与床型待确认；<a href="https://github.com/Mrpixelraf/scotland-trip/blob/main/planning/four-person-stays.md" target="_blank" rel="noopener noreferrer">新增四人整套房比较</a>。交通页仍是9月15日的5人历史报价，需重新查询。</p>
   <p id="trip-subtitle"></p>
   <p class="text-small" id="trip-tradeoff"></p>
   <div class="trip-meta text-small" id="trip-meta"></div>
@@ -80,7 +81,7 @@
         <div id="trip-rounds"></div>
         <label class="form-label" for="trip-room">双床房平均每晚（£ / 房）</label>
         <input id="trip-room" class="form-control" type="number" min="0" max="2000" step="0.5" value="212.5">
-        <div class="text-small">预算输入；默认两人一房、四晚。全团三间双床尚未报价。</div>
+        <div class="text-small">预算输入；默认两人一房、四晚。四人可按两间双床测算，床型与库存待确认；整套房报价见下表。</div>
         <p id="trip-budget-error" role="alert" hidden></p>
       </section>
       <section aria-live="polite">
@@ -89,13 +90,13 @@
         <div class="trip-bar" role="img" id="trip-budget-bar" aria-label="住宿与高尔夫费用占比"><span id="trip-lodging-bar"></span><span id="trip-golf-bar"></span></div>
         <div class="text-small" id="trip-budget-legend"></div>
         <p class="text-small">不含交通、普通餐饮、教练、租球具、9月29日及10月4日后的个人加住。勾选仅用于个人测算，不会提交报名或改变预订。</p>
-        <p class="text-small" id="trip-all-six"></p>
+        <p class="text-small" id="trip-all-group"></p>
       </section>
     </div>
     <h3>同一住宿假设下比较三条线</h3>
     <div class="table-responsive"><table class="table table-sm"><thead><tr><th>路线</th><th>核心两轮</th><th>四晚 + 两轮 / 人</th><th>按£175–250 / 房 / 晚</th></tr></thead><tbody id="trip-compare"></tbody></table></div>
     <p class="text-small">上表均按两轮18洞比较，独立于个人勾选，使用同一房价假设；天空岛一轮是在9个果岭打两圈。西线可选九洞另加£24.95。天空岛酒店实际可能更贵，下方另列筛选预算。</p>
-    <h3>当前路线的酒店选择</h3>
+    <h3>当前路线的住宿选择</h3>
     <div class="table-responsive"><table class="table table-sm"><thead><tr><th>住宿日</th><th>候选</th><th>价格性质 / 待确认</th></tr></thead><tbody id="trip-hotels"></tbody></table></div>
     <p class="text-small" id="trip-hotel-note"></p>
     <details>
@@ -106,15 +107,16 @@
         <label class="form-label">平均汽油价（£/L）<input class="form-control" id="trip-petrol" type="number" min="0.1" max="10" step="0.01" value="1.8"></label>
       </div>
       <p id="trip-fuel-result" aria-live="polite"></p>
-      <p class="text-small">按本人每箱280–300英里计算，64L只是油箱估算，若实际只加55L就应替换。默认1400英里和£1.80/L均为敏感性输入，不是该路线实测里程或Costco实时报价。金额属整辆996，不自动分给6人；第二辆车、停车、火车票、租车及异地还车费另询。</p>
+      <p class="text-small">按本人每箱280–300英里计算，64L只是油箱估算，若实际只加55L就应替换。默认1400英里和£1.80/L均为敏感性输入，不是该路线实测里程或Costco实时报价。金额属整辆996，不自动分给4人；第二辆车、停车、火车票、租车及异地还车费另询。</p>
     </details>
   </section>
   <section data-panel="transport" aria-label="天空岛交通费用比较" hidden>
-    <h3>天空岛线：Glasgow日间火车优先，29日晚卧铺作升级</h3>
+    <h3>历史交通比较 · 2026年9月15日查询</h3>
+    <p><strong>现在总共4人；以下仍是原5人公共交通查询，未重新报价。</strong>乘客数、包厢组合和车辆须重新确定，不能直接拿旧总价除以4。原研究建议Glasgow日间火车，29日晚卧铺作升级。</p>
     <p>30日中午到Glasgow后同店取车，4日还车再坐火车回伦敦。对带球包的朋友，日间火车的价格和衔接更有竞争力；想30日早些开始玩，可选29日晚的真正卧铺。</p>
     <p class="text-small" id="trip-transport-basis"></p>
     <div class="viz-controls">
-      <label class="form-label" for="trip-car-class">同车5人 · 车型比较<select class="form-select" id="trip-car-class"><option value="van">自动九座 · Tourneo级（或同级）</option><option value="mpv">自动七座 · Caddy级（装载待核）</option></select></label>
+      <label class="form-label" for="trip-car-class">旧条件：同车5人 · 车型比较<select class="form-select" id="trip-car-class"><option value="van">自动九座 · Tourneo级（或同级）</option><option value="mpv">自动七座 · Caddy级（装载待核）</option></select></label>
       <label class="form-label" for="trip-flight-bag">飞机普通行李额外预留（£ / 人 / 往返）<input class="form-control" id="trip-flight-bag" type="number" min="0" max="600" step="1" value="80"></label>
     </div>
     <label class="form-check"><input class="form-check-input" type="checkbox" id="trip-golf-bag" checked><span class="form-check-label">我乘飞机时要托运1个球包（≤20kg，往返£90）</span></label>
@@ -175,7 +177,7 @@
     <p class="text-small">仓库和讨论已公开，任何人都能读取。要代表本人留言或提交修改，请在当前浏览器或智能体中使用自己的GitHub授权；主仓库写入需协作权限。</p>
     <div class="trip-source-links"><a href="https://github.com/Mrpixelraf/scotland-trip" target="_blank" rel="noopener noreferrer">查看公开旅行项目</a><a href="https://github.com/Mrpixelraf/scotland-trip/issues/2" target="_blank" rel="noopener noreferrer">查看公开讨论</a></div>
   </details>
-  <p class="text-small">更新2026-09-15 · 英国当地时间 · 无预订。球位、三间双床、无正式WHS准入及guest / coach-hosted rate仍待确认；教练另加球费不等于已经确定普通访客价。</p>
+  <p class="text-small">更新2026-09-21 · 英国当地时间 · 无预订。房源与交通分别注明查询日期；四人床型、球位、无正式WHS准入及guest / coach-hosted rate仍待确认。</p>
   <div class="sr-only" id="trip-live" aria-live="polite"></div>
   <script type="application/json" id="trip-data">__TRIP_DATA__</script>
   <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
@@ -219,7 +221,7 @@
       $('trip-golf-bar').style.width=valid&&total?golf/total*100+'%':'0%';
       $('trip-budget-bar').setAttribute('aria-label',valid?'住宿'+money(lodging)+'，球费'+money(golf):'无有效预算');
       $('trip-budget-legend').textContent=valid?'住宿 '+money(lodging)+'　·　高尔夫 '+money(golf):'';
-      $('trip-all-six').textContent=valid?'只有6人都选择相同球局，才可将此条件合计为 '+money(total*6)+' / 全团。各人选择不同应分别相加。':'';
+      $('trip-all-group').textContent=valid?'只有4人都选择相同球局，才可将此条件合计为 '+money(total*4)+' / 全团。各人选择不同应分别相加。':'';
       $('trip-compare').innerHTML=Object.entries(data.trip.routes).map(([key,route])=>{
         const g=route.golf.filter(g=>g.holes===18).reduce((a,g)=>a+g.fee,0);
         return '<tr><td>'+escape(route.name)+'</td><td>'+money(g)+'</td><td>'+(valid?money(lodging+g):'—')+'</td><td>'+money(350+g)+'–'+money(500+g)+'</td></tr>';
