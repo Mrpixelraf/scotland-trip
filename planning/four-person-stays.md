@@ -1,5 +1,7 @@
 # 四人住宿候选：既有清单与新增备选
 
+**最新整合见[完整自驾与住宿预算](personal-driving-plan.md)。** 2026-09-21进一步实查后，30日原Isles of Glencoe双床无有效库存，改建议同路Fort William的Clan Macduff两间Twin含早£400；3日Fisher’s两间Cosy Twin含早£388已在四人两房选择中核对。以下前后酒店“待核”与原预算保留为早先研究，以上述新报告为准；均未预订。
+
 查询：**2026-09-21，Europe/London**。[本人最新人数与研究要求](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5763843443)：总共4人，替代此前6人。本人称“高地那条路线”，具体东线或天空岛线仍待明确；以下只适用于天空岛候选，未确认全团选线、拼房或预订。
 
 ## 当前主选：按路线只留两套
