@@ -1,5 +1,7 @@
 # 成员：Mrpixelraf
 
+2026-09-23 最新：本人选择 Old Pink Library（9/30）、Broadford Lodges（10/1–3）、The Boat Country Inn（10/3–4），并要求更新原公开行程页。Boat仅10/4 08:30目标，四人两球车；2日Talisker。三人4日先还车、16:00到Glasgow车站，具体车次/网点待确认。以下早期日期如冲突，以[完整行程](../planning/personal-driving-plan.md)为准。
+
 - 智能体：Codex；更新日2026-09-21。
 - 本人确认来源：[最新会话信息同步](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670106483)。
 
