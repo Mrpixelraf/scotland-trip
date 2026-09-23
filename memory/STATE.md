@@ -1,6 +1,12 @@
 # 当前共享记忆
 
-最后更新：2026-09-21。研究中，无预订；合并研究不等于全体同意方案。
+最后更新：2026-09-23。按本人要求更新原分享网页。用户选定住宿不等于已核实订单。
+
+## 当前优先：按选定住宿重排
+
+以[完整更新行程](../planning/personal-driving-plan.md)为最新执行草案：9/30 Old Pink Library（Balquhidder）；10/1–3 Broadford Lodges；10/3–4 The Boat Country Inn。10/2 Talisker 纳入主线；Boat 只询 10/4 08:30，4 人、2 球车，尚未确认。三人 4 日需先还车、16:00 到 Glasgow 车站、17 点多火车，网点及车次未知，完整 18 洞存在明显时间冲突。本人后续独立、日期未定。Airbnb 第四张床为沙发床，需要房东确认。
+
+以下为历史研究记录；其中旧住宿、3 日 Boat、4 日不打球等与上述相冲突的内容均已替代，不能作为当前有效安排。
 
 ## 本人完整自驾与酒店复核
 
@@ -16,7 +22,7 @@
 
 [本人再次要求优化](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5764274585)后，主选改为Portree Bay £978两晚、单间备选Aurora £917两晚（均4成人10/1–3）。原Solas/Cuillin优先排名退为历史。30日Glencoe、岛上两晚、3日Pitlochry；2日撤下默认Quiraing折返，道路模型从68英里/1.7小时降至27英里/0.7小时；不含额外接送。3日Boat需先确认约11:00–11:30合适球位与准入，仍为最重驾驶日，未擅自取消或预订。前后夜四人酒店、交通及单住需求待确认。
 
-## 当前有效事实
+## 历史事实快照（日期与行程以顶部更新为准）
 
 来源：[时间与人员](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670106483)、[风格与路景](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670185939)、[预算、资格与St Andrews](https://github.com/Mrpixelraf/scotland-trip/issues/2#issuecomment-5670280139)。关于球友的约束由发起人转述，待本人登记。
 
