@@ -1,10 +1,12 @@
 # 当前共享记忆
 
-最后更新：2026-09-23。按本人要求更新原分享网页。用户选定住宿不等于已核实订单。
+最后更新：2026-09-26。按本人要求更新原分享网页。用户选定住宿不等于已核实订单。
+
+[9/26活动优化与麦卡伦分支](../planning/activities-handoff-2026-09-26.md)：每天一个重点；麦卡伦如有票可放3日，替换Tomatin与其他长活动；4日不加酒厂、市集。
 
 ## 当前优先：按选定住宿重排
 
-以[完整更新行程](../planning/personal-driving-plan.md)为最新执行草案：9/30 Old Pink Library（Balquhidder）；10/1–3 Broadford Lodges；10/3–4 The Boat Country Inn。10/2 Talisker 纳入主线；Boat 只询 10/4 08:30，4 人、2 球车，尚未确认。三人 4 日需先还车、16:00 到 Glasgow 车站、17 点多火车，网点及车次未知，完整 18 洞存在明显时间冲突。本人后续独立、日期未定。Airbnb 第四张床为沙发床，需要房东确认。
+以[完整更新行程](../planning/personal-driving-plan.md)为最新执行草案：9/30 Old Pink Library（Balquhidder）；10/1–3 Broadford Lodges；10/3–4 The Boat Country Inn。10/2 Talisker 纳入主线；Boat 10/4 09:20报价£340已接受，4人、2球车、不租杆，待最终确认；9/26已有催确认邮件。三人 4 日需先还车、16:00 到 Glasgow 车站、17 点多火车，网点及车次未知，完整 18 洞存在明显时间冲突。本人后续独立、日期未定。Airbnb 第四张床为沙发床，需要房东确认。
 
 以下为历史研究记录；其中旧住宿、3 日 Boat、4 日不打球等与上述相冲突的内容均已替代，不能作为当前有效安排。
 
