@@ -1,70 +1,341 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>活动优化与麦卡伦分支</title><style>*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f4f2ec;color:#18332e;font:16px/1.85 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}header{background:#173b35;color:#fff;padding:50px max(6vw,24px)}header p{max-width:850px;color:#dfebe5}main{max-width:1160px;margin:auto;padding:24px}h1{font-size:32px;line-height:1.4}h2{margin-top:48px;border-top:1px solid #c7d4cb;padding-top:28px}h3{margin-top:30px}a{color:#146954}table{display:block;overflow:auto;border-collapse:collapse;margin:20px 0;width:100%;background:#fff}th,td{padding:12px 16px;border:1px solid #d9e2db;vertical-align:top;min-width:140px}th{background:#e5ece4}strong{color:#153e33}header strong{color:white}.nav{position:sticky;top:0;background:#fffef7ee;backdrop-filter:blur(10px);padding:12px 20px;display:flex;gap:12px;flex-wrap:wrap;z-index:2;border-bottom:1px solid #ddd}.nav a{padding:4px 13px;border:1px solid #b8cec0;border-radius:25px;text-decoration:none}.route{display:flex;gap:10px;flex-wrap:wrap;padding:18px;background:#e8ede2;border-radius:14px}.route span{padding:7px 12px;background:white;border-radius:8px}.notice{border-left:5px solid #b67a2d;background:#fff1d8;padding:18px;margin-top:20px}h2{scroll-margin-top:110px}@media print{.nav{display:none}header{padding:20px}body{background:white}table{display:table;font-size:11px}th,td{min-width:0;padding:6px}h2{break-after:avoid}}</style><main><a href="index.html">← 返回互动地图</a><h1>酒厂与活动接手：路线优先版</h1>
-<p>更新 2026-09-26，Europe/London。依据本人提供的 Claude 补充清单及“先优化整条路线和活动安排”的要求。下列均为建议；新增体验未订。住宿继续使用 Old Pink Library、Broadford Lodges、The Boat Country Inn，不延长既定共同段。本人10/4以后日期未定，不把材料标题10/6当成已确认返程日。</p>
-<h2>每天一个重点</h2>
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>苏格兰完整活动 · 两台车分支与个人延长</title><style>*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f4f2ec;color:#18332e;font:16px/1.85 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}header{background:#173b35;color:#fff;padding:40px max(5vw,20px)}header h1{max-width:1100px;margin:auto}header p{max-width:1100px;margin:10px auto;color:#e2ede7}main{max-width:1160px;margin:auto;padding:24px}h1{font-size:clamp(26px,4vw,40px);line-height:1.4}h2{margin-top:40px;border-top:1px solid #bdcec0;padding-top:24px;font-size:26px}h3{margin-top:28px}a{color:#146954}table{display:block;overflow:auto;border-collapse:collapse;margin:20px 0;width:100%;background:#fff}th,td{padding:12px 16px;border:1px solid #d9e2db;vertical-align:top;min-width:140px}th{background:#e5ece4}strong{color:#153e33}.nav{position:sticky;top:0;background:#fffef7f5;padding:10px 20px;display:flex;gap:8px;overflow:auto;z-index:2;border-bottom:1px solid #ddd}button{font:inherit;cursor:pointer;white-space:nowrap;background:white;color:#173b35;border:1px solid #b8cec0;border-radius:24px;padding:6px 14px}button[aria-pressed=true]{background:#173b35;color:white}button:focus-visible,a:focus-visible{outline:3px solid #b87513;outline-offset:3px}section{scroll-margin-top:90px}[hidden]{display:none!important}.branchbox{background:white;border:1px solid #c9d7ca;border-radius:16px;padding:22px;margin:24px 0}.branchbox h2{margin:0;padding:0;border:0}.branch-controls{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}.lanes{display:grid;grid-template-columns:1fr 1fr;gap:14px}.lane{padding:18px;background:#e8f1ea;border-left:5px solid #376b54;border-radius:9px}.lane.friend{background:#eef1f8;border-color:#51688f}.nodes{display:flex;flex-direction:column;gap:7px}.node{background:white;padding:10px;border-radius:8px}.arrow{text-align:center;color:#6b7d70}.rendezvous{text-align:center;margin-top:15px;padding:12px;background:#fff0cf;border-radius:8px}.caption{color:#617369;font-size:14px}.source-link{padding:12px;background:white;border-radius:8px}.intro h1{display:none}@media(max-width:650px){main{padding:16px}.lanes{grid-template-columns:1fr}.nav{padding:8px}h2{font-size:23px}th,td{padding:9px;min-width:120px}.branchbox{padding:16px}}@media print{.nav,.branch-controls{display:none}body{background:white}section[hidden]{display:block!important}table{display:table;font-size:10px}th,td{min-width:0;padding:5px}.branchbox{break-inside:avoid}}</style></head><body><header><h1>苏格兰完整活动线路</h1><p>9/29–10/4共同旅程 · 10/5–6个人延长候选 · 2026年9月26日更新</p></header><nav class="nav" aria-label="按日期查看"><button type="button" data-filter="all" aria-pressed="true">全部</button><button type="button" data-filter="overview" aria-pressed="false">总览</button><button type="button" data-filter="29" aria-pressed="false">9/29</button><button type="button" data-filter="30" aria-pressed="false">9/30</button><button type="button" data-filter="01" aria-pressed="false">10/1</button><button type="button" data-filter="02" aria-pressed="false">10/2</button><button type="button" data-filter="03" aria-pressed="false">10/3</button><button type="button" data-filter="04" aria-pressed="false">10/4</button><button type="button" data-filter="extend" aria-pressed="false">个人延长</button><button type="button" data-filter="book" aria-pressed="false">预约与预算</button><button type="button" data-filter="audit" aria-pressed="false">核查记录</button></nav><main><p><a href="index.html">← 返回原互动地图与预算</a></p><div class="intro"><h1>苏格兰完整活动线路 · 同行与独立自驾版</h1>
+<p>更新：2026-09-26，Europe/London（BST）。本版替代此前“每天一个重点、全团一起取舍”的精简方案。本人明确独立开车，可以与朋友走不同路线；因此保留住宿会合点，日间活动按车辆分开。朋友分支是供选择的建议，不代表他们已经同意。</p>
+<p><strong>住宿锚点</strong>：9/30 Old Pink Library（Balquhidder / Loch Voil）；10/1–3 Broadford Lodges；10/3–4 The Boat Country Inn。用户已选定，订单未核。9/29 Sheffield住宿及本人10/4以后新增住宿、返程日未定。所有新增活动均未预订。文中时间为规划窗口，只有注明官网的演出或列车时刻是公开时刻；行车是含一定余量的估计，不是实时交通。</p>
+</div><div class="branchbox"><h2>两台车 · 同住，不必同路线</h2><p class="caption">这是活动分流示意，不是地理比例图；住宿锚点保持，分支均待选择。</p><div class="branch-controls" role="group" aria-label="查看分流日期"><button type="button" data-branch="02" aria-pressed="false">10/2 天空岛</button><button type="button" data-branch="03" aria-pressed="true">10/3 麦卡伦</button><button type="button" data-branch="04" aria-pressed="false">10/4 球后</button></div><div id="branch-content" aria-live="polite"></div><noscript><p>10/3：你的车去麦卡伦；朋友的车去Loch Ness、铁路或湖泊；19:00在Boat会合。完整线路见下方。</p></noscript></div><section id="day-overview" data-day="overview"><h2>怎么选：两台车让旅行更丰富</h2>
+<p>我建议共同保留 Glencoe 公路、天空岛一顿好午餐、Talisker意向和Boat高尔夫；其他活动不必四个人全参加。你可以在3日下午去麦卡伦，朋友去铁路或湖边；晚上再一起吃饭。4日朋友回Glasgow，你可以继续留高地。若麦卡伦3日没有合适票，5日的个人段也能容纳，而不是为了一个酒厂拆掉全团住宿。</p>
 <table>
 <thead>
 <tr>
 <th>日期</th>
-<th>主线保留</th>
-<th>新增活动怎么放</th>
-<th>明确舍弃或替换</th>
+<th>共同的住宿／会合</th>
+<th>你的优先路线</th>
+<th>朋友可选路线</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td>9/29</td>
+<td>Sheffield意向</td>
+<td>Essendon球后北上，中途休息</td>
+<td>尚未要求同行</td>
+</tr>
+<tr>
 <td>9/30</td>
-<td>Sheffield北上，Balquhidder入住，Loch Voil轻松走</td>
-<td>Deanston只作早到且有余力时的备选；不能保证08:00发车14:00已到，服务区休息和午餐照留</td>
-<td>不预订紧卡到达时间的酒厂团，不同时跑Tullibardine和Glenturret</td>
+<td>Balquhidder，约19:00晚餐</td>
+<td>Deanston或Doune文化停留 → Loch Voil → Mhor餐饮</td>
+<td>按自己的取车时间直接入住／湖边散步</td>
 </tr>
 <tr>
 <td>10/1</td>
-<td>Glencoe、湖泊公路、Eilean Donan、Broadford入住</td>
-<td>Ben Nevis只选短暂停留或已确认时间的tour；如果参观，城堡移3日或省略，不能吞掉午餐休息</td>
-<td>不加Oban、Nc’nean，不再绕Glen Etive深处追鹿；路遇野生动物不保证</td>
+<td>Broadford，约19:00晚餐</td>
+<td>Rannoch Moor → Glencoe摄影短走 → 湖泊公路 → Eilean Donan</td>
+<td>多走Glencoe步道；不必等你的拍照停靠</td>
 </tr>
 <tr>
 <td>10/2</td>
-<td>Talisker为核心，天气好时Storr，雨天Sligachan／Portree</td>
-<td>Portree 19:30盖尔语演出是可选分支：酒厂后直接去Portree吃饭看戏，结束后回Broadford，夜路留约45–60分钟</td>
-<td>不把Storr＋Talisker＋Torabhaig＋晚间演出都塞入一天；Torabhaig只能替换北部徒步，不是额外加项</td>
+<td>Broadford；午餐可在Carbost会合</td>
+<td>Talisker + Three Chimneys午餐 + Sligachan；晚间Portree演出可选</td>
+<td>Storr或Quiraing徒步；有兴趣再共同参加酒厂</td>
 </tr>
 <tr>
-<td>10/3 A · 湖泊版</td>
-<td>09:00离岛、Loch Ness、Boat入住</td>
-<td>想再看酒厂则优先Tomatin，替换Loch Garten；15:00左右只是争取的tour时段，未核余位。A9工程另留10–15分钟</td>
-<td>酒厂与蒸汽火车二选一；不再加Inverness市集和长环湖</td>
-</tr>
-<tr>
-<td>10/3 B · 麦卡伦版</td>
-<td>08:00离岛、Loch Ness短停、The Macallan、Boat入住</td>
-<td>争取14:00–15:00开始且17:00左右结束的体验；需四人余位及体验时长确认</td>
-<td>不去Tomatin、不坐蒸汽火车、不排Loch Garten，不再补城堡内部参观</td>
+<td>10/3</td>
+<td>Boat，约19:00晚餐</td>
+<td>麦卡伦下午完整体验；或与朋友同走湖泊线</td>
+<td>Loch Ness → 铁路，或Tomatin，或Loch Morlich</td>
 </tr>
 <tr>
 <td>10/4</td>
-<td>09:20 Boat四人、两球车、不租杆；三人还车赶火车</td>
-<td>只处理打球和交通；本人后续自由安排</td>
-<td>删除Dalwhinnie、Grantown市集、Luss、缆车等当天加项</td>
+<td>09:20 Boat球场；之后可分开</td>
+<td>完整球局后留高地／从容南下</td>
+<td>若16:00到Glasgow站不变，必须处理缩短球局等冲突</td>
 </tr>
 <tr>
-<td>10/5–6 · 仅本人延长候选</td>
-<td>是否留Glasgow尚未确定</td>
-<td>有兴趣可研究城市展览；不先订活动或酒店</td>
-<td>不把Claude列出的演出、展期或“无活动”结论直接当作已核事实</td>
+<td>10/5–6</td>
+<td>本人延长候选，酒店未订</td>
+<td>Speyside深游／Glasgow文化／Kintyre加打，三选一</td>
+<td>不计入朋友的时间与预算</td>
 </tr>
 </tbody>
 </table>
-<h2>麦卡伦能不能去</h2>
-<p><strong>可以，最适合10月3日，保留Boat住宿；有票后再启用B线。</strong>地点在Craigellachie附近Easter Elchies，不在A9南下原线上。<a href="https://www.themacallan.com/en/experience-the-macallan/distillery/plan-your-visit">官网位置与入场要求</a>要求预约入园，至少提前24小时。商店或酒吧预约不等于酒厂生产导览。官网目前已开放覆盖10月3日的预订月份，但不证明当天四人有位。<a href="https://www.themacallan.com/en/experience-the-macallan/book-distillery-experiences">预约页</a>浏览器停在年龄验证，尚未完成实时库存和价格核查，没有下单。</p>
-<p>2026-09-26 OSRM近似公共地点模型：Broadford—Invermoriston—Inverness—Boat约117英里/2.82小时；经麦卡伦约171英里/4.23小时，多54英里/约85分钟。麦卡伦至Boat约34英里/48分钟，执行留约1小时。不是实时交通、酒店门口或低底盘入口测量；全日实际驾驶按4.5–5小时留量。</p>
-<p>建议B线：08:00离开Broadford → 09:45–10:00左右途中短休 → Loch Ness选一处短停20分钟 → 12:00左右Inverness外围午餐40分钟 → 继续至麦卡伦、提前15–20分钟报到 → 若有14:00–16:00左右合适体验，结束后约17:15–18:00到Boat。这里的14:00–16:00是时间预算示例，不是官网已给出的场次或固定体验时长；若实际体验3小时、只剩上午场或结束太晚，应重算或保留A线。午餐后至酒厂需预留约1–1.25小时，停车报到另计。</p>
-<p>去麦卡伦时保留Loch Ness短看即可，无需说“整个尼斯湖必须取消”；但游船、Urquhart入内、Tomatin和铁路不能继续叠加。4日09:20开球且赶火车，不适合再向东北折返麦卡伦。本人若独立延长，可另定日期，不默认朋友参与。</p>
-<p><a href="https://www.google.com/maps/search/?api=1&amp;query=The+Macallan+Distillery+Easter+Elchies">麦卡伦地点导航</a> · <a href="https://www.google.com/maps/dir/?api=1&amp;origin=Broadford+Isle+of+Skye&amp;destination=Boat+of+Garten&amp;waypoints=Invermoriston%7CInverness%7CThe+Macallan+Distillery&amp;travelmode=driving">麦卡伦分支导航</a></p>
-<h2>4日：更新至真实回复的09:20</h2>
-<p>球会9/24提供最早09:20，四人£65/人、球车£40/台，总£340；用户已接受，不租杆。接受邮件已发送，9/26同一邮件串已出现催确认邮件，本次不重复催信。所读邮件串内尚未见最终订位确认、付款指示或已付款凭据。日历已有09:20事件，结束13:50只是4.5小时预算。</p>
-<p>09:20开球，若完整18洞用4–4.5小时，13:20–13:50收杆，另20分钟还球车，约13:40–14:10出发。再按3小时驾驶、10–15分钟休息、30–45分钟还车、15–30分钟转站，约17:35–18:40到站。<strong>因此既定16:00到站目标不成立，17点多火车也不能保证。</strong>上午有球会比赛，不能假定球车保证快打。保持球位意向，不擅自取消；先提供准确车次、车站、还车网点，再决定缩短三人的球局或调整火车。若必须16:00到站，先按11:45左右离场倒排，相当于只有约2小时球局，需球会确认如何结束和返还球车。</p>
-<h2>Claude材料的核查与修正</h2>
+<p><strong>驾车与品鉴的实际限制</strong>：独立开车意味着你不必配合朋友的路线，但不能默认别人会接送你。当天还要开车就不现场饮酒；司机带走小样需逐家确认。Tomatin官网明确有driver’s drams；Talisker、Macallan未核实带走政策。若专门去深度品鉴，安排当地接送或酒厂附近住宿，并把自己的车留好。</p>
+</section><section id="day-29" data-day="29"><h2>9月29日｜打球后北上，保留休息</h2>
+<p>Essendon球局时刻和Sheffield落脚尚待确认。按球后离场、午餐、收纳球包另留45–60分钟；Essendon至Sheffield先按约2.5–3.5小时驾驶预算，中途停一次20分钟。当天不额外预订酒厂或城市演出；行程丰富放在高地段，不让第一晚变成赶路。若球局较晚，抵达就吃饭休息，不以某个固定到达时间倒逼车速。</p>
+</section><section id="day-30" data-day="30"><h2>9月30日｜棉纺厂酒厂、城堡、Loch Voil与好好吃一餐</h2>
+<p><strong>建议时间线</strong>：07:30–08:00 Sheffield出发 → 上午服务区休息 → 午餐 → 约14:30–16:00抵达Doune一带的争取窗口 → 选择一项文化活动 → 17:30–18:30入住 → 19:00左右晚餐。北上驾驶先留6–7小时，休息、午餐及活动另计；不是保证下午有固定tour可赶。</p>
+<ul>
+<li><strong>优先：Deanston。</strong> 和大品牌新酒厂相比，旧棉纺厂改造、River Teith河边的环境有另一种工业建筑气质；适合作为旅行第一家。官网每日10:00–17:00，并有生产导览、Warehouse No.4体验。参观可先留1–1.5小时，最终以所选产品为准，价格和30日下午余位未取得。官网取消说明不承诺退款，因此不要用高速公路行程去硬卡一个不可退时段。<a href="https://deanstonmalt.com/pages/distillery-experiences">体验与规则</a></li>
+<li><strong>城堡替代：Doune Castle。</strong> 如果更想看建筑、历史和影视取景环境，留60–90分钟；与Deanston二选一更稳。城堡内部当天开放与入场须再看公告，不能拿旧年份封闭拍摄新闻判断2026年。<a href="https://www.historicenvironment.scot/visit/all/doune-castle/plan-your-visit/">参观页</a></li>
+<li><strong>入住后：Loch Voil短走30–45分钟。</strong> 这才是Old Pink Library附近适合利用的湖景，不要因为地址写Lochearnhead就把住处当Loch Earn岸边。湖边进入点以公共通路为准。</li>
+<li><strong>晚餐首选Mhor84，升级候选Monachyle Mhor。</strong> Mhor84适合自驾日结束后舒服吃饭；Monachyle Mhor更适合把晚餐本身当活动，位置更深入湖谷，先确认供餐、停车和到达路线。两家都未核9/30四人餐位；菜单价格不套用旧资料。<a href="https://mhor84.net/">Mhor84</a> · <a href="https://monachylemhor.net/">Monachyle Mhor</a></li>
+</ul>
+<p><strong>你的独立分支</strong>：特别想看Glenturret，可以改走Crieff方向再经A85到Lochearnhead，替换Deanston。官网4–10月10:00–18:00，tour窗口到16:30；Lalique餐饮另订。此线需要重新核导航，先多留约45–75分钟转场余量，不与Deanston、Tullibardine三连刷。<a href="https://theglenturret.com/pages/visit-us">Glenturret</a></p>
+<p><strong>晚到备选</strong>：直接入住、Loch Voil、Mhor84，Deanston转为返程候选。朋友无需等你的酒厂，可以先入住；钥匙／门码分别保存。</p>
+</section><section id="day-01" data-day="01"><h2>10月1日｜把Glencoe和湖泊真正玩起来</h2>
+<p><strong>主线</strong>：Balquhidder → Crianlarich / Tyndrum → Rannoch Moor → Glencoe → Fort William → Loch Lochy → Invergarry → Loch Cluanie / Glen Shiel → Eilean Donan → Skye Bridge → Broadford。驾驶约4.5–5.5小时，完整一天约9–10小时；看景停靠是当天的重要活动，不是一路不停地转场。</p>
+<table>
+<thead>
+<tr>
+<th>规划窗口</th>
+<th>活动</th>
+<th>留多久与怎么用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>08:00–09:30</td>
+<td>离开住处，经Tyndrum短休</td>
+<td>咖啡、卫生间、核对油量；无需全团等同一辆车</td>
+</tr>
+<tr>
+<td>09:30–10:15</td>
+<td>Rannoch Moor / Lochan na h-Achlaise</td>
+<td>留20–30分钟看水面、山体和荒原；只在正规停车处停</td>
+</tr>
+<tr>
+<td>10:15–11:45</td>
+<td>Buachaille Etive Mòr、Three Sisters、Loch Achtriochtan</td>
+<td>选两处，每处15–25分钟；不把三个摄影点变成三个长徒步</td>
+</tr>
+<tr>
+<td>11:45–12:45</td>
+<td>Glencoe轻步行或午餐</td>
+<td>An Torr / Signal Rock林地短走45–60分钟；若已多次停拍则直接吃午餐</td>
+</tr>
+<tr>
+<td>12:45–14:00</td>
+<td>Fort William补给</td>
+<td>午餐、加油、购物；Ben Nevis酒厂短访是分支，不强制同行</td>
+</tr>
+<tr>
+<td>14:00–16:15</td>
+<td>Loch Lochy → Loch Cluanie → Glen Shiel</td>
+<td>途中两次各10–15分钟看湖和山谷，按实际进度调整</td>
+</tr>
+<tr>
+<td>16:15–17:15</td>
+<td>Eilean Donan</td>
+<td>时间足够可入内45–60分钟；晚到看外观，不硬赶门票</td>
+</tr>
+<tr>
+<td>17:15–18:15</td>
+<td>跨Skye Bridge、Broadford入住</td>
+<td>住宿办理、休息、补充次日早餐与零食</td>
+</tr>
+<tr>
+<td>19:00左右</td>
+<td>Broadford晚餐</td>
+<td>先在住宿附近吃；不再往返Portree只为晚饭</td>
+</tr>
+</tbody>
+</table>
+<p>Glencoe林地路线由National Trust列为可选户外活动；山顶长线与短林地步行不能混为一谈。<a href="https://www.nts.org.uk/visit/places/glencoe/highlights/outdoor-adventures">Glencoe步道</a></p>
+<p>Eilean Donan官网2026年10/1–24为10:00–18:00、最后入场17:00，成人£13，四人£52；只在现场当天买票。若16:30后才到、还想慢拍，优先外观，别假设17:00之后还能进。<a href="https://www.eileandonancastle.com/visit/opening-hours/">城堡票价与时间</a></p>
+<p><strong>你可独走的两种加法</strong>：</p>
+<ul>
+<li><strong>酒厂兴趣强</strong>：Ben Nevis安排在Fort William午餐前后，朋友去镇上或多走Glencoe。官网9–5月周一至五09:30–17:00；tour时长、价钱、余位待问。若订长tour，你省略城堡内部，18:00–19:00在Broadford会合。<a href="https://bennevisdistillery.com/visitor-centre/">Ben Nevis</a></li>
+<li><strong>更想拍山谷</strong>：停留Glencoe长一点，朋友先北上；Glen Etive只能作为短折返候选，单车道路段的时间与停车先看现场，不把追鹿当保证活动。完整深谷往返会消耗傍晚城堡时间。</li>
+</ul>
+<p>Glenfinnan、Oban、Nc’nean保留为以后西海岸个人段的候选。它们不是这天再加一个十分钟路边点；这次优先让Glencoe的停留有内容。</p>
+</section><section id="day-02" data-day="02"><h2>10月2日｜Talisker、海湾午餐、山景与本地剧场</h2>
+<p>住Broadford意味着北上Storr、再去西边Carbost、再回Portree看戏会形成较长环线。两台车可以各自选上午主题，中午或下午在Carbost会合。</p>
+<p><strong>推荐你的节奏：09:00出发 → Sligachan桥与山景30–45分钟 → Carbost / Loch Harport → 12:00–13:30午餐 → 约14:00或15:00的Talisker候选场次 → 16:00后咖啡海湾短走 → 回住处，或去Portree吃晚饭看戏。</strong> 具体顺序围绕实际tour时间移动，不是已取得场次。普通版驾驶约2–2.5小时，加Portree演出版约3–3.5小时，停车和风雨另留。</p>
+<p>午餐把<strong>The Three Chimneys at Talisker</strong>放进去：它就在酒厂水边，能把威士忌、Loch Harport景色与一顿认真吃的饭组合起来；不是岛西北Colbost的原店。官网有午餐和预订入口，10/2营业、四人餐位及当季菜单待实际订位确认。<a href="https://talisker.threechimneys.co.uk/">餐厅官网</a></p>
+<table>
+<thead>
+<tr>
+<th>Talisker项目</th>
+<th>官网起价／成人</th>
+<th>官方时长</th>
+<th>我的选择建议</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Distillery Tour and Tasting</td>
+<td>£22；4人£88起</td>
+<td>1小时</td>
+<td>想看生产过程、预算合理，优先它</td>
+</tr>
+<tr>
+<td>Discovery Tour</td>
+<td>£60；4人£240起</td>
+<td>1.5小时</td>
+<td>想更深入一点的折中升级；具体内容随产品页确认</td>
+</tr>
+<tr>
+<td>Cask Draw and Tasting</td>
+<td>£150；4人£600起</td>
+<td>1.5小时</td>
+<td>最贴近“桶中取样”的要求；可只给你或感兴趣的人订</td>
+</tr>
+<tr>
+<td>Made By The Sea</td>
+<td>£20；4人£80起</td>
+<td>30分钟</td>
+<td>时间短、重品鉴；不能当生产参观</td>
+</tr>
+<tr>
+<td>Decades by the Sea</td>
+<td>£350；4人£1,400起</td>
+<td>2小时</td>
+<td>高价专项，不建议仅为了丰富行程就升级</td>
+</tr>
+</tbody>
+</table>
+<p>价格与时长来自<a href="https://www.malts.com/en-gb/talisker/visit">官方体验总览</a>，2026-09-26查询，非10/2库存报价。Cask Draw官网明确五款桶中取样，<strong>不包含完整生产导览</strong>；不能把它描述成“完整参观加酒窖”。司机是否能打包需先核，这会决定你是否值得买高价品鉴。<a href="https://www.malts.com/en-be/experiences/talisker-cask-draw-and-tasting-experience">Cask Draw产品</a></p>
+<p><strong>朋友的上午分支</strong>：Storr山景徒步预留2–3小时，加Broadford往返方向的车程；想完整Quiraing则留更长半日，未必能与你同吃12点午餐。可以直接各自午餐、下午酒厂或晚上Broadford再会合。不要求他们赶下山迁就你的参观。</p>
+<p><strong>你的另一条酒厂分支</strong>：如果更想体验两家岛上酒厂，上午Torabhaig，下午Talisker，放弃Storr。Torabhaig在Broadford南面的Sleat，这不是去Talisker必经点，要把折返计入；全日给约2.5–3小时驾驶余量。tour按余位另订，不能把店开门当成tour开团。<a href="https://torabhaig.com/pages/visit-us">Torabhaig</a></p>
+<p><strong>晚上可认真考虑的活动</strong>：10/2 19:30，LAS Cinema &amp; Theatre（Portree）的An t-Ùrlar as Àirde，成人£16，四人£64；盖尔语演出、提供英文剧情梗概。适合想接触本地文化的人，不应包装成无需语言投入的轻松喜剧。若你独自去，朋友可先回Broadford。17:30左右Portree晚餐、19:10入场，结束时刻待核，返程留45–60分钟夜路。<a href="https://www.seall.co.uk/event/seall-and-theatre-gu-leor-present-an-t-urlar-as-airde/">SEALL详情</a></p>
+<p><strong>雨天方案</strong>：缩短Sligachan，保留午餐、已订酒厂和可选剧场。低云遮山时不为凑打卡强走Storr／Quiraing；不是把全天取消。</p>
+</section><section id="day-03" data-day="03"><h2>10月3日｜你去麦卡伦，他们去湖泊或铁路，晚上会合</h2>
+<p><strong>推荐分流方式</strong>：双方在Broadford出发时间可以不同；愿意共同看一小段Loch Ness可在Invermoriston碰面，不强求一起午餐。你的麦卡伦票若没有合适时段，就采用湖泊线，麦卡伦挪到个人延长段。</p>
+<h3>你的A线：麦卡伦完整参观</h3>
+<p>08:00 Broadford出发 → Loch Ness选一处短停20–30分钟 → Inverness方向午餐或自备午餐 → 13:30左右到Macallan、留15–20分钟报到 → <strong>争取14:00开始Time for Excellence，至少到17:00</strong> → 17:15–17:30离开 → 18:15–18:30左右到Boat → 19:00晚餐。</p>
+<p>这是可行性示例，不是14:00有票的承诺。若拿到13:30票，就把午餐提前、缩短尼斯湖；15:00票将使抵达Boat接近19:00或更晚，要同时确认酒店与晚餐时间。上午票不适合从Broadford硬赶。</p>
+<p>道路模型：Broadford经Invermoriston、Inverness至Boat约117英里／2.82小时；经麦卡伦约171英里／4.23小时，多约54英里／85分钟。模型为公共地点近似值；执行全日驾驶留4.5–5小时，麦卡伦至Boat留约1小时。此绕行只影响你的车，不必要求朋友跟着多开。</p>
+<p><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Broadford+Isle+of+Skye&amp;destination=Boat+of+Garten&amp;waypoints=Invermoriston%7CInverness%7CThe+Macallan+Distillery&amp;travelmode=driving">你的麦卡伦分支导航</a></p>
+<h3>麦卡伦有哪些项目适合你</h3>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>当前官网价格</th>
+<th>时间预算</th>
+<th>适合放哪里</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Time for Excellence</strong></td>
+<td>£80/人；4人£320</td>
+<td>官方至少3小时</td>
+<td>3日下午首选；只你参加就是£80，不默认买4张</td>
+</tr>
+<tr>
+<td><strong>The Macallan Bar预约</strong></td>
+<td>无需预付款，饮品另付</td>
+<td>官网建议1小时</td>
+<td>3日想看空间和景色、又留更多湖泊时间时最灵活</td>
+</tr>
+<tr>
+<td><strong>TimeSpirit六道午餐</strong></td>
+<td>£75/人；4人£300，酒水等另核</td>
+<td>规划留2–2.5小时，实际服务时长待餐厅确认</td>
+<td>餐饮和建筑取代生产参观的方案，或5日独立深游</td>
+</tr>
+<tr>
+<td><strong>TimeSpirit九道晚餐</strong></td>
+<td>£105/人；4人£420，酒水等另核</td>
+<td>规划留2.5–3小时以上，实际待确认</td>
+<td>更适合个人延长段住Speyside附近，不挤3日会合晚餐</td>
+</tr>
+<tr>
+<td>Story of Oak／Through The Ages</td>
+<td>官网列有项目，当前价格时长未取得</td>
+<td>待核</td>
+<td>已懂一些威士忌、重专项品鉴再比较，不用旧博客价格</td>
+</tr>
+</tbody>
+</table>
+<p><strong>我对你的排序：完整体验第一，TimeSpirit午餐第二，酒吧短访第三。</strong> 你明确想把酒厂放进旅行，也重视环境品质和风景；完整体验能把建筑、品牌历史、生产过程串起来。若Talisker已经看过生产、这次更想舒服吃饭，TimeSpirit则可能更合适。这个判断不是在假设你已经是麦卡伦资深爱好者。</p>
+<p><a href="https://www.themacallan.com/en/experience-the-macallan/distillery/time-for-excellence-experience">Time for Excellence</a>包含Whisky Wall、生产区、品鉴与商店时间；没有明确承诺桶中抽酒，不替代Talisker的Cask Draw。 <a href="https://www.themacallan.com/en/experience-the-macallan/distillery/table-at-the-macallan-bar">酒吧</a>有无酒精选择并可逛精品店；预约酒吧不等于预约生产导览。<a href="https://www.themacallan.com/en/experience-the-macallan/distillery/timespirit-dining-experience">TimeSpirit</a>是独立餐饮预订，不默认含参观。</p>
+<p>所有入园都需预约，具体日期余位仍未核。若3日只你想去，先按1人筛票，不应被“四人必须同场”限制。若你希望现场品酒，则另安排接送；不能拿“品完再逛一小时”当可以开车的依据。</p>
+<h3>朋友B线：Loch Ness + Strathspey Railway</h3>
+<p>08:30–09:00 Broadford出发 → 约10:30尼斯湖一处观景／咖啡 → 12:00左右午餐 → 14:30–14:45到Boat、停车或询问寄存行李 → 15:10前到站 → 候选15:28 Boat出发，经Broomhill，16:19回Boat → 入住休息 → 19:00共同晚餐。</p>
+<p>若想Urquhart Castle入内或长游船，要减少湖边其他停靠、提前出发，或者放弃15:28列车；不能给同一组人把所有湖游项目默认累加。铁路官网标准表确有上述时刻，10/3运行及具体票种还应在订票时再次对应；中途站短往返价未核，不沿用£26全程往返价。蒸汽牵引可能被柴油替代。<a href="https://www.strathspeyrailway.co.uk/">Strathspey Railway</a></p>
+<h3>朋友C线：Loch Ness + Inverness午餐／市集 + Tomatin或湖边</h3>
+<p>09:00出发 → 尼斯湖短游 → 12:00–13:15 Inverness午餐与市中心散步 → 下午二选一：Tomatin预约参观，或直接到Boat后去Loch Morlich。Inverness的10/3农夫市集日期有当地政府许可申请记录支持，但它不是最终开市保证；遇上就逛30–45分钟，不为市集另订不可退票。<a href="https://www.highland.gov.uk/directory-record/14152/inverness-inverness-farmers-market-2-03-october-07-november-2026">日期记录</a></p>
+<p>Tomatin官网4–11月每天09:30–17:30，并提供driver’s drams。实际tour余位、价钱待核，南下A9工程另外留10–15分钟。选Tomatin就不要再卡铁路；两者各自适合不同兴趣。<a href="https://tomatin.com/tours/">Tomatin</a></p>
+<h3>傍晚湖泊与晚餐</h3>
+<p>早到的人在Loch Morlich海滩和森林边留45–60分钟，或选择更靠Boat的Loch Garten短走；麦卡伦组晚到不必追同一段。19:00在The Boat Country Inn吃饭是最简单的共同会合，餐位与厨房时间需酒店确认。<a href="https://www.boathotel.co.uk/">酒店餐饮</a></p>
+<p><strong>当前步道核查很重要</strong>：Forestry and Land Scotland公告有Glenmore禁入区，包含Green Lochan / An Lochan Uaine、Ryvoan等；Loch Morlich的Beach、Pine Knoll、Circular步道列为可去区域。本版不把Green Lochan放进可执行计划，出发前再核封闭范围。<a href="https://forestryandland.gov.scot/visit/forest-parks/glenmore-forest-park">官方当前公告</a></p>
+<p>夜间观星保留为天气好、体力允许时的30–45分钟可选活动；不规定精确“唯一80分钟窗口”，不保证极光。找合法停车、开阔视野且不扰民的地点；不自动进未核夜间通行的保护区道路。</p>
+</section><section id="day-04" data-day="04"><h2>10月4日｜球后真正分开：朋友南返，你继续玩</h2>
+<p>已接受的球会报价：<strong>09:20、4人、2台球车、不租杆，£65×4 + £40×2 = £340</strong>。接受邮件已发，9/26已有人催确认；本次日历仍标待球会最终确认，没有新增付款或取消。13:50只是结束预算，不是球会保证。</p>
+<p>朋友要先还车、16:00到Glasgow站，这仍与完整18洞冲突。09:20开始若打4–4.5小时，13:20–13:50结束，再还球车、约3小时驾驶、休息、还租车及转站，可能17:35–18:40才到站。<strong>你的独立车解决路线自由，不会让他们的火车冲突自动消失。</strong> 若坚持16:00到站，先按约11:45离开球场倒排，三人要和球会落实提前结束；也不能先假定两台球车可随意拆分归还。未擅改球局或火车。</p>
+<p><strong>你的路线A：留Cairngorms，最从容。</strong> 打完球、午餐后，约15:00–16:30 Loch Morlich海滩与森林，晚上Aviemore／Boat附近再住一晚（新增住宿未订）。如果更想上山，可把湖边改为Cairngorm Mountain Railway，需在15:30末班上行之前到票口并留足时间；我更建议山地铁路放5日上午，4日下午不再赶末班。官网当前首班10:00、最后上行15:30、最后下行16:30，天气可影响运行。<a href="https://www.cairngormmountain.co.uk/opening-times/">时间表</a></p>
+<p><strong>你的路线B：慢慢南下。</strong> 不承担送站时，球后可经Dalwhinnie短访，或Pitlochry用餐／散步，再去Glasgow；安排酒厂需核实际下午场，不能因店17:00关就推定16:30还能tour。朋友租车直接南返，别等你。此版抵达Glasgow约18:00–20:00的宽窗口，取决于停留，不预订下午演出。</p>
+<p><strong>你的路线C：继续Speyside。</strong> 球后向东北到Craigellachie／Aberlour方向，先办理个人新住宿，再约合适酒吧或餐饮；5日完整酒厂体验更好安排。若要喝酒，留车、当地接送。4日下午不预设仍赶得上Macallan三小时完整tour。</p>
+<p><strong>Grantown农夫市集</strong>重新放回你个人的候选，而不是全团删除；但本次未取得主办方10/4确认公告，结束15:00的材料说法也不能变成保证。即使开市，完整球局后到场较晚，只能作为路过短看，不值得为它改变球局。</p>
+<p><strong>Sonica不能这样排</strong>：Suzanne Ciani官方为10/4 <strong>15:15</strong>、约60分钟、Tramway、普通票£30另有手续费。它不是晚间场，完整Boat球局后开车去赶不上；除非你主动改变打球安排，不纳入执行主线。<a href="https://www.glasgowlife.org.uk/event/2/sonica-improvisation-on-four-sequences-suzanne-ciani">主办场馆详情</a></p>
+</section><section id="day-extend" data-day="extend"><h2>10月5–6日｜你的个人延长段，给你三个有内容的选择</h2>
+<p>返程日期还没确认。下面是互相替代的套餐，不是让你把三条都跑完；每条新增住宿、活动都未订，也不分摊给已离开的朋友。</p>
+<h3>A · Speyside慢游：麦卡伦 + 传统酒厂 + 山区驾驶</h3>
+<p>适合你最想落实麦卡伦、又不想3日从岛上赶预约的情况。4日球后留高地，5日从Boat／Speyside住宿出发，上午麦卡伦Time for Excellence（至少3小时），午餐后看Craigellachie周边与河谷；想吃TimeSpirit则把它作为独立用餐体验核时间，不把六道午餐塞进一小时。</p>
+<p>若3日已去麦卡伦，5日改Glenfarclas：官网Classic约1.5小时、成人£12，10–3月周一至五开团，5日周一比3日周六更合适，余位待确认。它作为传统家族酒厂，与麦卡伦现代空间形成差异；价格来自当前官方页面，预约结算再核。<a href="https://glenfarclas.com/classic-tour/">Glenfarclas</a></p>
+<p>下午可经Grantown / Tomintoul方向看景，天气与道路条件合适才选A939，避免浓雾时为了山路而绕山路。6日再南下，可在Pitlochry休息、Crieff选Glenturret作文化餐饮停留；不要求当天必须一路开到伦敦。5日最多一个完整生产tour，第二家以餐饮／商店／河谷散步补差异。</p>
+<h3>B · Glasgow文化：影像、设计与电影配乐</h3>
+<p>4日球后从容进城；5日安排城市建筑散步和博物馆候选，具体场馆周一开放另核。<strong>Rachel Maclean的They’ve Got Your Eyes周一闭展，所以不要排10/5。</strong> 官网为9/12–10/25、10:00–18:00、免费、Buchanan Galleries二楼，可排<strong>10/6 14:00–15:00</strong>。作品涉及AI影像与声音，是有明确内容的城市候选，不等同于已经确认你的艺术口味。<a href="https://sonic-a.co.uk/events/theyve-got-your-eyes-rachel-maclean-ela-orleans">作品与开放时间</a></p>
+<p>若愿意留到6日晚：<strong>The World of Hans Zimmer – A New Dimension</strong>，OVO Hydro，10/6，官网目前写18:30开门、正式演出时间待公布。是电影配乐、管弦乐与视觉投影的组合；不是承诺Hans Zimmer本人登台。普通票实时价格／余位未核，官网VIP价格不能拿来代表最低票价。选这场意味着6日晚留Glasgow，通常7日再南返，不能同时假定6日晚上已到伦敦。<a href="https://www.ovohydro.com/events/detail/the-world-of-hans-zimmer-2026">OVO Hydro</a></p>
+<p>Sonica的The Listening House多项作品10/3已经结束，4日后不用再赶；不同作品展期不同。Kevin Bridges、Barbie展、周日市集仍在原补充清单，未核具体票和时段，暂不放在优先执行项，避免为了凑数压低体验质量。<a href="https://sonic-a.co.uk/line-up">Sonica节目表</a></p>
+<h3>C · Kintyre海岸与加打：回到你早先想去的Machrihanish</h3>
+<p>如果你想把这趟的高尔夫做得更完整：4日球后先南下在Glasgow／Loch Lomond一带休息；5日经Loch Fyne、Inveraray、Tarbert去Campbeltown／Machrihanish，安排海岸驾驶、午餐和沙滩，连停留留一整天；6日预约Machrihanish Championship再打一轮。这里是新的个人段，不要求朋友改火车。</p>
+<p>这是实质绕行Kintyre，不是A9回程顺手加一场。球位、当期费用、准入、停车与新增住宿均待落实；历史£120不当作本次已核报价。6日打完后不排伦敦当晚必达，留7日或之后回程更合理。<a href="https://www.machgolf.com/greenfees">球会访客页</a></p>
+</section><section id="day-book" data-day="book"><h2>活动清单怎么落实：已核信息与未定项目分开</h2>
+<table>
+<thead>
+<tr>
+<th>优先级</th>
+<th>项目</th>
+<th>先核什么</th>
+<th>谁参加</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第一</td>
+<td>Talisker 10/2</td>
+<td>基础tour／Discovery／Cask Draw、真实时段、司机小样</td>
+<td>可以1–4人，不默认4张高价票</td>
+</tr>
+<tr>
+<td>第一</td>
+<td>Macallan 10/3或个人10/5</td>
+<td>3小时完整体验，或餐饮／酒吧；人数及余位</td>
+<td>你独立优先，朋友自选</td>
+</tr>
+<tr>
+<td>第一</td>
+<td>Boat球会与朋友返程</td>
+<td>最终确认、提前离场可行性、准确车站车次还车网点</td>
+<td>四位球手；返程限制仅三人</td>
+</tr>
+<tr>
+<td>第二</td>
+<td>Three Chimneys at Talisker</td>
+<td>10/2午餐、人数、菜单、与tour错开</td>
+<td>可作为全团共同餐</td>
+</tr>
+<tr>
+<td>第二</td>
+<td>Mhor晚餐／Boat酒店晚餐</td>
+<td>厨房时间、四人餐位</td>
+<td>同住者</td>
+</tr>
+<tr>
+<td>第二</td>
+<td>SEALL 10/2 19:30</td>
+<td>余位、结束时间、语言接受程度</td>
+<td>想去的人</td>
+</tr>
+<tr>
+<td>第二</td>
+<td>Strathspey 10/3</td>
+<td>Boat中途站短往返票、该日时刻与牵引</td>
+<td>朋友分支，或你不去麦卡伦</td>
+</tr>
+<tr>
+<td>按方向</td>
+<td>Glenfarclas／Glenturret／Hans Zimmer／Machrihanish</td>
+<td>先决定个人延长方向，再核余位与住宿</td>
+<td>仅个人延长参加者</td>
+</tr>
+</tbody>
+</table>
+<p><strong>活动预算例子，均不含住宿、交通、停车和普通餐饮</strong>：你选Talisker Discovery £60起 + Macallan £80 + SEALL £16，共£156起；若Talisker改Cask Draw则£246起。再选TimeSpirit午餐另加£75及可能附加项。四人同选Discovery＋Macallan＋SEALL为£624起；但这不是推荐强制全团买同样的票。Boat£340单列，不与酒厂费用混淆。</p>
+<p><strong>天气与体力调整</strong>：晴天给Glencoe和岛上山景多留时间；低云大雨将长徒步换成酒厂、餐饮与剧场；4日后若疲劳就选Aviemore湖边，不用靠夜间开车补行程。每约两小时驾驶安排15–20分钟休息。普通主路可达不等于低底盘车的每个停车入口都已验证；不作“996无忧”承诺。</p>
+</section><section id="day-audit" data-day="audit"><h2>原补充清单的核查备注</h2>
+<p>以下保留已完成的核查，更具体的新信息以本版上文为准。“4日不能加活动”现在仅适用于朋友赶车线，不限制本人独立延长。</p>
 <ul>
 <li><strong>Talisker</strong>：官网写10/11–11/1维护“可能影响部分体验”，不是所有导览一律停售；10/2也不是10/11前的最后一周。撤下“现在订零风险”；退款条款须按具体体验、截止时间与订单核对。<a href="https://www.malts.com/en-gb/talisker/visit">官方</a></li>
 <li><strong>Torabhaig</strong>：官网店铺周一至五10–17、周末10–15；咖啡馆关门更早。开店不等于有合适tour场次；本次不把未核的团人数、价格写为确定。<a href="https://torabhaig.com/pages/visit-us">官方</a></li>
@@ -77,5 +348,14 @@
 <li><strong>车辆</strong>：撤下“996无忧”“肯定没问题”和“996不该去”的绝对判断；路面、入口坡度、坑洼及停车空间须具体核对。主干道路可达不代表民宿或庄园车道净空已验证。</li>
 <li><strong>其他</strong>：“全苏格兰10月没有Highland games”“某地没有活动”“Cardhu是唯一组合”等排他断言缺乏充分覆盖证据，不采用。未保留到执行主线的清单项没有冒充逐条完成核验。</li>
 </ul>
-<h2>接手状态</h2>
-<p>已完成：读取交接材料、复核关键官方页面、读取最新旅行日历和球会邮件、按实际路线重排、麦卡伦分支测算。未完成／需选择后落实：Talisker及麦卡伦四人实时余位与费用、演出票、实际还车和火车信息。没有新增预订、付款或商家邮件。住宿订单状态仍未核。</p></main></html>
+<p>本轮已重新读取旅行日期范围日历，核对官方项目和部分活动时刻；没有新增预订、商家邮件、付款或日历候选事件。</p></section><p class="source-link"><a href="https://github.com/Mrpixelraf/scotland-trip/blob/main/planning/activities-handoff-2026-09-26.md">查看可供AI读取的Markdown版本</a></p></main><script>const branches={
+'02':{you:['Broadford → Sligachan','Three Chimneys午餐 · 候选','Talisker已列入意向，体验待选','可选Portree 19:30剧场'],friends:['Broadford → Storr或Quiraing','各自午餐，或Carbost会合','Talisker自选参加／继续山景','回Broadford休息'],end:'同住Broadford；看戏的人晚归，不要求所有人同行。'},
+'03':{you:['08:00 Broadford出发','Loch Ness短停 + 午餐','14:00麦卡伦候选：至少3小时','约18:15–18:30抵达Boat'],friends:['08:30–09:00 Broadford出发','Loch Ness + 午餐','铁路15:28–16:19，或Tomatin／湖泊','入住与休息'],end:'约19:00 The Boat Country Inn晚餐会合，餐位待订。'},
+'04':{you:['09:20 Boat · 待最终确认','完整球局 + 午餐','Loch Morlich／独立南下／Speyside','5–6日按个人方向延长'],friends:['09:20 Boat · 待最终确认','16:00到站要求与18洞冲突','先解决提前离场，不能等你游玩','还车 → Glasgow车站'],end:'朋友火车约束不绑你的车；他们仍须先解决球局与返程冲突。'}};
+function lane(title,nodes,cls){return '<div class="lane '+cls+'"><h3>'+title+'</h3><div class="nodes">'+nodes.map(x=>'<div class="node">'+x+'</div>').join('<div class="arrow" aria-hidden="true">↓</div>')+'</div></div>'}
+function drawBranch(key){const b=branches[key];document.getElementById('branch-content').innerHTML='<div class="lanes">'+lane('你的车',b.you,'')+lane('朋友的车 · 可选',b.friends,'friend')+'</div><div class="rendezvous">'+b.end+'</div>';document.querySelectorAll('[data-branch]').forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.branch===key)));}
+document.querySelectorAll('[data-branch]').forEach(x=>x.addEventListener('click',()=>drawBranch(x.dataset.branch)));drawBranch('03');
+function filter(key,scroll){document.querySelectorAll('section[data-day]').forEach(x=>x.hidden=key!=='all'&&x.dataset.day!==key);document.querySelectorAll('[data-filter]').forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.filter===key)));if(scroll&&key!=='all'){document.getElementById('day-'+key).scrollIntoView({behavior:'smooth'});history.replaceState(null,'','#day-'+key);}else if(key==='all'){history.replaceState(null,'',location.pathname);}}
+document.querySelectorAll('[data-filter]').forEach(x=>x.addEventListener('click',()=>filter(x.dataset.filter,true)));
+const initial=location.hash.replace('#day-','');if(document.getElementById('day-'+initial))filter(initial,false);
+</script></body></html>

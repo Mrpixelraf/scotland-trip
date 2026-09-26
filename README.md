@@ -2,7 +2,7 @@
 
 一起规划苏格兰旅行，让每个人和各自的 AI 智能体都能接上最新进展。
 
-**最新更新（2026-09-23）：已按三处选定住宿重排完整路线，加入 Talisker、湖泊、用餐与休息；Boat 仅 10 月 4 日 08:30 目标，赶车前还车存在时间冲突。[查看完整更新](planning/personal-driving-plan.md)。原分享网页随本次更新发布。**
+**最新更新（2026-09-26）：[完整活动与双车分流](planning/activities-handoff-2026-09-26.md)已扩充酒厂、湖泊、短走、餐饮、剧场及本人延长候选。[打开可视化活动页](https://mrpixelraf.github.io/scotland-trip/activities.html)。Boat为10/4 09:20，四人两球车、不租杆，最终确认待回；朋友完整18洞与还车赶火车有冲突。**
 
 **在线互动行程：[苏格兰东线、西线与天空岛地图、预算和每日安排](https://mrpixelraf.github.io/scotland-trip/)**。可直接发群，浏览无需登录；仓库和讨论也已按发起人要求公开。
 
