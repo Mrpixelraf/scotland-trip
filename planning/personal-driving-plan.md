@@ -1,5 +1,16 @@
 # 苏格兰完整自驾行程 · 2026 年 9 月 29 日—10 月 4 日
 
+## 2026-10-03 最新状态（优先于下方历史计划）
+
+- **10月3日晚住宿需重新核实**：原两房订单已付款，但最新交涉记录称到店无法提供已订两房；替代住宿及退款尚未确认。不能把订单确认等同于已入住。
+- **10月4日 Boat 球局：取消申请已发送，待球会确认及费用说明**。下方09:20球局与£380仅保留为历史记录，不再作为照常执行计划。
+- **10月5日08:58 SCHLOSS Roxburghe：1人球位已收到确认，确认金额£127**。金额未拆分、付款状态未核实，不能推断包含租杆或球车。此前住店客球费£90、租杆£55、可选球车£50仅为报价，不与£127自行相加。
+- **10月4–5日住宿仍未获已订证据**。Cardrona09:08仅为备选报价，与Roxburghe08:58冲突，不重复预订。
+- 最新住宿报价仅供比较：Cardrona含早£142／含晚餐£177；Roxburghe会员£337／标准£429；Craigielaw组合£362.50；Dalmahoy£225（West最早12:02，邮件原取消节点已过）；Matfen£425起（Spa翻修关闭）。单人条款、余位和费用包含需逐项核实。
+
+<details><summary>展开历史路线、地图与预算（未按最新取消/住宿变更重排，不直接照搬）</summary>
+
+
 > 2026-09-26补充：本人独立开车，可与朋友分流。[完整活动版](activities-handoff-2026-09-26.md)已补足每日活动、麦卡伦至少3小时体验、双车会合及4日后个人延长。下文旧“全团不加活动”等限制仅适用于朋友赶车线。
 
 > 2026-10-01核实：Boat of Garten 已确认2026-10-04（周日）09:20，四人、两台球车、1套右手Regular-flex租杆已确认；建议09:00到场，免押金、当天付款。按已接受总价£380准备（球费£260＋球车£80＋租杆£40），系统邮件仅列£260 outstanding，另£120（球车£80＋租杆£40）到场核对。未付款。
@@ -205,3 +216,5 @@ Loch Morlich 是有沙滩与山景的替代湖泊，但比 Loch Garten 多绕路
 来源优先级：本人最新选定信息 > 订单／商家确认 > 本次官方网页核查 > 旧研究方案。官网核查日期 2026-09-23，未核实实时库存。主要来源：[岛上住宿](https://www.airbnb.co.uk/rooms/51139646)、[Old Pink Library 公共房源](https://www.airbnb.co.uk/rooms/42788750)、[Balquhidder 官方旅游介绍](https://www.lochlomond-trossachs.org/discover-the-park/towns-villages/balquhidder/)、[Talisker 官方](https://www.malts.com/en-gb/talisker/visit)、[Boat 访客价格](https://www.boatgolf.com/golf/visitors/)、[Storr 路线](https://www.walkhighlands.co.uk/skye/old-man-of-storr.shtml)、[Boat–Glasgow 路线参考](https://www.rome2rio.com/s/Glasgow/Boat-of-Garten)。餐饮依据见上表。
 
 本次替换旧 Clan Macduff／Portree Bay／Fisher’s 住宿建议，Boat 从旧 3 日调整为仅 4 日目标；Talisker 纳入主线；不再默认 4 日无球。旧文件保留研究价值，不得用旧酒店、旧总价或旧道路总里程覆盖此版本。本人明确要求更新原公开分享网页，本次据此发布相关旅行安排；网页发布不等于 Grok 已接收。不要由这些行程推断其他私人资料，或把询价视作预订成功。
+
+</details>
